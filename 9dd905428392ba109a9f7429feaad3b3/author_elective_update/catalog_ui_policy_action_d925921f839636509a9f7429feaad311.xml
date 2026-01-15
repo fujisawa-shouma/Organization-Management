@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:d824d65b839636509a9f7429feaad3f5</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>250</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 02:34:26</sys_created_on>
+        <sys_id>d925921f839636509a9f7429feaad311</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>naiyou_2</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d925921f839636509a9f7429feaad311</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 02:35:44</sys_updated_on>
+        <table/>
+        <ui_policy display_value="オプションを追加するでオプション項目を出す">0b841a9b839636509a9f7429feaad37b</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>naiyou_2</variable>
+        <variable_set display_value="人事異動申請用変数セット">0a1c8a97835636509a9f7429feaad33b</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=d925921f839636509a9f7429feaad311"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>catalog_ui_policy_action_d925921f839636509a9f7429feaad311</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:d824d65b839636509a9f7429feaad3f5</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>250</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-13 02:34:26</sys_created_on><sys_id>d925921f839636509a9f7429feaad311</sys_id><sys_mod_count>2</sys_mod_count><sys_name>naiyou_2</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>catalog_ui_policy_action_d925921f839636509a9f7429feaad311</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-13 02:35:44</sys_updated_on><table/><ui_policy display_value="オプションを追加するでオプション項目を出す">0b841a9b839636509a9f7429feaad37b</ui_policy><value/><value_action>ignore</value_action><variable>naiyou_2</variable><variable_set display_value="人事異動申請用変数セット">0a1c8a97835636509a9f7429feaad33b</variable_set><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=d925921f839636509a9f7429feaad311"/></record_update>]]></payload>
+        <payload_hash>274527983</payload_hash>
+        <record_name>naiyou_2</record_name>
+        <reverted_from/>
+        <source>102acd428392ba109a9f7429feaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 02:35:44</sys_created_on>
+        <sys_id>e275de1f839636509a9f7429feaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bb5358f040000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 02:35:44</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>6275de1f779636504b158eb4671356e2</update_guid>
+        <update_guid_history>6275de1f779636504b158eb4671356e2:274527983,4e655e1f80963650839f435522b3a978:-1622673429,1b25d21fd69636500e879bac5ac9be91:-794794430</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="naiyou_2">fd85925f839636509a9f7429feaad306</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 02:35:58</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>050254c40faf4809804d28796c0d0a91</sys_id>
+        <sys_metadata>d925921f839636509a9f7429feaad311</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>naiyou_2</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_d925921f839636509a9f7429feaad311</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_d925921f839636509a9f7429feaad311">e275de1f839636509a9f7429feaad3e3</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 02:35:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

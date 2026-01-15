@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="kihyousha" label="起票者" language="en" table="x_1882833_organi_0_jinji_idou">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>kihyousha</element>
+            <help/>
+            <hint/>
+            <label>起票者</label>
+            <language>en</language>
+            <name>x_1882833_organi_0_jinji_idou</name>
+            <plural>起票者s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-14 00:05:01</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>起票者</sys_name>
+            <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+            <sys_update_name>sys_documentation_x_1882833_organi_0_jinji_idou_kihyousha_en</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-14 00:05:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="DELETE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>TEMPLATE3</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 06:21:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>232903d3839e36509a9f7429feaad32c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE3</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_template_232903d3839e36509a9f7429feaad32c</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 06:21:45</sys_updated_on>
+        <table>x_1882833_organi_0_meisai</table>
+        <template>bikou=idou^hatureibi=2026-02-01^kenmu1_sin=d28cb217831e36509a9f7429feaad39f^name=7ec78f9f835e36509a9f7429feaad305^shumu_sin=bc8c3217831e36509a9f7429feaad361^yakui_sin=90^EQ</template>
+        <user display_value="admin fujisawa_shouma">eb8a25a52b4aa6100ce3fca16e91bfec</user>
+        <view/>
+    </sys_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_template_232903d3839e36509a9f7429feaad32c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template"><sys_template action="INSERT_OR_UPDATE"><active>true</active><global>false</global><group/><groups/><link_element/><name>TEMPLATE3</name><next/><next_child/><roles/><short_description/><show_on_template_bar>true</show_on_template_bar><stand_alone>false</stand_alone><sys_class_name>sys_template</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-13 06:21:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>232903d3839e36509a9f7429feaad32c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TEMPLATE3</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>sys_template_232903d3839e36509a9f7429feaad32c</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-13 06:21:45</sys_updated_on><table>x_1882833_organi_0_meisai</table><template>bikou=idou^hatureibi=2026-02-01^kenmu1_sin=d28cb217831e36509a9f7429feaad39f^name=7ec78f9f835e36509a9f7429feaad305^shumu_sin=bc8c3217831e36509a9f7429feaad361^yakui_sin=90^EQ</template><user display_value="admin fujisawa_shouma">eb8a25a52b4aa6100ce3fca16e91bfec</user><view/></sys_template></record_update>]]></payload>
+        <payload_hash>1652770530</payload_hash>
+        <record_name>TEMPLATE3</record_name>
+        <reverted_from/>
+        <source>102acd428392ba109a9f7429feaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 06:21:45</sys_created_on>
+        <sys_id>453903d3839e36509a9f7429feaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bb60479270000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 06:21:45</sys_updated_on>
+        <type>Template</type>
+        <update_guid>053903d32c9e36503961a311b631edc4</update_guid>
+        <update_guid_history>053903d32c9e36503961a311b631edc4:1652770530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 06:29:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_template">sys_template</sys_db_object>
+        <sys_id>17d96550eb214e0bb3cb8fa30102c6c1</sys_id>
+        <sys_metadata>232903d3839e36509a9f7429feaad32c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE3</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_template_232903d3839e36509a9f7429feaad32c</sys_update_name>
+        <sys_update_version display_value="sys_template_232903d3839e36509a9f7429feaad32c">453903d3839e36509a9f7429feaad3c5</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 06:29:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>申請テーブル</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>申請テーブル</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">a4e1b861bc7032108bb2f58e8d11a100</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-08 23:59:29</sys_created_on>
+        <sys_id>aa5b09068392ba109a9f7429feaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>申請テーブル</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_wizard_answer_aa5b09068392ba109a9f7429feaad30f</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-08 23:59:29</sys_updated_on>
+        <table/>
+        <target_url>x_1882833_organi_0_organi_change_base.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_wizard_answer_aa5b09068392ba109a9f7429feaad30f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>申請テーブル</answer><button_label/><dependent_value/><element/><name>申請テーブル</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">a4e1b861bc7032108bb2f58e8d11a100</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-08 23:59:29</sys_created_on><sys_id>aa5b09068392ba109a9f7429feaad30f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>申請テーブル</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>sys_wizard_answer_aa5b09068392ba109a9f7429feaad30f</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-08 23:59:29</sys_updated_on><table/><target_url>x_1882833_organi_0_organi_change_base.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>582695662</payload_hash>
+        <record_name>申請テーブル</record_name>
+        <reverted_from/>
+        <source>9e1b4195830232109a9f7429feaad3ce</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-12-25 05:47:14</sys_created_on>
+        <sys_id>7926061b831636509a9f7429feaad329</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19b540c0ad00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>3926061b1f1636505c99a0ca7f7fe429</update_guid>
+        <update_guid_history>3926061b1f1636505c99a0ca7f7fe429:582695662</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 01:28:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>11880ff00d49453e829fa6521f64e144</sys_id>
+        <sys_metadata>aa5b09068392ba109a9f7429feaad30f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>申請テーブル</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent display_value="Task">a4e1b861bc7032108bb2f58e8d11a100</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_aa5b09068392ba109a9f7429feaad30f</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_aa5b09068392ba109a9f7429feaad30f">7926061b831636509a9f7429feaad329</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 01:28:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

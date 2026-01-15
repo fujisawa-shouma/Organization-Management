@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:0634da5b839636509a9f7429feaad310</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 02:46:42</sys_created_on>
+        <sys_id>35f7de9383d636509a9f7429feaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>nyuuryoku_3</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_35f7de9383d636509a9f7429feaad3ae</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 02:46:42</sys_updated_on>
+        <table/>
+        <ui_policy display_value="オプション3を選択で入力欄3が出てくる">08671a5383d636509a9f7429feaad33f</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>nyuuryoku_3</variable>
+        <variable_set display_value="人事異動申請用変数セット">0a1c8a97835636509a9f7429feaad33b</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=35f7de9383d636509a9f7429feaad3ae"/>
+</record_update>

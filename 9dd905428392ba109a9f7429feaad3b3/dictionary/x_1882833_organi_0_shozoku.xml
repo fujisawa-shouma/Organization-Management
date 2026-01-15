@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4f9ccad7835636509a9f7429feaad339" label="所属" max_length="40" name="x_1882833_organi_0_shozoku" type="collection">
+        <element choice="1" label="職務等級" max_length="40" name="shokumu" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="13" value="13"/>
+                <element inactive_on_update="false" label="12" value="12"/>
+            </choice>
+        </element>
+        <element label="兼務番号" max_length="40" name="kenmu_number" type="integer"/>
+        <element display="true" label="User ID" max_length="40" name="user_id" type="string"/>
+        <element label="氏名（漢字）" max_length="40" name="name" type="string"/>
+        <element label="役割等級" max_length="40" name="role" type="string"/>
+        <element label="VU区分" max_length="40" name="vu_kubun" type="string"/>
+        <element choice="1" label="勤務地" max_length="40" name="kinmuti" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="東京本社" value="1"/>
+                <element inactive_on_update="false" label="神戸本社" value="4"/>
+                <element inactive_on_update="false" label="北海道支社" value="2"/>
+                <element inactive_on_update="false" label="東北支社" value="3"/>
+            </choice>
+        </element>
+        <element label="役位" max_length="40" name="yakui" type="string"/>
+        <element label="職名" max_length="32" name="bumon" reference="x_1882833_organi_0_bumon" type="reference"/>
+        <element label="従業員番号" max_length="40" name="number" type="integer"/>
+        <index name="index">
+            <element name="bumon"/>
+        </index>
+    </element>
+</database>

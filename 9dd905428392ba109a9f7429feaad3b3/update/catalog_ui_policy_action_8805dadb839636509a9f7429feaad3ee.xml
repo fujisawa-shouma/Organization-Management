@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:9d445e5b839636509a9f7429feaad3e8</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>400</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 02:33:47</sys_created_on>
+        <sys_id>8805dadb839636509a9f7429feaad3ee</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>option_4</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8805dadb839636509a9f7429feaad3ee</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 02:51:21</sys_updated_on>
+        <table/>
+        <ui_policy display_value="オプションを追加するでオプション項目を出す">0b841a9b839636509a9f7429feaad37b</ui_policy>
+        <value/>
+        <value_action>clear_value</value_action>
+        <variable>option_4</variable>
+        <variable_set display_value="人事異動申請用変数セット">0a1c8a97835636509a9f7429feaad33b</variable_set>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=8805dadb839636509a9f7429feaad3ee"/>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 02:05:00</sys_created_on>
+        <sys_id>dc7e021f835636509a9f7429feaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1882833_organi_0_bumon.x_1882833_organi_0._user</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_security_acl display_value="x_1882833_organi_0_bumon">407e021f835636509a9f7429feaad338</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_dc7e021f835636509a9f7429feaad33e</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 02:05:00</sys_updated_on>
+        <sys_user_role display_value="x_1882833_organi_0._user" name="x_1882833_organi_0._user">de5bc5068392ba109a9f7429feaad396</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_security_acl_role_dc7e021f835636509a9f7429feaad33e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-13 02:05:00</sys_created_on><sys_id>dc7e021f835636509a9f7429feaad33e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1882833_organi_0_bumon.x_1882833_organi_0._user</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_security_acl display_value="x_1882833_organi_0_bumon">407e021f835636509a9f7429feaad338</sys_security_acl><sys_update_name>sys_security_acl_role_dc7e021f835636509a9f7429feaad33e</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-13 02:05:00</sys_updated_on><sys_user_role display_value="x_1882833_organi_0._user" name="x_1882833_organi_0._user">de5bc5068392ba109a9f7429feaad396</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-30788005</payload_hash>
+        <record_name>x_1882833_organi_0_bumon.x_1882833_organi_0._user</record_name>
+        <reverted_from/>
+        <source>102acd428392ba109a9f7429feaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 02:05:00</sys_created_on>
+        <sys_id>547e021f835636509a9f7429feaad344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bb5196a680000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 02:05:00</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>147e021f9a563650eefd42e3c0481043</update_guid>
+        <update_guid_history>147e021f9a563650eefd42e3c0481043:-30788005</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1882833_organi_0_bumon.x_1882833_organi_0._user">b831f6d7839a36509a9f7429feaad339</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 04:36:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>70a13ea3f67d4a479c20e0675bade881</sys_id>
+        <sys_metadata>dc7e021f835636509a9f7429feaad33e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1882833_organi_0_bumon.x_1882833_organi_0._user</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent display_value="">407e021f835636509a9f7429feaad338</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_dc7e021f835636509a9f7429feaad33e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_dc7e021f835636509a9f7429feaad33e">547e021f835636509a9f7429feaad344</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 04:36:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

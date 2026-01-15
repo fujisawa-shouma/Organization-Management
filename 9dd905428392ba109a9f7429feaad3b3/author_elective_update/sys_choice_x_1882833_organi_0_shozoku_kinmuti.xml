@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="kinmuti" table="x_1882833_organi_0_shozoku" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>kinmuti</element>
+            <name>x_1882833_organi_0_shozoku</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-13 04:39:12</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>kinmuti</sys_name>
+            <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+            <sys_update_name>sys_choice_x_1882833_organi_0_shozoku_kinmuti</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-13 04:39:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kinmuti</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>東京本社</label>
+            <language>en</language>
+            <name>x_1882833_organi_0_shozoku</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-13 04:39:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-13 04:39:19</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kinmuti</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>北海道支社</label>
+            <language>en</language>
+            <name>x_1882833_organi_0_shozoku</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-13 04:39:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-13 04:39:25</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kinmuti</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>東北支社</label>
+            <language>en</language>
+            <name>x_1882833_organi_0_shozoku</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-13 04:39:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-13 04:39:33</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>kinmuti</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>神戸本社</label>
+            <language>en</language>
+            <name>x_1882833_organi_0_shozoku</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-13 04:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-13 04:39:42</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

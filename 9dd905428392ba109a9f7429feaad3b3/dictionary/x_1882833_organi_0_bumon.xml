@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4a9bf653831e36509a9f7429feaad3f1" label="部門" max_length="40" name="x_1882833_organi_0_bumon" type="collection">
+        <element display="true" label="部門名" max_length="40" name="bumon_name" type="string"/>
+    </element>
+</database>

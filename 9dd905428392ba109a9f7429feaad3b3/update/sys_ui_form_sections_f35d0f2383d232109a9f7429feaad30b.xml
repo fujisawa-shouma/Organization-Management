@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f35d0f2383d232109a9f7429feaad30b" sys_domain="global" table="x_1882833_organi_0_jinji_idou" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-14 01:18:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb5d0f2383d232109a9f7429feaad31d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1882833_organi_0_jinji_idou" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f35d0f2383d232109a9f7429feaad30b</sys_ui_form>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-14 01:18:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1882833_organi_0_jinji_idou</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-14 01:18:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f35d0f2383d232109a9f7429feaad30b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1882833_organi_0_jinji_idou</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f35d0f2383d232109a9f7429feaad30b</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-14 01:18:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

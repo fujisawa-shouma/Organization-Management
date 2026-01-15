@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1882833_organi_0_jinji_idou">stage=30^EQ<item display_value="承認中（事業部）" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="30"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>承認中（事業部）</label>
+        <name>承認中（事業部）</name>
+        <order>30</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-14 01:10:46</sys_created_on>
+        <sys_id>409b03eb839232109a9f7429feaad345</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>承認中（事業部）</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_process_flow_409b03eb839232109a9f7429feaad345</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-14 01:19:32</sys_updated_on>
+        <table>x_1882833_organi_0_jinji_idou</table>
+    </sys_process_flow>
+</record_update>
