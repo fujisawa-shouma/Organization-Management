@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1882833_organi_0.ShozokuInfoAPI</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ShozokuInfoAPI</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ShozokuInfoAPI = Class.create();
+ShozokuInfoAPI.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getYakuiAndBumon: function() {
+        var shozokuId = this.getParameter('sysparm_shozoku');
+        var result = {
+            yakui: '',
+            bumon: '',
+			kinmuti: '',
+            tyokkan: ''
+        };
+
+        if (!shozokuId) return JSON.stringify(result);
+
+        var gr = new GlideRecord('x_1882833_organi_0_shozoku');
+        if (gr.get(shozokuId)) {
+            result.yakui = gr.getValue('yakui') || '';
+            result.bumon = gr.getValue('bumon') || '';
+			result.kinmuti = gr.getValue('kinmuti') || '';
+            result.tyokkan = gr.getValue('tyokkan') || '';
+        }
+        return JSON.stringify(result);
+    },
+
+    isPublic: function() {
+        return true;
+    },
+
+    type: 'ShozokuInfoAPI'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-16 05:34:27</sys_created_on>
+        <sys_id>298ada9483ea76109a9f7429feaad3d6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ShozokuInfoAPI</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_script_include_298ada9483ea76109a9f7429feaad3d6</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-16 05:47:44</sys_updated_on>
+    </sys_script_include>
+</record_update>

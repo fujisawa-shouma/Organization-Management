@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_1882833_organi_0_jinji_idou" version="2" view="関連リスト">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="人事異動申請 - 関連リスト" name="x_1882833_organi_0_jinji_idou" related_list="NULL" sys_domain="global" view="377a9d8883e2f2109a9f7429feaad3f9">e472d72f83d232109a9f7429feaad36d</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_1882833_organi_0_meisai.sinsei_number</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-14 01:40:37</sys_created_on>
+            <sys_id>a472d72f83d232109a9f7429feaad36e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-14 01:40:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>人事異動申請 - 関連リスト</calculated_name>
+            <filter/>
+            <name>x_1882833_organi_0_jinji_idou</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-14 01:40:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e472d72f83d232109a9f7429feaad36d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>人事異動申請 - 関連リスト</sys_name>
+            <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+            <sys_update_name>sys_ui_related_x_1882833_organi_0_jinji_idou_関連リスト</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 06:14:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="関連リスト" name="関連リスト">377a9d8883e2f2109a9f7429feaad3f9</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_ui_related_x_1882833_organi_0_jinji_idou_関連リスト</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_1882833_organi_0_jinji_idou" version="2" view="関連リスト"><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="人事異動申請 - 関連リスト" name="x_1882833_organi_0_jinji_idou" related_list="NULL" sys_domain="global" view="377a9d8883e2f2109a9f7429feaad3f9">e472d72f83d232109a9f7429feaad36d</list_id><order_by/><position>0</position><related_list>x_1882833_organi_0_meisai.sinsei_number</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-14 01:40:37</sys_created_on><sys_id>a472d72f83d232109a9f7429feaad36e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-14 01:40:37</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>人事異動申請 - 関連リスト</calculated_name><filter/><name>x_1882833_organi_0_jinji_idou</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-14 01:40:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e472d72f83d232109a9f7429feaad36d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>人事異動申請 - 関連リスト</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>sys_ui_related_x_1882833_organi_0_jinji_idou_関連リスト</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 06:14:47</sys_updated_on><sys_user/><view display_value="関連リスト" name="関連リスト">377a9d8883e2f2109a9f7429feaad3f9</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>-2052711529</payload_hash>
+        <record_name>人事異動申請</record_name>
+        <reverted_from/>
+        <source>102acd428392ba109a9f7429feaad318</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 06:15:15</sys_created_on>
+        <sys_id>61ea1dc883e2f2109a9f7429feaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bc04b40970000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 06:15:15</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>21ea1dc83ce2f2107ec8bbc6b4d492df</update_guid>
+        <update_guid_history>21ea1dc83ce2f2107ec8bbc6b4d492df:-2052711529</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 06:15:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>6eee58edfdcf44b0ad8537b48abe8100</sys_id>
+        <sys_metadata>e472d72f83d232109a9f7429feaad36d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>人事異動申請 - 関連リスト</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent display_value="人事異動申請">7226461b831636509a9f7429feaad365</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_1882833_organi_0_jinji_idou_関連リスト</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_1882833_organi_0_jinji_idou_関連リスト">61ea1dc883e2f2109a9f7429feaad3df</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 06:15:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

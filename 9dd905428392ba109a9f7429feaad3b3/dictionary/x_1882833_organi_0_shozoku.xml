@@ -7,10 +7,26 @@
             </choice>
         </element>
         <element label="兼務番号" max_length="40" name="kenmu_number" type="integer"/>
-        <element display="true" label="User ID" max_length="40" name="user_id" type="string"/>
-        <element label="氏名（漢字）" max_length="40" name="name" type="string"/>
-        <element label="役割等級" max_length="40" name="role" type="string"/>
-        <element label="VU区分" max_length="40" name="vu_kubun" type="string"/>
+        <element display="true" label="User ID" max_length="40" name="user_id" reference="sys_user" type="reference"/>
+        <element label="氏名（漢字）" max_length="40" name="name" read_only="true" type="string"/>
+        <element choice="1" label="役割等級" max_length="40" name="role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="13" value="13"/>
+                <element inactive_on_update="false" label="12" value="12"/>
+            </choice>
+        </element>
+        <element choice="1" label="直間区分" max_length="40" name="tyokkan" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="直接" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" label="VU区分" max_length="40" name="vu_kubun" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="C" sequence="3" value="C"/>
+                <element inactive_on_update="false" label="B" sequence="2" value="B"/>
+                <element inactive_on_update="false" label="A" sequence="1" value="A"/>
+            </choice>
+        </element>
         <element choice="1" label="勤務地" max_length="40" name="kinmuti" type="choice">
             <choice>
                 <element inactive_on_update="false" label="東京本社" value="1"/>
@@ -19,9 +35,14 @@
                 <element inactive_on_update="false" label="東北支社" value="3"/>
             </choice>
         </element>
-        <element label="役位" max_length="40" name="yakui" type="string"/>
+        <element choice="1" label="役位" max_length="40" name="yakui" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="20：課長" value="20"/>
+                <element inactive_on_update="false" label="90" value="90"/>
+            </choice>
+        </element>
         <element label="職名" max_length="32" name="bumon" reference="x_1882833_organi_0_bumon" type="reference"/>
-        <element label="従業員番号" max_length="40" name="number" type="integer"/>
+        <element label="従業員番号" max_length="40" name="number" read_only="true" type="string"/>
         <index name="index">
             <element name="bumon"/>
         </index>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="部内入力欄" section_id="f75dcb2383d232109a9f7429feaad39c" sys_domain="global" table="x_1882833_organi_0_jinji_idou" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>cd52598483a2f2109a9f7429feaad3d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>4d52598483a2f2109a9f7429feaad3d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sinsei_shubetu</element>
+            <position>2</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>c952598483a2f2109a9f7429feaad3d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sinseibi</element>
+            <position>3</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>0152598483a2f2109a9f7429feaad3e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sinseimeishou</element>
+            <position>4</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>8d52598483a2f2109a9f7429feaad3e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stage</element>
+            <position>5</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>0d52598483a2f2109a9f7429feaad3e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kihyousha</element>
+            <position>6</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>8952598483a2f2109a9f7429feaad3e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shozoku</element>
+            <position>7</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>0952598483a2f2109a9f7429feaad3e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>8552598483a2f2109a9f7429feaad3ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bunaishouninsha_1</element>
+            <position>9</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>0552598483a2f2109a9f7429feaad3eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bunaishouninsha_2</element>
+            <position>10</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>8152598483a2f2109a9f7429feaad3ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bunaishouninsha_3</element>
+            <position>11</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>0152598483a2f2109a9f7429feaad3ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha1</element>
+            <position>12</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>8d52598483a2f2109a9f7429feaad3ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha2</element>
+            <position>13</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>0d52598483a2f2109a9f7429feaad3ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha3</element>
+            <position>14</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>8952598483a2f2109a9f7429feaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha4</element>
+            <position>15</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>0952598483a2f2109a9f7429feaad3f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha5</element>
+            <position>16</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>8552598483a2f2109a9f7429feaad3f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>17</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>0552598483a2f2109a9f7429feaad3f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>18</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>8152598483a2f2109a9f7429feaad3f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <position>19</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>0152598483a2f2109a9f7429feaad3f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>20</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+            <sys_id>8d52598483a2f2109a9f7429feaad3f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>部内入力欄</caption>
+            <header>false</header>
+            <name>x_1882833_organi_0_jinji_idou</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-14 01:18:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f75dcb2383d232109a9f7429feaad39c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1882833_organi_0_jinji_idou</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+            <sys_update_name>sys_ui_section_f75dcb2383d232109a9f7429feaad39c</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-15 04:24:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_ui_section_f75dcb2383d232109a9f7429feaad39c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="部内入力欄" section_id="f75dcb2383d232109a9f7429feaad39c" sys_domain="global" table="x_1882833_organi_0_jinji_idou" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>cd52598483a2f2109a9f7429feaad3d6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>1</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>4d52598483a2f2109a9f7429feaad3d7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sinsei_shubetu</element><position>2</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>c952598483a2f2109a9f7429feaad3d8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sinseibi</element><position>3</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>0152598483a2f2109a9f7429feaad3e6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sinseimeishou</element><position>4</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>8d52598483a2f2109a9f7429feaad3e6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>stage</element><position>5</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>0d52598483a2f2109a9f7429feaad3e7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>kihyousha</element><position>6</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>8952598483a2f2109a9f7429feaad3e8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>shozoku</element><position>7</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>0952598483a2f2109a9f7429feaad3e9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>8</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>8552598483a2f2109a9f7429feaad3ea</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>bunaishouninsha_1</element><position>9</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>0552598483a2f2109a9f7429feaad3eb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>bunaishouninsha_2</element><position>10</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>8152598483a2f2109a9f7429feaad3ec</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>bunaishouninsha_3</element><position>11</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>0152598483a2f2109a9f7429feaad3ed</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>shouninsha1</element><position>12</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>8d52598483a2f2109a9f7429feaad3ed</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>shouninsha2</element><position>13</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>0d52598483a2f2109a9f7429feaad3ee</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>shouninsha3</element><position>14</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>8952598483a2f2109a9f7429feaad3ef</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>shouninsha4</element><position>15</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>0952598483a2f2109a9f7429feaad3f0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>shouninsha5</element><position>16</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>8552598483a2f2109a9f7429feaad3f1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>17</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>0552598483a2f2109a9f7429feaad3f2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>18</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>8152598483a2f2109a9f7429feaad3f3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>watch_list</element><position>19</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>0152598483a2f2109a9f7429feaad3f4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>20</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:37:49</sys_created_on><sys_id>8d52598483a2f2109a9f7429feaad3f4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="部内入力欄" display_value="部内入力欄" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f75dcb2383d232109a9f7429feaad39c</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:37:49</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>部内入力欄</caption><header>false</header><name>x_1882833_organi_0_jinji_idou</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-14 01:18:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f75dcb2383d232109a9f7429feaad39c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1882833_organi_0_jinji_idou</sys_name><sys_overrides/><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>sys_ui_section_f75dcb2383d232109a9f7429feaad39c</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 04:24:05</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1340407621</payload_hash>
+        <record_name>人事異動申請</record_name>
+        <reverted_from/>
+        <source>8055c5888322f2109a9f7429feaad344</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 05:37:49</sys_created_on>
+        <sys_id>4952598483a2f2109a9f7429feaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bc028f9640000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 05:37:49</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>49525984d4a2f2100dd8c167df6eb6fa</update_guid>
+        <update_guid_history>49525984d4a2f2100dd8c167df6eb6fa:1340407621,4332958490a2f2109e576ae0ea37fc23:1123867867,0412dd44efa2f21014d3e77f0cb4f33a:598896232,edf741008262f21010412542fba1d20b:-2109879701,0ea7c1cce722f210c3049cf52e441105:-1311366533,9aa145002622f2104c3e1b72ab9c1b9b:-1740978296,4e8101000422f210e016a30bd844fc8f:1009053846,8571c9cc68eeb21042e32a9417dfdfd0:-1863048013,7b2181cc57eeb2102f2c6488837f1024:-1910099463,37e0858cb9eeb21088956f61f892ec92:1678610808,acd05f2b0ed23210ba2cfc01546c94cd:349358132,78c05b2beed23210657c2b568379bb7a:1055811040,bd6d8f230fd232103c617e242cd81607:349358132,bf5d0f236cd23210694da2ecb02bf227:-1420034257</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 05:38:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3761f23a249b45469cd5eae507fbe4c4</sys_id>
+        <sys_metadata>f75dcb2383d232109a9f7429feaad39c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>部内入力欄</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent display_value="人事異動申請">7226461b831636509a9f7429feaad365</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_f75dcb2383d232109a9f7429feaad39c</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_f75dcb2383d232109a9f7429feaad39c">4952598483a2f2109a9f7429feaad3fb</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 05:38:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

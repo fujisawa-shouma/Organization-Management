@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action">
+    <sys_ui_policy_rl_action action="INSERT_OR_UPDATE">
+        <list>REL:ccd561c08366f2109a9f7429feaad3a5</list>
+        <sys_class_name>sys_ui_policy_rl_action</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 09:50:10</sys_created_on>
+        <sys_id>d81c4ac483aaf2109a9f7429feaad356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REL:ccd561c08366f2109a9f7429feaad3a5</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ui_policy_rl_action_d81c4ac483aaf2109a9f7429feaad356</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 09:50:10</sys_updated_on>
+        <ui_policy display_value="関連リスト表示制限">569b868483aaf2109a9f7429feaad319</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_rl_action>
+</record_update>

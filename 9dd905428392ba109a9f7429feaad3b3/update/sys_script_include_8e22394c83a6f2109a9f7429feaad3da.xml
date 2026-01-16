@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1882833_organi_0.ParentCrumbsEx</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ParentCrumbsEx</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[
+// Name: ParentCrumbsEx
+// Accessible from: All application scopes (チェックを ON)
+// Client callable: false（サーバ側のみ）
+
+var ParentCrumbsEx = Class.create();
+ParentCrumbsEx.prototype = {
+  initialize: function (gr, parentField /* e.g., 'sinsei_number' */, opt) {
+    this.root = gr; // 現在のレコード（GlideRecord）
+    this.parentField = parentField || 'parent'; // 既定は 'parent'
+    this.opt = opt || {};
+    this.opt.separator = this.opt.separator || ' &gt; '; // 出力区切り
+    this.opt.maxDepth = this.opt.maxDepth || 15; // 無限ループ防止
+  },
+
+  /**
+   * 祖先（親 → 祖父…）だけを上方向に辿って HTML（aタグ列）を返す
+   */
+  getCrumbsFromParentField: function () {
+    if (!this.root || !this.root.isValidRecord()) return '';
+
+    var html = [];
+    var depth = 0;
+    var visited = {};
+
+    // 最初の親
+    var current = this._getParentByField(this.root, this.parentField);
+
+    while (current && current.isValidRecord() && depth < this.opt.maxDepth) {
+      var id = current.getUniqueValue();
+      if (!id || visited[id]) break; // ループ防止
+      visited[id] = true;
+
+      // 表示名と URL を生成（リンク先は標準のレコードビュー）
+      var disp = current.getDisplayValue() || current.getValue('number') || id;
+      var url = current.getLink(true); // 標準の getLink
+
+      html.unshift(
+        '<a href="' + GlideStringUtil.escapeHTML(url) + '">' +
+        GlideStringUtil.escapeHTML(disp) + '</a>'
+      );
+
+      // 次の親へ
+      current = this._getParentByField(current, this.parentField);
+      depth++;
+    }
+
+    return html.join(this.opt.separator);
+  },
+
+  /**
+   * 参照型フィールド（Reference）から親レコードを取得
+   * ※ sinsei_number が参照型である前提
+   */
+  _getParentByField: function (gr, fieldName) {
+    if (!gr || !gr.isValidRecord()) return null;
+
+    var ge = gr.getElement(fieldName);
+    if (!ge) return null;
+
+    try {
+      var parentGR = ge.getRefRecord(); // 参照型なら OK
+      return (parentGR && parentGR.isValidRecord()) ? parentGR : null;
+    } catch (e) {
+      gs.warn('[ParentCrumbsEx] getRefRecord failed: ' + e);
+      return null;
+    }
+  },
+
+  type: 'ParentCrumbsEx'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 07:57:18</sys_created_on>
+        <sys_id>8e22394c83a6f2109a9f7429feaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ParentCrumbsEx</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_script_include_8e22394c83a6f2109a9f7429feaad3da</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 07:57:18</sys_updated_on>
+    </sys_script_include>
+</record_update>

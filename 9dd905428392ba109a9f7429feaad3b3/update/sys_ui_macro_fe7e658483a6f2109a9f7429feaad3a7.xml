@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>sinsei_number</name>
+        <scoped_name>x_1882833_organi_0_sinsei_number</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 07:48:22</sys_created_on>
+        <sys_id>fe7e658483a6f2109a9f7429feaad3a7</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>sinsei_number</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ui_macro_fe7e658483a6f2109a9f7429feaad3a7</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-16 04:49:16</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:j2="null" xmlns:g="glide" xmlns:g2="null">
+
+    <!-- 1) sinsei_number の sys_id を取得 -->
+    <g2:evaluate var="jvar_target_id" jelly="true">
+        (function () {
+        var FIELD = 'sinsei_number';
+        try {
+        var rp = (typeof ref_parent !== 'undefined') ? ref_parent : null;
+        var cur = (typeof current !== 'undefined') ? current : null;
+        if (rp) return String(rp.getValue(FIELD) || '');
+        if (cur) return String(cur.getValue(FIELD) || '');
+        return '';
+        } catch (e) {
+        return '';
+        }
+        })();
+    </g2:evaluate>
+
+    <!-- 2) 指定テーブルでその sys_id のレコードを開いてリンクと表示名を作成 -->
+    <g2:evaluate var="jvar_link_html" jelly="true">
+        (function () {
+        var TBL = 'x_1882833_organi_0_jinji_idou';
+        var id = '$[jvar_target_id]';
+        if (!id) return ''; // 空なら何も表示しない
+
+        var gr = new GlideRecord(TBL);
+        if (!gr.get(id) || !gr.isValidRecord()) return ''; // 見つからない場合は非表示
+
+        var disp = gr.getDisplayValue();
+
+        var url = gr.getLink(true); // 標準のレコードURL
+        var esc = GlideStringUtil.escapeHTML;
+        return '<a href="' + esc(url) + '">' + esc(disp || id) + '</a>';
+        })();
+    </g2:evaluate>
+
+    <!-- 3) 生成したリンクを描画 -->
+    <div id="parent-pos-box">
+        親　
+        <g2:no_escape>$[jvar_link_html]</g2:no_escape>
+    </div>
+
+    <style>
+        /* -----------------------------------------------
+       ★この部分の px を自分で調整してください！
+       -----------------------------------------------*/
+
+        #parent-pos-box {
+            position: relative;
+            /* ← relative / absolute に変更可 */
+            left: 255px;
+            /* ← 横方向の微調整 */
+            right: auto;
+            /* ← right を使う場合はこちら */
+            top: 0px;
+            /* ← 上下位置の微調整 */
+            margin-top: 0px;
+            /* ← 好みに応じて使用 */
+        }
+    </style>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="7226461b831636509a9f7429feaad365" extends="task" label="人事異動申請" max_length="40" name="x_1882833_organi_0_jinji_idou" type="collection">
+    <element attributes="live_feed=false" audit="true" db_object_id="7226461b831636509a9f7429feaad365" extends="task" label="人事異動申請" max_length="40" name="x_1882833_organi_0_jinji_idou" type="collection">
         <element active="false" label="人事部門承認者9" max_length="32" name="shouninsha9" read_only="true" reference="x_1882833_organi_0_shozoku" type="reference"/>
-        <element choice="1" label="ステージ" max_length="40" name="stage" read_only="true" type="choice">
+        <element choice="1" default="10" label="ステージ" max_length="40" name="stage" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="承認中（本社）" sequence="40" value="40"/>
+                <element inactive="true" inactive_on_update="true" label="承認中（本社）" sequence="40" value="40"/>
                 <element inactive_on_update="false" label="承認中（事業部）" sequence="30" value="30"/>
                 <element inactive_on_update="false" label="ドラフト" sequence="10" value="10"/>
                 <element inactive_on_update="false" label="完了" sequence="50" value="50"/>
@@ -20,6 +20,12 @@
         <element default="javascript: var gdt = new GlideDateTime(); gdt.getDisplayValue();" label="申請日" max_length="40" name="sinseibi" read_only="true" type="glide_date"/>
         <element active="false" label="部内承認者5" max_length="32" name="bunaishouninsha_5" reference="x_1882833_organi_0_shozoku" type="reference"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="起票者" max_length="32" name="kihyousha" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="3" default="javascript:RP.getParameterValue('sinsei_shubetu') || '';" label="申請種別" max_length="40" name="sinsei_shubetu" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="一般" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="幹部" sequence="2" value="2"/>
+            </choice>
+        </element>
         <element label="人事部門承認者3" max_length="32" name="shouninsha3" read_only="true" reference="x_1882833_organi_0_shozoku" type="reference"/>
         <element label="人事部門承認者1" max_length="32" name="shouninsha1" read_only="true" reference="x_1882833_organi_0_shozoku" type="reference"/>
         <element active="false" label="人事部門承認者8" max_length="32" name="shouninsha8" read_only="true" reference="x_1882833_organi_0_shozoku" type="reference"/>

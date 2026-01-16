@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1882833_organi_0.'glide.ui.update_is_submit</name>
+        <read_roles/>
+        <suffix>'glide.ui.update_is_submit</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 06:05:23</sys_created_on>
+        <sys_id>0798558483e2f2109a9f7429feaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1882833_organi_0.'glide.ui.update_is_submit</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_properties_0798558483e2f2109a9f7429feaad3c1</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 06:05:23</sys_updated_on>
+        <type>boolean</type>
+        <value>false</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=0798558483e2f2109a9f7429feaad3c1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_properties_0798558483e2f2109a9f7429feaad3c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_1882833_organi_0.'glide.ui.update_is_submit</name><read_roles/><suffix>'glide.ui.update_is_submit</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 06:05:23</sys_created_on><sys_id>0798558483e2f2109a9f7429feaad3c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1882833_organi_0.'glide.ui.update_is_submit</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>sys_properties_0798558483e2f2109a9f7429feaad3c1</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 06:05:23</sys_updated_on><type>boolean</type><value>false</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=0798558483e2f2109a9f7429feaad3c1"/></record_update>]]></payload>
+        <payload_hash>-1228927938</payload_hash>
+        <record_name>x_1882833_organi_0.'glide.ui.update_is_submit</record_name>
+        <reverted_from/>
+        <source>8055c5888322f2109a9f7429feaad344</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 06:05:23</sys_created_on>
+        <sys_id>4da8d58483e2f2109a9f7429feaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bc04238470000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 06:05:23</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>c9a89584abe2f21005c94945765548df</update_guid>
+        <update_guid_history>c9a89584abe2f21005c94945765548df:-1228927938</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 06:05:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>0df3007cd4d049829f5e973bff1c1b01</sys_id>
+        <sys_metadata>0798558483e2f2109a9f7429feaad3c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1882833_organi_0.'glide.ui.update_is_submit</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_properties_0798558483e2f2109a9f7429feaad3c1</sys_update_name>
+        <sys_update_version display_value="sys_properties_0798558483e2f2109a9f7429feaad3c1">4da8d58483e2f2109a9f7429feaad337</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 06:05:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

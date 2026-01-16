@@ -7,7 +7,9 @@
         <element label="新職名（兼務3）" max_length="32" name="kenmu3_sin" reference="x_1882833_organi_0_bumon" type="reference"/>
         <element label="新職名（兼務1）" max_length="32" name="kenmu1_sin" reference="x_1882833_organi_0_bumon" type="reference"/>
         <element choice="1" label="旧直間区分" max_length="40" name="tyokkan_kyuu" read_only="true" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="直接" sequence="1" value="1"/>
+            </choice>
         </element>
         <element label="内示予定日" max_length="40" name="naiji_yotei" type="glide_date"/>
         <element choice="1" label="新職務等級" max_length="40" name="grade_sin" type="choice">
@@ -31,7 +33,9 @@
             </choice>
         </element>
         <element choice="1" label="旧勤務地" max_length="40" name="kimuti_kyuu" read_only="true" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="神戸支店" sequence="4" value="4"/>
+            </choice>
         </element>
         <element label="旧職名（兼務2）" max_length="32" name="kenmu2_kyuu" read_only="true" reference="x_1882833_organi_0_bumon" type="reference"/>
         <element choice="1" label="新勤務地" mandatory="true" max_length="40" name="kimuti_sin" type="choice">
@@ -42,15 +46,21 @@
         </element>
         <element label="内示有無" max_length="40" name="naiji_umu" type="boolean"/>
         <element choice="1" label="旧役位" max_length="40" name="yakui_kyuu" read_only="true" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="20：課長" value="20"/>
+                <element inactive_on_update="false" label="90" value="90"/>
+            </choice>
         </element>
         <element label="新職名（兼務5）" max_length="32" name="kenmu5_sin" reference="x_1882833_organi_0_bumon" type="reference"/>
         <element label="旧職名（兼務5）" max_length="32" name="kenmu5_kyuu" read_only="true" reference="x_1882833_organi_0_bumon" type="reference"/>
-        <element label="申請番号" max_length="32" name="sinsei_number" reference="x_1882833_organi_0_jinji_idou" type="reference"/>
-        <element default="藤澤 昇真" label="氏名（漢字）" max_length="40" name="name_kanji" read_only="true" type="string"/>
-        <element default="000001" label="従業員番号" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="申請番号" max_length="32" name="sinsei_number" read_only="true" reference="x_1882833_organi_0_jinji_idou" type="reference"/>
+        <element label="氏名（漢字）" max_length="40" name="name_kanji" read_only="true" type="string"/>
+        <element label="従業員番号" max_length="40" name="number" read_only="true" type="string"/>
         <element choice="1" label="新直間区分" max_length="40" name="tyokkann_sin" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="間接" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="直接" sequence="1" value="1"/>
+            </choice>
         </element>
         <element choice="1" label="任免" max_length="40" name="ninmen" type="choice">
             <choice>
@@ -58,9 +68,10 @@
                 <element inactive_on_update="false" label="役職任" value="yakushokunin"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true,ignore_filter_on_new=true,ts_weight=50" default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="明細番号" max_length="40" name="num" read_only="true" type="string" use_dynamic_default="true"/>
         <element label="新職名（兼務2）" max_length="32" name="kenmu2_sin" reference="x_1882833_organi_0_bumon" type="reference"/>
         <element label="寮、社宅の必要有無" max_length="40" name="ryou" type="boolean"/>
-        <element choice="3" default="gen" label="明細種別" max_length="40" name="type" type="choice">
+        <element choice="3" default="gen" label="明細種別" max_length="40" name="type" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="一般" value="gen"/>
                 <element inactive_on_update="false" label="幹部" value="exe"/>
@@ -84,7 +95,7 @@
         </element>
         <element label="旧職名（兼務4）" max_length="32" name="kenmu4_kyuu" read_only="true" reference="x_1882833_organi_0_bumon" type="reference"/>
         <element label="家族帯同の有無" max_length="40" name="kazoku" type="boolean"/>
-        <element label="氏名" mandatory="true" max_length="32" name="name" reference="x_1882833_organi_0_shozoku" type="reference"/>
+        <element label="氏名" mandatory="true" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element label="新職名（兼務4）" max_length="32" name="kenmu4_sin" reference="x_1882833_organi_0_bumon" type="reference"/>
         <element label="備考" max_length="10000" name="bikou_gen" type="string"/>
         <element label="旧職名（兼務3）" max_length="32" name="kenmu3_kyuu" read_only="true" reference="x_1882833_organi_0_bumon" type="reference"/>

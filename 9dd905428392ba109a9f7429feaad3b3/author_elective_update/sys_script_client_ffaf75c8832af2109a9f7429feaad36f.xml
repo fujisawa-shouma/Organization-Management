@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sinsei_shubetu</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>関連リスト表示制限</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+
+    // 初回表示時の切替
+    toggleSections(g_form.getValue('sinsei_shubetu'));
+
+    // 値変更時も即時切替
+    g_form.onChange('sinsei_shubetu', function(ctrl, oldVal, newVal) {
+        toggleSections(newVal);
+    });
+}
+
+function toggleSections(val) {
+    // ★ セクション見出しを EXACT に書く（全角含む）
+    var sectionA = '異動情報明細（一般）';
+    var sectionB = '異動情報明細（幹部）';
+
+    if (val == '1') {
+        g_form.setSectionDisplay(sectionA, true);
+        g_form.setSectionDisplay(sectionB, false);
+    } else if (val == '2') {
+        g_form.setSectionDisplay(sectionA, false);
+        g_form.setSectionDisplay(sectionB, true);
+    } else {
+        // どちらにも当てはまらない場合は両方非表示
+        g_form.setSectionDisplay(sectionA, false);
+        g_form.setSectionDisplay(sectionB, false);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 09:00:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ffaf75c8832af2109a9f7429feaad36f</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>関連リスト表示制限</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_script_client_ffaf75c8832af2109a9f7429feaad36f</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 09:46:48</sys_updated_on>
+        <table>x_1882833_organi_0_jinji_idou</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_script_client_ffaf75c8832af2109a9f7429feaad36f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sinsei_shubetu&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;関連リスト表示制限&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+    // 初回表示時の切替
+    toggleSections(g_form.getValue('sinsei_shubetu'));
+
+    // 値変更時も即時切替
+    g_form.onChange('sinsei_shubetu', function(ctrl, oldVal, newVal) {
+        toggleSections(newVal);
+    });
+}
+
+function toggleSections(val) {
+    // ★ セクション見出しを EXACT に書く（全角含む）
+    var sectionA = '異動情報明細（一般）';
+    var sectionB = '異動情報明細（幹部）';
+
+    if (val == '1') {
+        g_form.setSectionDisplay(sectionA, true);
+        g_form.setSectionDisplay(sectionB, false);
+    } else if (val == '2') {
+        g_form.setSectionDisplay(sectionA, false);
+        g_form.setSectionDisplay(sectionB, true);
+    } else {
+        // どちらにも当てはまらない場合は両方非表示
+        g_form.setSectionDisplay(sectionA, false);
+        g_form.setSectionDisplay(sectionB, false);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin_fujisawa_shouma&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-15 09:00:10&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;ffaf75c8832af2109a9f7429feaad36f&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;関連リスト表示制限&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Organization Management" source="x_1882833_organi_0"&gt;9dd905428392ba109a9f7429feaad3b3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Organization Management"&gt;9dd905428392ba109a9f7429feaad3b3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_ffaf75c8832af2109a9f7429feaad36f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin_fujisawa_shouma&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-15 09:46:48&lt;/sys_updated_on&gt;&lt;table&gt;x_1882833_organi_0_jinji_idou&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1093166623</payload_hash>
+        <record_name>関連リスト表示制限</record_name>
+        <reverted_from/>
+        <source>8055c5888322f2109a9f7429feaad344</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 09:46:48</sys_created_on>
+        <sys_id>945b0e4483aaf2109a9f7429feaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bc10cedfc0000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 09:46:48</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>d05b0e443daaf210569bb49fd849b936</update_guid>
+        <update_guid_history>d05b0e443daaf210569bb49fd849b936:-1093166623,ed150e84826af2102af9e50f5c7363e5:812426928,7e944e44c96af21085fe7eed93c254b3:1222237869,89840a44126af2103e6baf3814e9fdef:1869427725,33c38a00f76af210d5ab8be4b6bdc035:929984392,0233ce80846af2107686946fa6b2a4de:477404569,0723ca80f86af21051db6190d6c92eb4:43945695,e503ca40b66af2105559534b8695ff71:-1160454209,1b928a40b86af2102ee4e6ac1348efe2:1200343743,c622ca00cb6af210619dfdc2b1506bf5:-325412960,69120a00496af210b4b00875a0f821da:-52745503,b10286006b6af2102ff9cea2655b470c:-325412960,3bf1ce4c332af210245f005efd82ad87:-1014224501,9fe14200fa6af210e8424e0532729314:-325412960,93618e8cd32af2104c5279c598918465:1533269020,c721028cbc2af2109ea8d474d363b9e8:1464129863,38e04a4c972af2107fb6af9dd4eea2c4:1440812435,d1a0464c4d2af210e756e2cc6e9a4b84:-1144798796</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 09:52:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>758e87b36c3740d592f6741522a7f9a1</sys_id>
+        <sys_metadata>ffaf75c8832af2109a9f7429feaad36f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>関連リスト表示制限</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent display_value="人事異動申請">7226461b831636509a9f7429feaad365</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_script_client_ffaf75c8832af2109a9f7429feaad36f</sys_update_name>
+        <sys_update_version display_value="sys_script_client_ffaf75c8832af2109a9f7429feaad36f">945b0e4483aaf2109a9f7429feaad337</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 09:52:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
