@@ -41,8 +41,7 @@
                 <element inactive_on_update="false" label="90" value="90"/>
             </choice>
         </element>
-        <element label="職名" max_length="32" name="bumon" reference="x_1882833_organi_0_bumon" type="reference"/>
-        <element label="従業員番号" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="所属コード" max_length="32" name="bumon" reference="x_1882833_organi_0_bumon" type="reference"/>
         <index name="index">
             <element name="bumon"/>
         </index>

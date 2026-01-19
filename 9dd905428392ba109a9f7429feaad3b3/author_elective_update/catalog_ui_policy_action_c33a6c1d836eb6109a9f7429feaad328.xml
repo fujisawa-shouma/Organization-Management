@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="人事異動申請">f89a87d48362b6109a9f7429feaad3e5</catalog_item>
+        <catalog_variable>IO:f4fac3188362b6109a9f7429feaad3ce</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-18 23:55:11</sys_created_on>
+        <sys_id>c33a6c1d836eb6109a9f7429feaad328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>excel</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c33a6c1d836eb6109a9f7429feaad328</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-18 23:55:11</sys_updated_on>
+        <table/>
+        <ui_policy display_value="添付ボタンを表示">751ae41d836eb6109a9f7429feaad3d4</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>excel</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=c33a6c1d836eb6109a9f7429feaad328"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>catalog_ui_policy_action_c33a6c1d836eb6109a9f7429feaad328</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="人事異動申請">f89a87d48362b6109a9f7429feaad3e5</catalog_item><catalog_variable>IO:f4fac3188362b6109a9f7429feaad3ce</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-18 23:55:11</sys_created_on><sys_id>c33a6c1d836eb6109a9f7429feaad328</sys_id><sys_mod_count>0</sys_mod_count><sys_name>excel</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>catalog_ui_policy_action_c33a6c1d836eb6109a9f7429feaad328</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-18 23:55:11</sys_updated_on><table/><ui_policy display_value="添付ボタンを表示">751ae41d836eb6109a9f7429feaad3d4</ui_policy><value/><value_action>ignore</value_action><variable>excel</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=c33a6c1d836eb6109a9f7429feaad328"/></record_update>]]></payload>
+        <payload_hash>1379835276</payload_hash>
+        <record_name>excel</record_name>
+        <reverted_from/>
+        <source>6a3acb948362b6109a9f7429feaad32f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-18 23:55:11</sys_created_on>
+        <sys_id>554aac1d836eb6109a9f7429feaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bd388badd0000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-18 23:55:11</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>154aac1d9b6eb610fd4f1d099dc04034</update_guid>
+        <update_guid_history>154aac1d9b6eb610fd4f1d099dc04034:1379835276</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="excel">9210b09983aeb6109a9f7429feaad322</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-19 00:20:39</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>02c16e7ef29b4a288197500c2624a891</sys_id>
+        <sys_metadata>c33a6c1d836eb6109a9f7429feaad328</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>excel</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_c33a6c1d836eb6109a9f7429feaad328</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_c33a6c1d836eb6109a9f7429feaad328">554aac1d836eb6109a9f7429feaad335</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-19 00:20:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

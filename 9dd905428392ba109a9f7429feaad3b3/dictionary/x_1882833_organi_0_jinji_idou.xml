@@ -15,11 +15,12 @@
         <element label="人事部門承認者5" max_length="32" name="shouninsha5" read_only="true" reference="x_1882833_organi_0_shozoku" type="reference"/>
         <element label="申請名称" mandatory="true" max_length="40" name="sinseimeishou" type="string"/>
         <element label="部内承認者1" mandatory="true" max_length="32" name="bunaishouninsha_1" reference="x_1882833_organi_0_shozoku" type="reference"/>
+        <element label="一括フラグ" max_length="40" name="ikkatu_flg" type="boolean"/>
         <element active="false" label="人事部門承認者10" max_length="32" name="shouninsha10" read_only="true" reference="x_1882833_organi_0_shozoku" type="reference"/>
         <element label="所属" max_length="32" name="shozoku" reference="x_1882833_organi_0_shozoku" type="reference"/>
         <element default="javascript: var gdt = new GlideDateTime(); gdt.getDisplayValue();" label="申請日" max_length="40" name="sinseibi" read_only="true" type="glide_date"/>
         <element active="false" label="部内承認者5" max_length="32" name="bunaishouninsha_5" reference="x_1882833_organi_0_shozoku" type="reference"/>
-        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="起票者" max_length="32" name="kihyousha" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="起票者" max_length="32" name="kihyousha" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element choice="3" default="javascript:RP.getParameterValue('sinsei_shubetu') || '';" label="申請種別" max_length="40" name="sinsei_shubetu" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="一般" sequence="1" value="1"/>
