@@ -12,8 +12,6 @@
     current.addQuery('sinsei_number', parent.sys_id);
     current.addQuery('type', 'gen');
 
-    current.orderByDesc('hatureibi');
-
 })(current, parent);]]></query_with>
         <reference_field/>
         <related_list/>
@@ -22,14 +20,14 @@
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-15 07:08:36</sys_created_on>
         <sys_id>ccd561c08366f2109a9f7429feaad3a5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>異動情報明細</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_relationship_ccd561c08366f2109a9f7429feaad3a5</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-15 09:51:34</sys_updated_on>
+        <sys_updated_on>2026-01-21 04:56:12</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=ccd561c08366f2109a9f7429feaad3a5"/>
 </record_update>

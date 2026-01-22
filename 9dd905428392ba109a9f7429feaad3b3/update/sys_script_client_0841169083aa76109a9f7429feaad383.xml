@@ -11,8 +11,9 @@
         <name>ユーザーから情報を取得</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-    if (isLoading || !newValue) return;
-
+   if (isLoading || newValue === '') {
+      return;
+   }
     g_form.getReference('name', function(user) {
         if (!user) return;
 
@@ -34,7 +35,7 @@
 						g_form.setValue('kimuti_kyuu', data.kinmuti || '');
                         g_form.setValue('tyokkan_kyuu', data.tyokkan || '');
                     } catch (e) {
-                        
+                        console.log('エラー');
                     }
                 });
             } else {
@@ -42,16 +43,15 @@
                 g_form.setValue('shumu_kyuu', '');
             }
         }
-    });
-}
-``]]></script>
+   
+}]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-16 04:51:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0841169083aa76109a9f7429feaad383</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>ユーザーから情報を取得</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -59,7 +59,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_script_client_0841169083aa76109a9f7429feaad383</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-16 05:48:34</sys_updated_on>
+        <sys_updated_on>2026-01-20 01:14:14</sys_updated_on>
         <table>x_1882833_organi_0_meisai</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

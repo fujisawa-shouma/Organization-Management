@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>hatureibi</element>
+        <name>x_1882833_organi_0_meisai</name>
+        <style>background-color: #f66666;&#13;
+opacity: calc(var(--cell-empty) * 1);</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-21 05:18:23</sys_created_on>
+        <sys_id>4307044e836a32109a9f7429feaad3f3</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>x_1882833_organi_0_meisai</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ui_style_4307044e836a32109a9f7429feaad3f3</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-22 02:28:42</sys_updated_on>
+        <themed_style/>
+        <value>aaaaaaaaaaaaaaaa</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=4307044e836a32109a9f7429feaad3f3"/>
+</record_update>

@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="hatureibi" table="x_1882833_organi_0_meisai">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>backgroundColor = ''</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -58,7 +58,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_dictionary_x_1882833_organi_0_meisai_hatureibi</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-13 08:10:06</sys_updated_on>
+        <sys_updated_on>2026-01-21 06:00:42</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>TEMPLATE7</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-22 05:54:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>715959568326f2109a9f7429feaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE7</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_template_715959568326f2109a9f7429feaad33e</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-22 05:54:56</sys_updated_on>
+        <table>x_1882833_organi_0_meisai</table>
+        <template>hatureibi=2026-01-22^juukyo=false^kazoku=false^naiji_umu=false^EQ</template>
+        <user display_value="admin fujisawa_shouma">eb8a25a52b4aa6100ce3fca16e91bfec</user>
+        <view/>
+    </sys_template>
+</record_update>

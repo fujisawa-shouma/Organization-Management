@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="DELETE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>sinseisho</formatter>
+        <name>申請書</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-22 06:04:11</sys_created_on>
+        <sys_id>4f5bd19a8326f2109a9f7429feaad37f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>申請書</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ui_formatter_4f5bd19a8326f2109a9f7429feaad37f</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-22 06:04:11</sys_updated_on>
+        <table>x_1882833_organi_0_jinji_idou</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_ui_formatter_4f5bd19a8326f2109a9f7429feaad37f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter"><sys_ui_formatter action="INSERT_OR_UPDATE"><active>true</active><angular_module/><formatter>sinseisho</formatter><name>申請書</name><seismic_component/><sys_class_name>sys_ui_formatter</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-22 06:04:11</sys_created_on><sys_id>4f5bd19a8326f2109a9f7429feaad37f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>申請書</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>sys_ui_formatter_4f5bd19a8326f2109a9f7429feaad37f</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-22 06:04:11</sys_updated_on><table>x_1882833_organi_0_jinji_idou</table><type>formatter</type></sys_ui_formatter></record_update>]]></payload>
+        <payload_hash>536081113</payload_hash>
+        <record_name>申請書</record_name>
+        <reverted_from/>
+        <source>e3b0f56983a67a109a9f7429feaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-22 06:04:11</sys_created_on>
+        <sys_id>3f7bd59a8326f2109a9f7429feaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19be44da2d20000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-22 06:04:11</sys_updated_on>
+        <type>UI Formatter</type>
+        <update_guid>fb7bd59aa226f21094743c91fbb49ede</update_guid>
+        <update_guid_history>fb7bd59aa226f21094743c91fbb49ede:536081113</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-22 06:28:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_formatter">sys_ui_formatter</sys_db_object>
+        <sys_id>008d75f3fcb4463f8000d5209d7f2631</sys_id>
+        <sys_metadata>4f5bd19a8326f2109a9f7429feaad37f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>申請書</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent display_value="人事異動申請">7226461b831636509a9f7429feaad365</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_ui_formatter_4f5bd19a8326f2109a9f7429feaad37f</sys_update_name>
+        <sys_update_version display_value="sys_ui_formatter_4f5bd19a8326f2109a9f7429feaad37f">3f7bd59a8326f2109a9f7429feaad3df</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-22 06:28:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

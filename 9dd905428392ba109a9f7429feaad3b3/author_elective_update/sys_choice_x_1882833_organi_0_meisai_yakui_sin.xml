@@ -39,6 +39,25 @@
             <element>yakui_sin</element>
             <hint/>
             <inactive>false</inactive>
+            <label>45：特別主席</label>
+            <language>en</language>
+            <name>x_1882833_organi_0_meisai</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-22 02:35:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-22 02:35:21</sys_updated_on>
+            <value>45</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>yakui_sin</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>90</label>
             <language>en</language>
             <name>x_1882833_organi_0_meisai</name>

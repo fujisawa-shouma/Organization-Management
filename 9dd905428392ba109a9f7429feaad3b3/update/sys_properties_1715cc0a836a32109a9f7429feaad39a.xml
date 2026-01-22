@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>異動情報明細 activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_1882833_organi_0_meisai_activity.fields</name>
+        <read_roles/>
+        <suffix>x_1882833_organi_0</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-21 05:08:17</sys_created_on>
+        <sys_id>1715cc0a836a32109a9f7429feaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.ui.x_1882833_organi_0_meisai_activity.fields</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_properties_1715cc0a836a32109a9f7429feaad39a</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-21 05:08:17</sys_updated_on>
+        <type>string</type>
+        <value>ninmen,juukyo,sakusei_kaisuu,bikou,bikou_gen,naiji_yotei,naiji_umu,jissibi,kazoku,ryou,number,vu_sin,kimuti_sin,yakui_sin,role_sin,tyokkann_sin,grade_sin,shumu_sin,kenmu1_sin,kenmu2_sin,kenmu3_sin,kenmu4_sin,kenmu5_sin,vu_kyuu,kimuti_kyuu,yakui_kyuu,role_kyuu,tyokkan_kyuu,grade_kyuu,shumu_kyuu,kenmu1_kyuu,kenmu2_kyuu,kenmu3_kyuu,kenmu4_kyuu,kenmu5_kyuu,num,type,name,name_kanji,sinsei_number,reason,hatureibi,fukusuu_flg</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=1715cc0a836a32109a9f7429feaad39a"/>
+</record_update>

@@ -17,7 +17,7 @@ ShozokuInfoAPI.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         var result = {
             yakui: '',
             bumon: '',
-			kinmuti: '',
+            kinmuti: '',
             tyokkan: ''
         };
 
@@ -27,10 +27,52 @@ ShozokuInfoAPI.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         if (gr.get(shozokuId)) {
             result.yakui = gr.getValue('yakui') || '';
             result.bumon = gr.getValue('bumon') || '';
-			result.kinmuti = gr.getValue('kinmuti') || '';
+            result.kinmuti = gr.getValue('kinmuti') || '';
             result.tyokkan = gr.getValue('tyokkan') || '';
         }
         return JSON.stringify(result);
+    },
+
+    addMeisai: function() {
+
+        var parentTable = this.getParameter('sysparm_parent_table');
+        var parentSysId = this.getParameter('sysparm_parent_sys_id');
+
+        var gr = new GlideRecord(parentTable);
+        if (gr.get(parentSysId)) {
+
+            var gr2 = new GlideRecord('x_1882833_organi_0_meisai');
+			gr2.initialize();
+			
+            gr2.sinsei_number = parentSysId;
+            if (gr.sinsei_shubetu == 1) {
+                g2r.type = "gen";
+            } else {
+                gr2.type = "exe";
+            }
+
+            gr2.insert();
+        }
+
+    },
+
+    addFukusuu: function() {
+        var parentTable = this.getParameter('sysparm_parent_table');
+        var parentSysId = this.getParameter('sysparm_parent_sys_id');
+
+        var gr = new GlideRecord(parentTable);
+        if (gr.get(parentSysId)) {
+            var type = gr.sinsei_shubetu;
+            if (type == 1) {
+                type = 'gen';
+            } else {
+                type = 'exe';
+            }
+
+            var url = 'https://dev182911.service-now.com/now/nav/ui/classic/params/target/x_1882833_organi_0_meisai.do%3Ffukusuu_flg%3Dtrue%26num%3D' + parentSysId + '%26type%3D' + type;
+
+            return url;
+        }
     },
 
     isPublic: function() {
@@ -43,13 +85,13 @@ ShozokuInfoAPI.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-16 05:34:27</sys_created_on>
         <sys_id>298ada9483ea76109a9f7429feaad3d6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>ShozokuInfoAPI</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_script_include_298ada9483ea76109a9f7429feaad3d6</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-16 05:47:44</sys_updated_on>
+        <sys_updated_on>2026-01-22 05:07:42</sys_updated_on>
     </sys_script_include>
 </record_update>

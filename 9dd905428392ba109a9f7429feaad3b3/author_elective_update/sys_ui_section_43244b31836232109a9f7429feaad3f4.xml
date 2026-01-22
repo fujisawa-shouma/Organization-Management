@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="　" section_id="43244b31836232109a9f7429feaad3f4" sys_domain="global" table="x_1882833_organi_0_jinji_idou" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>REL.x_1882833_organi_0_jinji_idou.REL:6e276d448366f2109a9f7429feaad30d</element>
+            <position>0</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-21 02:57:03</sys_created_on>
+            <sys_id>b0172ff5836632109a9f7429feaad3db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="　" display_value="　" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">43244b31836232109a9f7429feaad3f4</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-21 02:57:03</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>　</caption>
+            <header>false</header>
+            <name>x_1882833_organi_0_jinji_idou</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-21 00:24:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43244b31836232109a9f7429feaad3f4</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>x_1882833_organi_0_jinji_idou</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+            <sys_update_name>sys_ui_section_43244b31836232109a9f7429feaad3f4</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-21 04:01:18</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_ui_section_43244b31836232109a9f7429feaad3f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="　" section_id="43244b31836232109a9f7429feaad3f4" sys_domain="global" table="x_1882833_organi_0_jinji_idou" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>REL.x_1882833_organi_0_jinji_idou.REL:6e276d448366f2109a9f7429feaad30d</element><position>0</position><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-21 02:57:03</sys_created_on><sys_id>b0172ff5836632109a9f7429feaad3db</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="　" display_value="　" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">43244b31836232109a9f7429feaad3f4</sys_ui_section><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-21 02:57:03</sys_updated_on><sys_user/><type>list</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>　</caption><header>false</header><name>x_1882833_organi_0_jinji_idou</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-21 00:24:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>43244b31836232109a9f7429feaad3f4</sys_id><sys_mod_count>5</sys_mod_count><sys_name>x_1882833_organi_0_jinji_idou</sys_name><sys_overrides/><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>sys_ui_section_43244b31836232109a9f7429feaad3f4</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-21 04:01:18</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1254475050</payload_hash>
+        <record_name>人事異動申請</record_name>
+        <reverted_from/>
+        <source>e3b0f56983a67a109a9f7429feaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-21 04:01:18</sys_created_on>
+        <sys_id>86c5bb3583e632109a9f7429feaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bdeb6c54e0000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-21 04:01:18</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>86c5bb3556e63210374d33dca7cb6f42</update_guid>
+        <update_guid_history>86c5bb3556e63210374d33dca7cb6f42:-1254475050,3c172ff511663210b24394b3188aa1d5:477771298,7196abb591663210136363bbccd80069:1690298374,a57667b5266632103d5fb6d759d58c70:271565352,1db44f71666232100205817074c02a2d:477771298,83248b3197623210e682e15c535a9504:648239554</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-21 04:01:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>7c16577e96cf48809c516d1d56125640</sys_id>
+        <sys_metadata>43244b31836232109a9f7429feaad3f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>　</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent display_value="人事異動申請">7226461b831636509a9f7429feaad365</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_ui_section_43244b31836232109a9f7429feaad3f4</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_43244b31836232109a9f7429feaad3f4">86c5bb3583e632109a9f7429feaad343</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-21 04:01:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

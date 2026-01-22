@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>fukusuu.sakusei</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.fukusuu_flg == true</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>複数作成</name>
+        <onclick>temp_save()</onclick>
+        <order>100</order>
+        <script><![CDATA[function temp_save() {
+    var fields = g_form.getEditableFields();
+
+    for (var i = 0; i < fields.length; i++) {
+        if (g_form.isMandatory(fields[i])) {
+            g_form.setMandatory(fields[i], false);
+        }
+    }
+
+    gsftSubmit(null, g_form.getFormElement(), 'fukusuu.sakusei');
+}
+
+if (typeof window == 'undefined') {
+    var kaisuu = current.sakusei_kaisuu - 1;
+
+    current.fukusuu_flg = false;
+    current.sakusei_kaisuu = null;
+    current.update();
+
+    for (var i = 0; i < kaisuu; i++) {
+
+        var gr = new GlideRecord('x_1882833_organi_0_meisai');
+
+
+        if (!gs.nil(current.bikou)) {
+            gr.bikou = current.bikou;
+        }
+        if (!gs.nil(current.bikou_gen)) {
+            gr.bikou_gen = current.bikou_gen;
+        }
+        if (!gs.nil(current.grade_sin)) {
+            gr.grade_sin = current.grade_sin;
+        }
+        if (!gs.nil(current.hatureibi)) {
+            gr.hatureibi = current.hatureibi;
+        }
+        if (!gs.nil(current.jissibi)) {
+            gr.jissibi = current.jissibi;
+        }
+        if (!gs.nil(current.juukyo)) {
+            gr.juukyo = current.juukyo;
+        }
+        if (!gs.nil(current.kazoku)) {
+            gr.kazoku = current.kazoku;
+        }
+        if (!gs.nil(current.kenmu1_sin)) {
+            gr.kenmu1_sin = current.kenmu1_sin;
+        }
+        if (!gs.nil(current.kenmu2_sin)) {
+            gr.kenmu2_sin = current.kenmu2_sin;
+        }
+        if (!gs.nil(current.kenmu3_sin)) {
+            gr.kenmu3_sin = current.kenmu3_sin;
+        }
+        if (!gs.nil(current.kenmu4_sin)) {
+            gr.kenmu4_sin = current.kenmu4_sin;
+        }
+        if (!gs.nil(current.kenmu5_sin)) {
+            gr.kenmu5_sin = current.kenmu5_sin;
+        }
+        if (!gs.nil(current.kimuti_sin)) {
+            gr.kimuti_sin = current.kimuti_sin;
+        }
+        if (!gs.nil(current.naiji_umu)) {
+            gr.naiji_umu = current.naiji_umu;
+        }
+        if (!gs.nil(current.naiji_yotei)) {
+            gr.naiji_yotei = current.naiji_yotei;
+        }
+        if (!gs.nil(current.name)) {
+            gr.name = current.name;
+        }
+        if (!gs.nil(current.ninmen)) {
+            gr.ninmen = current.ninmen;
+        }
+        if (!gs.nil(current.reason)) {
+            gr.reason = current.reason;
+        }
+        if (!gs.nil(current.role_sin)) {
+            gr.role_sin = current.role_sin;
+        }
+        if (!gs.nil(current.ryou)) {
+            gr.ryou = current.ryou;
+        }
+        if (!gs.nil(current.shumu_sin)) {
+            gr.shumu_sin = current.shumu_sin;
+        }
+        if (!gs.nil(current.sinsei_number)) {
+            gr.sinsei_number = current.sinsei_number;
+        }
+        if (!gs.nil(current.tyokkann_sin)) {
+            gr.tyokkann_sin = current.tyokkann_sin;
+        }
+        if (!gs.nil(current.type)) {
+            gr.type = current.type;
+        }
+        if (!gs.nil(current.vu_sin)) {
+            gr.vu_sin = current.vu_sin;
+        }
+        if (!gs.nil(current.yakui_sin)) {
+            gr.yakui_sin = current.yakui_sin;
+        }
+
+        gr.insert();
+
+    }
+
+    var url = '/now/nav/ui/classic/params/target/x_1882833_organi_0_jinji_idou.do%3Fsys_id%3D' + current.sinsei_number;
+    gs.setRedirect(url);
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-20 07:05:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57c4df6d83e2ba109a9f7429feaad325</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>複数作成</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ui_action_57c4df6d83e2ba109a9f7429feaad325</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-20 08:13:25</sys_updated_on>
+        <table>x_1882833_organi_0_meisai</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

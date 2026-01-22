@@ -74,19 +74,19 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <script><![CDATA[if (producer.meisai_sakusei == 'ikkatu') {
+        <script><![CDATA[if (producer.sinsei_shubetu == '2' && producer.meisai_sakusei == 'ikkatu') {
     var api = new Ikkatusinsei();
-    var answer = api.ikkatu(current.sys_id,producer.sinsei_shubetu);
+    var answer = api.ikkatu(current.sys_id, producer.sinsei_shubetu);
 
     if (answer != "OK") {
         current.setAbortAction(true);
         gs.setRedirect('/now/nav/ui/classic/params/target/com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Df89a87d48362b6109a9f7429feaad3e5&sinsei_shubetu=' + producer.sinsei_shubetu + '&meisai_sakusei=' + producer.meisai_sakusei);
 
         if (answer == "添付無し") {
-            gs.addErrorMessage('エクセルの添付ファイルは必須です。少なくとも1件添付してください。');
+            gs.addErrorMessage('一括申請用のExcelファイルは必須です。少なくとも1件添付してください。');
 
         } else if (answer == "フォーマット違い") {
-            gs.addErrorMessage('エクセルのフォーマットが違います。内容を確認して再添付してください。');
+            gs.addErrorMessage('Excelファイルのフォーマットが違います。内容を確認して再添付してください。');
 
         } else if (answer == "データ不足") {
             gs.addErrorMessage('必須データが入力されていません。');
@@ -107,14 +107,14 @@
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-16 09:02:53</sys_created_on>
         <sys_id>f89a87d48362b6109a9f7429feaad3e5</sys_id>
-        <sys_mod_count>82</sys_mod_count>
+        <sys_mod_count>89</sys_mod_count>
         <sys_name>人事異動申請</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sc_cat_item_producer_f89a87d48362b6109a9f7429feaad3e5</sys_update_name>
-        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-19 08:46:30</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-22 02:54:44</sys_updated_on>
         <table_name>x_1882833_organi_0_jinji_idou</table_name>
         <taxonomy_topic/>
         <template/>
@@ -122,7 +122,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>82</version>
+        <version>89</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

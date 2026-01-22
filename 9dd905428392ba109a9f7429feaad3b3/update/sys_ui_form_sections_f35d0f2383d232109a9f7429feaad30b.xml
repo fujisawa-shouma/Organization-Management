@@ -14,6 +14,20 @@
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
             <sys_updated_on>2026-01-15 05:38:25</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-22 02:00:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bea32c9e832eb2109a9f7429feaad352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1882833_organi_0_jinji_idou" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">f35d0f2383d232109a9f7429feaad30b</sys_ui_form>
+            <sys_ui_section caption="メモ" display_value="メモ" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">bea3e89e832eb2109a9f7429feaad3ea</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-22 02:00:16</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1882833_organi_0_jinji_idou</name>
             <roles/>

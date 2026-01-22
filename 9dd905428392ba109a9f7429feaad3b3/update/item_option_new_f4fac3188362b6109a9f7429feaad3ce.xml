@@ -63,7 +63,7 @@
         <reference/>
         <reference_qual/>
         <reference_qual_condition/>
-        <rich_text><![CDATA[<p><span style="font-size: 10pt;">右上のクリップボタンからExcelファイルを添付、またはこのページにExcelファイルをドラッグ&#xff06;ドロップで添付してください。</span></p>]]></rich_text>
+        <rich_text><![CDATA[<p><span style="font-size: 10pt;">一括申請用</span><span style="font-size: 10pt;">Excelファイルを右上のクリップボタンから添付、またはこのページにドラッグ&#xff06;ドロップで添付してください。</span></p>]]></rich_text>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
 * `current`- GlideRecord produced by Record Producer
@@ -82,14 +82,14 @@
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-16 09:03:47</sys_created_on>
         <sys_id>f4fac3188362b6109a9f7429feaad3ce</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>excel</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>item_option_new_f4fac3188362b6109a9f7429feaad3ce</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-19 00:23:13</sys_updated_on>
+        <sys_updated_on>2026-01-22 02:54:10</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
-        <active>false</active>
+        <active>true</active>
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition/>
+        <condition>current.stage == 10 || current.stage == 15</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -29,8 +29,17 @@
         <messages/>
         <name>承認依頼</name>
         <onclick/>
-        <order>200</order>
-        <script/>
+        <order>150</order>
+        <script><![CDATA[if (current.stage == 10) {
+    current.stage = 15;
+	current.update();
+    action.setRedirectURL(current);
+} else if (current.stage == 15) {
+    current.stage = 20;
+    current.update();
+    gs.addInfoMessage("承認依頼しました。");
+    action.setRedirectURL(current);
+}]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -41,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d7f64fa3839232109a9f7429feaad3ee</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>承認依頼</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -49,7 +58,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ui_action_d7f64fa3839232109a9f7429feaad3ee</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-15 08:53:06</sys_updated_on>
+        <sys_updated_on>2026-01-22 06:24:50</sys_updated_on>
         <table>x_1882833_organi_0_jinji_idou</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

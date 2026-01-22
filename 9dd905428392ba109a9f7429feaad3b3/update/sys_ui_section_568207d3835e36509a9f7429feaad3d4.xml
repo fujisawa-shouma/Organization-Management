@@ -1,156 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="568207d3835e36509a9f7429feaad3d4" sys_domain="global" table="x_1882833_organi_0_meisai" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>x_1882833_organi_0_sinsei_number.xml</element>
+            <element>sakusei_kaisuu</element>
             <position>0</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-15 09:39:03</sys_created_on>
-            <sys_id>7289c64083aaf2109a9f7429feaad308</sys_id>
+            <sys_created_on>2026-01-22 02:44:06</sys_created_on>
+            <sys_id>70bda0d683aeb2109a9f7429feaad3f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-22 02:44:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_1882833_organi_0_sinsei_number.xml</element>
+            <position>1</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-22 02:44:06</sys_created_on>
+            <sys_id>b8bda0d683aeb2109a9f7429feaad3f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="申請番号">9d0e254483a6f2109a9f7429feaad369</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-15 09:39:03</sys_updated_on>
+            <sys_updated_on>2026-01-22 02:44:06</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sinsei_number</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-15 09:39:03</sys_created_on>
-            <sys_id>7689c64083aaf2109a9f7429feaad309</sys_id>
+            <sys_created_on>2026-01-22 02:44:06</sys_created_on>
+            <sys_id>bcbda0d683aeb2109a9f7429feaad3f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-15 09:39:03</sys_updated_on>
+            <sys_updated_on>2026-01-22 02:44:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>num</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-15 09:39:03</sys_created_on>
-            <sys_id>f289c64083aaf2109a9f7429feaad30a</sys_id>
+            <sys_created_on>2026-01-22 02:44:06</sys_created_on>
+            <sys_id>3cbda0d683aeb2109a9f7429feaad3f6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-15 09:39:03</sys_updated_on>
+            <sys_updated_on>2026-01-22 02:44:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>type</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-15 09:39:03</sys_created_on>
-            <sys_id>7289c64083aaf2109a9f7429feaad30b</sys_id>
+            <sys_created_on>2026-01-22 02:44:06</sys_created_on>
+            <sys_id>b8bda0d683aeb2109a9f7429feaad3f7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-15 09:39:03</sys_updated_on>
+            <sys_updated_on>2026-01-22 02:44:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>hatureibi</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-15 09:39:03</sys_created_on>
-            <sys_id>fe89c64083aaf2109a9f7429feaad30b</sys_id>
+            <sys_created_on>2026-01-22 02:44:06</sys_created_on>
+            <sys_id>38bda0d683aeb2109a9f7429feaad3f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-15 09:39:03</sys_updated_on>
+            <sys_updated_on>2026-01-22 02:44:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-15 09:39:03</sys_created_on>
-            <sys_id>7e89c64083aaf2109a9f7429feaad30c</sys_id>
+            <sys_created_on>2026-01-22 02:44:06</sys_created_on>
+            <sys_id>b4bda0d683aeb2109a9f7429feaad3f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-15 09:39:03</sys_updated_on>
+            <sys_updated_on>2026-01-22 02:44:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name_kanji</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-15 09:39:03</sys_created_on>
-            <sys_id>fa89c64083aaf2109a9f7429feaad30d</sys_id>
+            <sys_created_on>2026-01-22 02:44:06</sys_created_on>
+            <sys_id>34bda0d683aeb2109a9f7429feaad3fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-15 09:39:03</sys_updated_on>
+            <sys_updated_on>2026-01-22 02:44:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-15 09:39:03</sys_created_on>
-            <sys_id>7a89c64083aaf2109a9f7429feaad30e</sys_id>
+            <sys_created_on>2026-01-22 02:44:06</sys_created_on>
+            <sys_id>b0bda0d683aeb2109a9f7429feaad3fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-15 09:39:03</sys_updated_on>
+            <sys_updated_on>2026-01-22 02:44:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reason</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-15 09:39:03</sys_created_on>
-            <sys_id>f689c64083aaf2109a9f7429feaad30f</sys_id>
+            <sys_created_on>2026-01-22 02:44:06</sys_created_on>
+            <sys_id>30bda0d683aeb2109a9f7429feaad3fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-15 09:39:03</sys_updated_on>
+            <sys_updated_on>2026-01-22 02:44:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>bikou_gen</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-15 09:39:03</sys_created_on>
-            <sys_id>7689c64083aaf2109a9f7429feaad310</sys_id>
+            <sys_created_on>2026-01-22 02:44:06</sys_created_on>
+            <sys_id>bcbda0d683aeb2109a9f7429feaad3fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-15 09:39:03</sys_updated_on>
+            <sys_updated_on>2026-01-22 02:44:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>bikou</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-15 09:39:03</sys_created_on>
-            <sys_id>f289c64083aaf2109a9f7429feaad311</sys_id>
+            <sys_created_on>2026-01-22 02:44:06</sys_created_on>
+            <sys_id>3cbda0d683aeb2109a9f7429feaad3fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-15 09:39:03</sys_updated_on>
+            <sys_updated_on>2026-01-22 02:44:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
