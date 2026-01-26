@@ -27,7 +27,7 @@
         <omit_filters>false</omit_filters>
         <omit_if_empty>false</omit_if_empty>
         <omit_links>true</omit_links>
-        <omit_new_button>true</omit_new_button>
+        <omit_new_button>false</omit_new_button>
         <omit_related_list_count>false</omit_related_list_count>
         <related_list>REL:6e276d448366f2109a9f7429feaad30d</related_list>
         <sys_class_name>sys_ui_list_control</sys_class_name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d4597e218322ba109a9f7429feaad384</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>x_1882833_organi_0_jinji_idou</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -44,6 +44,6 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ui_list_control_d4597e218322ba109a9f7429feaad384</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-22 05:53:18</sys_updated_on>
+        <sys_updated_on>2026-01-23 02:32:03</sys_updated_on>
     </sys_ui_list_control>
 </record_update>

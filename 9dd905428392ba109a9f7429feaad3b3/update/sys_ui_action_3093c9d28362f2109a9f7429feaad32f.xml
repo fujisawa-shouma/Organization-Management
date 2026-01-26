@@ -27,9 +27,9 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>明細追加</name>
+        <name>行追加</name>
         <onclick>onClick1()</onclick>
-        <order>10</order>
+        <order>0</order>
         <script><![CDATA[function onClick1() {
     var parentTable = g_form.getTableName();
     var parentSysId = g_form.getUniqueValue();
@@ -53,15 +53,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3093c9d28362f2109a9f7429feaad32f</sys_id>
-        <sys_mod_count>18</sys_mod_count>
-        <sys_name>明細追加</sys_name>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>行追加</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ui_action_3093c9d28362f2109a9f7429feaad32f</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-22 05:54:04</sys_updated_on>
+        <sys_updated_on>2026-01-23 02:28:07</sys_updated_on>
         <table>x_1882833_organi_0_meisai</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
