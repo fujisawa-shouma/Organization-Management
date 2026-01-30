@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b5afe1a783a27e109a9f7429feaad399" sys_domain="global" table="x_1882833_organi_0_shozoku" version="3" view="workspace-organization-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_id</element>
+            <position>0</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>b1afe1a783a27e109a9f7429feaad39e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>31afe1a783a27e109a9f7429feaad3ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>2</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>b5afe1a783a27e109a9f7429feaad39c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kenmu_number</element>
+            <position>3</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>35afe1a783a27e109a9f7429feaad3ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>39afe1a783a27e109a9f7429feaad39b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>yakui</element>
+            <position>5</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>b9afe1a783a27e109a9f7429feaad3f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bumon</element>
+            <position>6</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>39afe1a783a27e109a9f7429feaad3ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>yakushoku</element>
+            <position>7</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>3dafe1a783a27e109a9f7429feaad3ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kinmuti</element>
+            <position>8</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>31afe1a783a27e109a9f7429feaad39f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vu_kubun</element>
+            <position>9</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>bdafe1a783a27e109a9f7429feaad3ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>role</element>
+            <position>10</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>35afe1a783a27e109a9f7429feaad39d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shokumu</element>
+            <position>11</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>b1afe1a783a27e109a9f7429feaad3ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tyokkan</element>
+            <position>12</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>b5afe1a783a27e109a9f7429feaad3eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_shozoku" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">b5afe1a783a27e109a9f7429feaad399</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1882833_organi_0_shozoku</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5afe1a783a27e109a9f7429feaad399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1882833_organi_0_shozoku</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+            <sys_update_name>sys_ui_section_b5afe1a783a27e109a9f7429feaad399</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Organization Management 0" name="workspace-organization-management-0">4e9fa96703a27e109027edcb7fbded09</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

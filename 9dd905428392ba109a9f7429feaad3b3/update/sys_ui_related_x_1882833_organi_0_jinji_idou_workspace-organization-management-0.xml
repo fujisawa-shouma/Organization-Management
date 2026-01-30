@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1882833_organi_0_jinji_idou" version="2" view="workspace-organization-management-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="人事異動申請 - Workspace Organization Management 0" name="x_1882833_organi_0_jinji_idou" related_list="NULL" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">e9afa1a783a27e109a9f7429feaad313</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:ccd561c08366f2109a9f7429feaad3a5</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:38</sys_created_on>
+            <sys_id>29afa1a783a27e109a9f7429feaad316</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:38</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="人事異動申請 - Workspace Organization Management 0" name="x_1882833_organi_0_jinji_idou" related_list="NULL" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">e9afa1a783a27e109a9f7429feaad313</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:6e276d448366f2109a9f7429feaad30d</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:38</sys_created_on>
+            <sys_id>a9afa1a783a27e109a9f7429feaad317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:38</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>人事異動申請 - Workspace Organization Management 0</calculated_name>
+            <filter/>
+            <name>x_1882833_organi_0_jinji_idou</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9afa1a783a27e109a9f7429feaad313</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>人事異動申請 - Workspace Organization Management 0</sys_name>
+            <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+            <sys_update_name>sys_ui_related_x_1882833_organi_0_jinji_idou_workspace-organization-management-0</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Organization Management 0" name="workspace-organization-management-0">4e9fa96703a27e109027edcb7fbded09</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

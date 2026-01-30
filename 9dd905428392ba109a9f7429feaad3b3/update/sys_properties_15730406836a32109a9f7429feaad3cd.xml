@@ -11,16 +11,16 @@
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-21 05:01:03</sys_created_on>
         <sys_id>15730406836a32109a9f7429feaad3cd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>glide.ui.x_1882833_organi_0_jinji_idou_activity.fields</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_properties_15730406836a32109a9f7429feaad3cd</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-21 05:08:56</sys_updated_on>
+        <sys_updated_on>2026-01-30 04:21:03</sys_updated_on>
         <type>string</type>
-        <value>assigned_to,cmdb_ci,state,impact,priority,opened_by,work_notes,comments,*Attachments*,watch_list,stage,ikkatu_flg,shouninsha1,shouninsha2,shouninsha3,shouninsha4,shouninsha5,shozoku,sinseimeishou,sinseibi,number,sinsei_shubetu,kihyousha,bunaishouninsha_1,bunaishouninsha_2,bunaishouninsha_3</value>
+        <value>assigned_to,cmdb_ci,state,impact,priority,opened_by,work_notes,comments,*Attachments*,watch_list,stage,ikkatu_flg,shozoku,sinseimeishou,sinseibi,number,sinsei_shubetu,kihyousha,bunaishouninsha_1,shouninsha5,shouninsha_9,shouninsha_8,shouninsha_7,shouninsha_6,shouninsha_5,shouninsha_4,shouninsha_3,shouninsha_25,shouninsha_24,shouninsha_23,shouninsha_22,shouninsha_21,shouninsha_20,shouninsha_2,shouninsha_19,shouninsha_18,shouninsha_17,shouninsha_16,shouninsha_15,shouninsha_14,shouninsha_13,shouninsha_12,shouninsha_11,shouninsha_10,shouninsha_1,shouninsha4,shouninsha3,shouninsha2,shouninsha1,bunaishouninsha_2,bunaishouninsha_3</value>
         <write_roles/>
     </sys_properties>
     <sys_translated_text action="delete_multiple" query="documentkey=15730406836a32109a9f7429feaad3cd"/>

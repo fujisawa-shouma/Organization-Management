@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="4f9ccad7835636509a9f7429feaad339" label="所属" max_length="40" name="x_1882833_organi_0_shozoku" type="collection">
+    <element db_object_id="4f9ccad7835636509a9f7429feaad339" label="所属" max_length="40" name="x_1882833_organi_0_shozoku" text_index="true" type="collection">
         <element choice="1" label="職務等級" max_length="40" name="shokumu" type="choice">
             <choice>
                 <element inactive_on_update="false" label="13" value="13"/>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="異動情報入力欄" section_id="8eaf25a783a27e109a9f7429feaad358" sys_domain="global" table="x_1882833_organi_0_meisai" version="3" view="workspace-organization-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>yakui_sin</element>
+            <position>0</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>02af25a783a27e109a9f7429feaad383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shumu_sin</element>
+            <position>1</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>c2af25a783a27e109a9f7429feaad36b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kenmu1_sin</element>
+            <position>2</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>82af25a783a27e109a9f7429feaad382</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kenmu2_sin</element>
+            <position>3</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>46af25a783a27e109a9f7429feaad36a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kenmu3_sin</element>
+            <position>4</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>06af25a783a27e109a9f7429feaad381</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kenmu4_sin</element>
+            <position>5</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>c6af25a783a27e109a9f7429feaad369</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kenmu5_sin</element>
+            <position>6</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>86af25a783a27e109a9f7429feaad380</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kimuti_sin</element>
+            <position>7</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>4aaf25a783a27e109a9f7429feaad368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>grade_sin</element>
+            <position>8</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>02af25a783a27e109a9f7429feaad38a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>role_sin</element>
+            <position>9</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>46af25a783a27e109a9f7429feaad371</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vu_sin</element>
+            <position>10</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>86af25a783a27e109a9f7429feaad387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tyokkann_sin</element>
+            <position>11</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>4aaf25a783a27e109a9f7429feaad36f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ninmen</element>
+            <position>12</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>8aaf25a783a27e109a9f7429feaad385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tantoumei</element>
+            <position>13</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>4eaf25a783a27e109a9f7429feaad36d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>8eaf25a783a27e109a9f7429feaad383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>yakui_kyuu</element>
+            <position>15</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>42af25a783a27e109a9f7429feaad36c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shumu_kyuu</element>
+            <position>16</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>8eaf25a783a27e109a9f7429feaad38a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kenmu1_kyuu</element>
+            <position>17</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>c2af25a783a27e109a9f7429feaad372</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kenmu2_kyuu</element>
+            <position>18</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>06af25a783a27e109a9f7429feaad388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kenmu3_kyuu</element>
+            <position>19</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>c6af25a783a27e109a9f7429feaad370</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kenmu4_kyuu</element>
+            <position>20</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>0aaf25a783a27e109a9f7429feaad386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kenmu5_kyuu</element>
+            <position>21</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>caaf25a783a27e109a9f7429feaad36e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kimuti_kyuu</element>
+            <position>22</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>0eaf25a783a27e109a9f7429feaad384</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>grade_kyuu</element>
+            <position>23</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>ceaf25a783a27e109a9f7429feaad36c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>role_kyuu</element>
+            <position>24</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>c2af25a783a27e109a9f7429feaad398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vu_kyuu</element>
+            <position>25</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>0aaf25a783a27e109a9f7429feaad37f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tyokkan_kyuu</element>
+            <position>26</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_id>82af25a783a27e109a9f7429feaad389</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="異動情報入力欄" display_value="異動情報入力欄" name="x_1882833_organi_0_meisai" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">8eaf25a783a27e109a9f7429feaad358</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>異動情報入力欄</caption>
+            <header>false</header>
+            <name>x_1882833_organi_0_meisai</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-01-26 04:44:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8eaf25a783a27e109a9f7429feaad358</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1882833_organi_0_meisai</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+            <sys_update_name>sys_ui_section_8eaf25a783a27e109a9f7429feaad358</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-01-26 04:44:40</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Organization Management 0" name="workspace-organization-management-0">4e9fa96703a27e109027edcb7fbded09</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

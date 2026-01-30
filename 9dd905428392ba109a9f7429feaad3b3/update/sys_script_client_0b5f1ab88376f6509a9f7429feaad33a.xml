@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>change list</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+    callback();
+    try {
+        // リストコンテキストがあれば g_list でそのままリロード
+        if (typeof g_list !== 'undefined' && g_list !== null) {
+            g_list.refresh(); // ← これで関連リストもリロードされる
+        } else {
+            // 念のため GlideList2 API を使ったパターン
+            var list = GlideList2.get(table);
+            if (list) {
+                list.refresh();
+            }
+        }
+    } catch (e) {
+        console.log('-------------------a');
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-30 05:27:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b5f1ab88376f6509a9f7429feaad33a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>change list</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_script_client_0b5f1ab88376f6509a9f7429feaad33a</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-30 05:29:16</sys_updated_on>
+        <table>x_1882833_organi_0_meisai</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

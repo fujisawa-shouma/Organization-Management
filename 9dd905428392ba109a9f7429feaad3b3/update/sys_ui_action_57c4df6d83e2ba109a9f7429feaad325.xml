@@ -27,7 +27,7 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>複数作成</name>
+        <name>作成</name>
         <onclick>temp_save()</onclick>
         <order>100</order>
         <script><![CDATA[function temp_save() {
@@ -52,7 +52,7 @@ if (typeof window == 'undefined') {
     for (var i = 0; i < kaisuu; i++) {
 
         var gr = new GlideRecord('x_1882833_organi_0_meisai');
-
+		gr.initialize();
 
         if (!gs.nil(current.bikou)) {
             gr.bikou = current.bikou;
@@ -99,9 +99,9 @@ if (typeof window == 'undefined') {
         if (!gs.nil(current.naiji_yotei)) {
             gr.naiji_yotei = current.naiji_yotei;
         }
-        if (!gs.nil(current.name)) {
-            gr.name = current.name;
-        }
+        // if (!gs.nil(current.name)) {
+        //     gr.name = current.name;
+        // }
         if (!gs.nil(current.ninmen)) {
             gr.ninmen = current.ninmen;
         }
@@ -150,15 +150,15 @@ if (typeof window == 'undefined') {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>57c4df6d83e2ba109a9f7429feaad325</sys_id>
-        <sys_mod_count>26</sys_mod_count>
-        <sys_name>複数作成</sys_name>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>作成</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ui_action_57c4df6d83e2ba109a9f7429feaad325</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-20 08:13:25</sys_updated_on>
+        <sys_updated_on>2026-01-30 05:00:48</sys_updated_on>
         <table>x_1882833_organi_0_meisai</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

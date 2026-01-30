@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="hasLabels=true" audit="true" db_object_id="14d9ae97835a36509a9f7429feaad3df" label="異動情報明細" max_length="40" name="x_1882833_organi_0_meisai" type="collection">
+    <element attributes="hasLabels=true" audit="true" db_object_id="14d9ae97835a36509a9f7429feaad3df" label="異動情報明細" max_length="40" name="x_1882833_organi_0_meisai" text_index="true" type="collection">
         <element choice="1" label="新役割等級" max_length="40" name="role_sin" type="choice">
             <choice/>
         </element>
