@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Organization Management App Config">4e9fa9679ba27e10f93e64ea92f98713</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings>[]</event_mappings>
+        <macroponent display_value="人事異動申請（幹部）">9cee3e3483baf6509a9f7429feaad3ca</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>人事異動申請（幹部） copy</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition>table=x_1882833_organi_0_jinji_idou</screen_condition>
+        <screen_type display_value="Record">4e9fa9677fa27e1092c5b9009f09b008</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-30 07:43:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ecee7e3483baf6509a9f7429feaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>人事異動申請（幹部） copy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ux_screen_ecee7e3483baf6509a9f7429feaad30e</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-30 07:43:14</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=ecee7e3483baf6509a9f7429feaad30e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_ux_screen_ecee7e3483baf6509a9f7429feaad30e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Organization Management App Config">4e9fa9679ba27e10f93e64ea92f98713</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><disable_interoperable>false</disable_interoperable><event_mappings>[]</event_mappings><macroponent display_value="人事異動申請（幹部）">9cee3e3483baf6509a9f7429feaad3ca</macroponent><macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config><name>人事異動申請（幹部） copy</name><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition>table=x_1882833_organi_0_jinji_idou</screen_condition><screen_type display_value="Record">4e9fa9677fa27e1092c5b9009f09b008</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-30 07:43:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ecee7e3483baf6509a9f7429feaad30e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>人事異動申請（幹部） copy</sys_name><sys_overrides/><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>sys_ux_screen_ecee7e3483baf6509a9f7429feaad30e</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-30 07:43:14</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=ecee7e3483baf6509a9f7429feaad30e"/></record_update>]]></payload>
+        <payload_hash>69612955</payload_hash>
+        <record_name>人事異動申請（幹部） copy</record_name>
+        <reverted_from/>
+        <source>92d0e2f08376f6509a9f7429feaad3cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-30 07:43:14</sys_created_on>
+        <sys_id>64ee7e3483baf6509a9f7429feaad317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c0ddb2ee40000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-30 07:43:14</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>e0ee7e34bcbaf650fb149b1863f1a616</update_guid>
+        <update_guid_history>e0ee7e34bcbaf650fb149b1863f1a616:69612955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-30 07:43:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>062d391f82b64420831c557d1c5c2240</sys_id>
+        <sys_metadata>ecee7e3483baf6509a9f7429feaad30e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>人事異動申請（幹部） copy</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_ecee7e3483baf6509a9f7429feaad30e</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_ecee7e3483baf6509a9f7429feaad30e">64ee7e3483baf6509a9f7429feaad317</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-30 07:43:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

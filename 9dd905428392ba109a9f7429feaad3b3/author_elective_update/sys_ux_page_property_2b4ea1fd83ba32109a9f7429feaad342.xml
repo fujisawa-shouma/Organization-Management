@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>alert_auto_dismiss_config</name>
+        <page display_value="Organization Management">029fa96745a27e10cd93ff52b2fe2315</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-02 04:25:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>2b4ea1fd83ba32109a9f7429feaad342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>alert_auto_dismiss_config</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ux_page_property_2b4ea1fd83ba32109a9f7429feaad342</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-02 04:25:06</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1882833_organi_0.029fa96745a27e10cd93ff52b2fe2315.root.global.alert_auto_dismiss_config</unique_name>
+        <value>{}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=2b4ea1fd83ba32109a9f7429feaad342"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_ux_page_property_2b4ea1fd83ba32109a9f7429feaad342</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>alert_auto_dismiss_config</name><page display_value="Organization Management">029fa96745a27e10cd93ff52b2fe2315</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-02-02 04:25:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>2b4ea1fd83ba32109a9f7429feaad342</sys_id><sys_mod_count>0</sys_mod_count><sys_name>alert_auto_dismiss_config</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>sys_ux_page_property_2b4ea1fd83ba32109a9f7429feaad342</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-02-02 04:25:06</sys_updated_on><type>string</type><unique_name>x_1882833_organi_0.029fa96745a27e10cd93ff52b2fe2315.root.global.alert_auto_dismiss_config</unique_name><value>{}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=2b4ea1fd83ba32109a9f7429feaad342"/></record_update>]]></payload>
+        <payload_hash>-122327413</payload_hash>
+        <record_name>alert_auto_dismiss_config</record_name>
+        <reverted_from/>
+        <source>c4cee13183fa32109a9f7429feaad324</source>
+        <source_table>sys_update_set</source_table>
+        <state>backedout</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-02 04:25:06</sys_created_on>
+        <sys_id>ef4ea1fd83ba32109a9f7429feaad346</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_recorded_at>19c1c98df960000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-02 04:28:13</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>af4ea1fd84ba3210ea1a6feca98e1745</update_guid>
+        <update_guid_history>af4ea1fd84ba3210ea1a6feca98e1745:-122327413</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-02 04:28:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>2bea7fa9ad394303976ccbf838fceb31</sys_id>
+        <sys_metadata>2b4ea1fd83ba32109a9f7429feaad342</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>alert_auto_dismiss_config</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_2b4ea1fd83ba32109a9f7429feaad342</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_2b4ea1fd83ba32109a9f7429feaad342">ef4ea1fd83ba32109a9f7429feaad346</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-02 04:28:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

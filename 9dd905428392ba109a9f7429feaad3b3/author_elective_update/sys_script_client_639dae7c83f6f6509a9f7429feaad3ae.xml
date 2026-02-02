@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>yakui_sin</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>特別主席</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   if(newValue == 45){
+	g_form.setReadOnly('tantoumei',true);
+   }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-30 06:29:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>639dae7c83f6f6509a9f7429feaad3ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>特別主席</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_script_client_639dae7c83f6f6509a9f7429feaad3ae</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-30 06:29:48</sys_updated_on>
+        <table>x_1882833_organi_0_meisai</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_script_client_639dae7c83f6f6509a9f7429feaad3ae</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;yakui_sin&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;特別主席&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   if(newValue == 45){
+	g_form.setReadOnly('tantoumei',true);
+   }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin_fujisawa_shouma&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-30 06:29:38&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;639dae7c83f6f6509a9f7429feaad3ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;特別主席&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Organization Management" source="x_1882833_organi_0"&gt;9dd905428392ba109a9f7429feaad3b3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Organization Management"&gt;9dd905428392ba109a9f7429feaad3b3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_639dae7c83f6f6509a9f7429feaad3ae&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin_fujisawa_shouma&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-30 06:29:48&lt;/sys_updated_on&gt;&lt;table&gt;x_1882833_organi_0_meisai&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1377011584</payload_hash>
+        <record_name>特別主席</record_name>
+        <reverted_from/>
+        <source>92d0e2f08376f6509a9f7429feaad3cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-30 06:29:48</sys_created_on>
+        <sys_id>cd1e6ebc83f6f6509a9f7429feaad3c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c0d97f7090000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-30 06:29:48</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0d1e6ebc96f6f6506163b959e26171c3</update_guid>
+        <update_guid_history>0d1e6ebc96f6f6506163b959e26171c3:1377011584,f20e6ebcd9f6f6507cc8ae72f272e210:1985176523</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-30 06:30:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>9f7ba681f31b4b5bb9f20b2b515ad021</sys_id>
+        <sys_metadata>639dae7c83f6f6509a9f7429feaad3ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>特別主席</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent display_value="異動情報明細">14d9ae97835a36509a9f7429feaad3df</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_script_client_639dae7c83f6f6509a9f7429feaad3ae</sys_update_name>
+        <sys_update_version display_value="sys_script_client_639dae7c83f6f6509a9f7429feaad3ae">cd1e6ebc83f6f6509a9f7429feaad3c4</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-30 06:30:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
