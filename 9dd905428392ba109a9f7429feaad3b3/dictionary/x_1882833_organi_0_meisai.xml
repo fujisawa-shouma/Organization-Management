@@ -53,7 +53,6 @@
                 <element inactive_on_update="false" label="90" value="90"/>
             </choice>
         </element>
-        <element label="新職名（兼務5）" max_length="32" name="kenmu5_sin" reference="x_1882833_organi_0_bumon" type="reference"/>
         <element label="旧職名（兼務5）" max_length="32" name="kenmu5_kyuu" read_only="true" reference="x_1882833_organi_0_bumon" type="reference"/>
         <element default="javascript:RP.getParameterValue('num') || '';" label="申請番号" max_length="32" name="sinsei_number" read_only="true" reference="x_1882833_organi_0_jinji_idou" type="reference"/>
         <element label="氏名（漢字）" max_length="40" name="name_kanji" read_only="true" type="string"/>
@@ -86,6 +85,7 @@
             <choice/>
         </element>
         <element label="実施日" max_length="40" name="jissibi" type="glide_date"/>
+        <element label="データ内容" max_length="1000000" name="data" type="string"/>
         <element choice="1" label="旧役割等級" max_length="40" name="role_kyuu" read_only="true" type="choice">
             <choice/>
         </element>
@@ -133,9 +133,6 @@
         <index name="index9">
             <element name="kenmu5_kyuu"/>
         </index>
-        <index name="index10">
-            <element name="kenmu5_sin"/>
-        </index>
         <index name="index11">
             <element name="name"/>
         </index>
@@ -147,6 +144,10 @@
         </index>
         <index name="index14">
             <element name="sinsei_number"/>
+        </index>
+        <element label="新職名（兼務5）" max_length="32" name="kenmu5_sin" reference="x_1882833_organi_0_bumon" type="reference"/>
+        <index name="index10">
+            <element name="kenmu5_sin"/>
         </index>
     </element>
 </database>
