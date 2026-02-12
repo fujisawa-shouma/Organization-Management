@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1882833_organi_0.createRecord</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>true</mutates_server_data>
+        <name>createRecord</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+   "name": "sys_id",&#13;
+   "label": "sys_id",&#13;
+   "description": "sys_id",&#13;
+   "readOnly": false,&#13;
+   "fieldType": "string",&#13;
+   "mandatory": false,&#13;
+   "defaultValue": ""&#13;
+},&#13;
+&#13;
+{&#13;
+   "name": "shubetu",&#13;
+   "label": "shubetu",&#13;
+   "description": "shubetu",&#13;
+   "readOnly": false,&#13;
+   "fieldType": "string",&#13;
+   "mandatory": false,&#13;
+   "defaultValue": ""&#13;
+}&#13;
+&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform() {
+    gs.addInfoMessage("insert process start.");
+    var gr = new GlideRecord('x_1882833_organi_0_meisai');
+    gr.initialize();
+    gr.sinsei_number = input.sys_id;
+    if (input.shubetu == 1) {
+        gr.type = "gen";
+    } else {
+        gr.type = "exe";
+    }
+
+    gr.insert();
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-09 05:15:22</sys_created_on>
+        <sys_id>a1ba314c83c37e109a9f7429feaad35f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>createRecord</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_a1ba314c83c37e109a9f7429feaad35f</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-10 01:21:38</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=a1ba314c83c37e109a9f7429feaad35f"/>
+</record_update>

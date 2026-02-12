@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>dmaj5yQzU7gR/Jt2u3VLRFGsBVanTUljz8gmVZhfqqI=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1882833_organi_0.test_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>test_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-09 08:53:29</sys_created_on>
+        <sys_id>cfde6a0c838b7e109a9f7429feaad3a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1882833_organi_0.test_user</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_user_role_cfde6a0c838b7e109a9f7429feaad3a3</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-09 08:53:29</sys_updated_on>
+    </sys_user_role>
+</record_update>

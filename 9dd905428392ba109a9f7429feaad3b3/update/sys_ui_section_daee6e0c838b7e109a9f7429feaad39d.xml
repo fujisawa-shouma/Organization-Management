@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="人事異動申請" section_id="daee6e0c838b7e109a9f7429feaad39d" sys_domain="global" table="x_1882833_organi_0_test" version="3" view="workspace-organization-management-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>d2ee6e0c838b7e109a9f7429feaad3ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">387bc72f839232109a9f7429feaad39c</sys_ui_formatter>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>56ee6e0c838b7e109a9f7429feaad3ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>3</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>1aee6e0c838b7e109a9f7429feaad3a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sinsei_shubetu</element>
+            <position>4</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>deee6e0c838b7e109a9f7429feaad3bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sinseibi</element>
+            <position>5</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>5aee6e0c838b7e109a9f7429feaad3c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sinseimeishou</element>
+            <position>6</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>52ee6e0c838b7e109a9f7429feaad3b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stage</element>
+            <position>7</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>52ee6e0c838b7e109a9f7429feaad3c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kihyousha</element>
+            <position>8</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>5aee6e0c838b7e109a9f7429feaad3b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shozoku</element>
+            <position>9</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>52ee6e0c838b7e109a9f7429feaad3c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>daee6e0c838b7e109a9f7429feaad3bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_1</element>
+            <position>11</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>d6ee6e0c838b7e109a9f7429feaad3c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_2</element>
+            <position>12</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>5eee6e0c838b7e109a9f7429feaad3ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_3</element>
+            <position>13</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>d2ee6e0c838b7e109a9f7429feaad3c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_4</element>
+            <position>14</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>56ee6e0c838b7e109a9f7429feaad3c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_5</element>
+            <position>15</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>d6ee6e0c838b7e109a9f7429feaad3b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_6</element>
+            <position>16</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>daee6e0c838b7e109a9f7429feaad3c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_7</element>
+            <position>17</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>d2ee6e0c838b7e109a9f7429feaad3b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_8</element>
+            <position>18</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>5aee6e0c838b7e109a9f7429feaad3cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_9</element>
+            <position>19</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>daee6e0c838b7e109a9f7429feaad3b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_10</element>
+            <position>20</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>52ee6e0c838b7e109a9f7429feaad3bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_tuika</element>
+            <position>21</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>56ee6e0c838b7e109a9f7429feaad3b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_11</element>
+            <position>22</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>d6ee6e0c838b7e109a9f7429feaad3b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_12</element>
+            <position>23</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>d6ee6e0c838b7e109a9f7429feaad3cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_13</element>
+            <position>24</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>5eee6e0c838b7e109a9f7429feaad3b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_14</element>
+            <position>25</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>d6ee6e0c838b7e109a9f7429feaad3bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_15</element>
+            <position>26</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>92ee6e0c838b7e109a9f7429feaad3a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_16</element>
+            <position>27</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>5eee6e0c838b7e109a9f7429feaad3c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_17</element>
+            <position>28</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>deee6e0c838b7e109a9f7429feaad3c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_18</element>
+            <position>29</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>5aee6e0c838b7e109a9f7429feaad3be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_19</element>
+            <position>30</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>d2ee6e0c838b7e109a9f7429feaad3c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_20</element>
+            <position>31</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>5eee6e0c838b7e109a9f7429feaad3bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_21</element>
+            <position>32</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>deee6e0c838b7e109a9f7429feaad3c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_22</element>
+            <position>33</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>16ee6e0c838b7e109a9f7429feaad3a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_23</element>
+            <position>34</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>56ee6e0c838b7e109a9f7429feaad3c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_24</element>
+            <position>35</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>deee6e0c838b7e109a9f7429feaad3b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shouninsha_25</element>
+            <position>36</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>56ee6e0c838b7e109a9f7429feaad3b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>yomikomi</element>
+            <position>37</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_id>daee6e0c838b7e109a9f7429feaad3cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="人事異動申請" display_value="人事異動申請" name="x_1882833_organi_0_test" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">daee6e0c838b7e109a9f7429feaad39d</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>人事異動申請</caption>
+            <header>false</header>
+            <name>x_1882833_organi_0_test</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-09 08:53:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>daee6e0c838b7e109a9f7429feaad39d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1882833_organi_0_test</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+            <sys_update_name>sys_ui_section_daee6e0c838b7e109a9f7429feaad39d</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-09 08:53:42</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Organization Management 0" name="workspace-organization-management-0">4e9fa96703a27e109027edcb7fbded09</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

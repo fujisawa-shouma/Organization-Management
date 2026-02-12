@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_scriptlet">
+    <sys_ux_data_broker_scriptlet action="INSERT_OR_UPDATE">
+        <api_name>x_1882833_organi_0.create record</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>create record</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+{&#13;
+   "name": "sys_id",&#13;
+   "label": "sys_id",&#13;
+   "description": "sys_id",&#13;
+   "readOnly": false,&#13;
+   "fieldType": "string",&#13;
+   "mandatory": false,&#13;
+   "defaultValue": ""&#13;
+},&#13;
+&#13;
+{&#13;
+   "name": "shubetu",&#13;
+   "label": "shubetu",&#13;
+   "description": "shubetu",&#13;
+   "readOnly": false,&#13;
+   "fieldType": "string",&#13;
+   "mandatory": false,&#13;
+   "defaultValue": ""&#13;
+}&#13;
+&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	gs.info("insert process start.");
+    var gr = new GlideRecord('x_1882833_organi_0_meisai');
+    gr.initialize();
+    // gr.sinsei_number = input.sys_id;
+    // if (input.shubetu == 1) {
+    //     gr.type = "gen";
+    // } else {
+    //     gr.type = "exe";
+    // }
+
+    gr.insert();
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_scriptlet</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-09 05:52:46</sys_created_on>
+        <sys_id>5065828483477e109a9f7429feaad332</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>create record</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ux_data_broker_scriptlet_5065828483477e109a9f7429feaad332</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-09 06:08:40</sys_updated_on>
+    </sys_ux_data_broker_scriptlet>
+    <sys_translated_text action="delete_multiple" query="documentkey=5065828483477e109a9f7429feaad332"/>
+</record_update>

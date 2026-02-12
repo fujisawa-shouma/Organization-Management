@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c6be260c838b7e109a9f7429feaad31e" extends="x_1882833_organi_0_jinji_idou" label="test" max_length="40" name="x_1882833_organi_0_test" type="collection"/>
+</database>

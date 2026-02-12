@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+        <action/>
+        <action_attributes/>
+        <action_name>行削除</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <animate_icon>false</animate_icon>
+        <button_position>right</button_position>
+        <button_type>primary-negative</button_type>
+        <client_action/>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <client_script><![CDATA[function onClick() { }]]></client_script>
+        <confirmation_message>選択した行を削除します</confirmation_message>
+        <confirmation_required>true</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>server_script</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon/>
+        <dynamic_record_condition/>
+        <dynamic_script_condition/>
+        <enable_dynamic_evaluation>false</enable_dynamic_evaluation>
+        <enable_for_all_experiences>false</enable_for_all_experiences>
+        <enabled>true</enabled>
+        <experience_restricted>false</experience_restricted>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position/>
+        <group/>
+        <group_by>false</group_by>
+        <icon/>
+        <label>行削除</label>
+        <model display_value="List">c3547169534723003eddddeeff7b126c</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>0</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>true</record_selection_required>
+        <required_roles/>
+        <required_translations/>
+        <required_user_role_names/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <scripted_client_condition/>
+        <server_script><![CDATA[var kenmu = current.kenmu_number;
+var shumu_kyuu = current.shumu_kyuu;
+
+if (kenmu == "") {
+    var gr = new GlideRecord('x_1882833_organi_0_meisai');
+    gr.addQuery('sinsei_number', current.sinsei_number);
+    gr.addQuery('sys_id', '!=', current.sys_id);
+    gr.addQuery('name_kanji', 'NULL');
+    gr.query();
+
+    if (!gr.next()) {
+        gs.addErrorMessage("新規入力欄は削除できません！！");
+    } else {
+        current.deleteRecord();
+    }
+}
+
+if (kenmu == "主務") {
+    current.deleteRecord();
+}
+
+if (kenmu.startsWith("兼務")) {
+    if (shumu_kyuu != "") {
+        gs.addErrorMessage("兼務行は削除できません！！");
+    } else {
+        current.deleteRecord();
+    }
+}]]></server_script>
+        <specificity>11</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-10 03:12:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49062654834bfe109a9f7429feaad3bc</sys_id>
+        <sys_mod_count>77</sys_mod_count>
+        <sys_name>行削除</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_49062654834bfe109a9f7429feaad3bc</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-11 07:19:37</sys_updated_on>
+        <table>x_1882833_organi_0_meisai</table>
+        <tooltip/>
+        <ui_component/>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="delete_multiple" query="documentkey=49062654834bfe109a9f7429feaad3bc"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>49062654834bfe109a9f7429feaad3bc</documentkey>
+        <fieldname>confirmation_message</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-11 03:17:18</sys_created_on>
+        <sys_id>42153f2c834732109a9f7429feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-11 03:17:18</sys_updated_on>
+        <tablename>sys_declarative_action_assignment</tablename>
+        <value>選択した行を削除します</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>49062654834bfe109a9f7429feaad3bc</documentkey>
+        <fieldname>label</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-11 03:17:18</sys_created_on>
+        <sys_id>da153f2c834732109a9f7429feaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-11 03:17:18</sys_updated_on>
+        <tablename>sys_declarative_action_assignment</tablename>
+        <value>行削除</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>49062654834bfe109a9f7429feaad3bc</documentkey>
+        <fieldname>tooltip</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-11 03:17:18</sys_created_on>
+        <sys_id>9e153f2c834732109a9f7429feaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-11 03:17:18</sys_updated_on>
+        <tablename>sys_declarative_action_assignment</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

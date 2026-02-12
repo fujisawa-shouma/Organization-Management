@@ -84,6 +84,7 @@
         <element choice="1" label="旧VU区分" max_length="40" name="vu_kyuu" read_only="true" type="choice">
             <choice/>
         </element>
+        <element label="分類" max_length="10000" name="kenmu_number" type="string"/>
         <element label="実施日" max_length="40" name="jissibi" type="glide_date"/>
         <element label="データ内容" max_length="1000000" name="data" type="string"/>
         <element choice="1" label="旧役割等級" max_length="40" name="role_kyuu" read_only="true" type="choice">
