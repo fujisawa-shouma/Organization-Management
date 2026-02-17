@@ -2,22 +2,27 @@
     <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
         <action/>
         <action_attributes/>
-        <action_name>行コピー</action_name>
+        <action_name>明細追加</action_name>
         <action_payload/>
         <action_type>type</action_type>
-        <active>true</active>
+        <active>false</active>
         <animate_icon>false</animate_icon>
         <button_position>right</button_position>
         <button_type>primary</button_type>
         <client_action/>
         <client_conditions/>
         <client_conditions_on_fields/>
-        <client_script><![CDATA[function onClick() { }]]></client_script>
+        <client_script><![CDATA[function onClick() {
+    var sys_id = g_form.getUniqueValue();
+
+    alert('sys_id');
+
+}]]></client_script>
         <confirmation_message/>
         <confirmation_required>false</confirmation_required>
         <create_access>false</create_access>
         <declarative_action_render_mode/>
-        <declarative_action_type>server_script</declarative_action_type>
+        <declarative_action_type>client_script</declarative_action_type>
         <delete_access>false</delete_access>
         <dependency/>
         <description/>
@@ -35,11 +40,11 @@
         <group/>
         <group_by>false</group_by>
         <icon/>
-        <label>行コピー</label>
+        <label>明細追加</label>
         <model display_value="List">c3547169534723003eddddeeff7b126c</model>
         <model_conditions/>
         <model_field_required/>
-        <order>10</order>
+        <order>0</order>
         <payload_map/>
         <read_access>false</read_access>
         <record_conditions/>
@@ -50,71 +55,67 @@
         <requires_value>false</requires_value>
         <script_condition/>
         <scripted_client_condition/>
-        <server_script><![CDATA[var gr = new GlideRecord('x_1882833_organi_0_meisai');
-gr.initialize();
-gr.shumu_sin = current.shumu_sin;
-gr.sinsei_number = current.sinsei_number;
-gr.insert();]]></server_script>
+        <server_script/>
         <specificity>11</specificity>
         <sys_class_name>sys_declarative_action_assignment</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-        <sys_created_on>2026-02-11 04:43:15</sys_created_on>
+        <sys_created_on>2026-02-13 07:57:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>31884cb0830b32109a9f7429feaad341</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_name>行コピー</sys_name>
+        <sys_id>10368f5183cf76109a9f7429feaad35c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>明細追加</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
-        <sys_update_name>sys_declarative_action_assignment_31884cb0830b32109a9f7429feaad341</sys_update_name>
+        <sys_update_name>sys_declarative_action_assignment_10368f5183cf76109a9f7429feaad35c</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-02-15 23:57:40</sys_updated_on>
-        <table>x_1882833_organi_0_meisai</table>
+        <sys_updated_on>2026-02-16 06:06:55</sys_updated_on>
+        <table>x_1882833_organi_0_shozoku</table>
         <tooltip/>
         <ui_component/>
         <view/>
         <workspace/>
         <write_access>false</write_access>
     </sys_declarative_action_assignment>
-    <sys_translated_text action="delete_multiple" query="documentkey=31884cb0830b32109a9f7429feaad341"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=10368f5183cf76109a9f7429feaad35c"/>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>31884cb0830b32109a9f7429feaad341</documentkey>
+        <documentkey>10368f5183cf76109a9f7429feaad35c</documentkey>
         <fieldname>confirmation_message</fieldname>
         <language>ja</language>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-        <sys_created_on>2026-02-11 04:43:15</sys_created_on>
-        <sys_id>81c804f0830b32109a9f7429feaad3b0</sys_id>
+        <sys_created_on>2026-02-13 07:57:05</sys_created_on>
+        <sys_id>8c588f5583cf76109a9f7429feaad3ac</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-02-11 04:43:15</sys_updated_on>
+        <sys_updated_on>2026-02-13 07:57:05</sys_updated_on>
         <tablename>sys_declarative_action_assignment</tablename>
         <value/>
     </sys_translated_text>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>31884cb0830b32109a9f7429feaad341</documentkey>
+        <documentkey>10368f5183cf76109a9f7429feaad35c</documentkey>
         <fieldname>label</fieldname>
         <language>ja</language>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-        <sys_created_on>2026-02-11 04:43:15</sys_created_on>
-        <sys_id>09c804f0830b32109a9f7429feaad3c6</sys_id>
+        <sys_created_on>2026-02-13 07:57:05</sys_created_on>
+        <sys_id>0c588f5583cf76109a9f7429feaad3b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-02-11 04:43:15</sys_updated_on>
+        <sys_updated_on>2026-02-13 07:57:05</sys_updated_on>
         <tablename>sys_declarative_action_assignment</tablename>
-        <value>行コピー</value>
+        <value>明細追加</value>
     </sys_translated_text>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>31884cb0830b32109a9f7429feaad341</documentkey>
+        <documentkey>10368f5183cf76109a9f7429feaad35c</documentkey>
         <fieldname>tooltip</fieldname>
         <language>ja</language>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-        <sys_created_on>2026-02-11 04:43:15</sys_created_on>
-        <sys_id>85c804f0830b32109a9f7429feaad3b6</sys_id>
+        <sys_created_on>2026-02-13 07:57:05</sys_created_on>
+        <sys_id>40588f5583cf76109a9f7429feaad3b1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-02-11 04:43:15</sys_updated_on>
+        <sys_updated_on>2026-02-13 07:57:05</sys_updated_on>
         <tablename>sys_declarative_action_assignment</tablename>
         <value/>
     </sys_translated_text>

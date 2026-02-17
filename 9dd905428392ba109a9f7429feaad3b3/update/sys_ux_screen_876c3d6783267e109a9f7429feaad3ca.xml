@@ -86,7 +86,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>876c3d6783267e109a9f7429feaad3ca</sys_id>
-        <sys_mod_count>270</sys_mod_count>
+        <sys_mod_count>348</sys_mod_count>
         <sys_name>人事異動申請（幹部）</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -94,7 +94,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ux_screen_876c3d6783267e109a9f7429feaad3ca</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-02-11 06:59:40</sys_updated_on>
+        <sys_updated_on>2026-02-16 06:47:08</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=876c3d6783267e109a9f7429feaad3ca"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

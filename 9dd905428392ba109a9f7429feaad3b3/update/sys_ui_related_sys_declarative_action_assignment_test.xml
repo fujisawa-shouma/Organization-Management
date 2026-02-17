@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sys_declarative_action_assignment" version="2" view="test">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:5b5f628753032300099addeeff7b120a</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>73c6ba51834f76109a9f7429feaad34f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>sys_workspace_declarative_action_exclusion.action_assignment</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>f7c6ba51834f76109a9f7429feaad34f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>sys_ux_m2m_action_assignment_action_config.action_assignment</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>7fc6ba51834f76109a9f7429feaad34f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>sys_ux_addon_event_mapping.source_da</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>f3c6ba51834f76109a9f7429feaad350</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>REL:7ff743ae53913110c6a2ddeeff7b1220</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>7bc6ba51834f76109a9f7429feaad350</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>REL:288d57aa53153110c6a2ddeeff7b123b</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>ffc6ba51834f76109a9f7429feaad350</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>6</position>
+            <related_list>REL:67bdac52374010008687ddb1967334ee</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>77c6ba51834f76109a9f7429feaad351</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>7</position>
+            <related_list>sp_ai_search_results_action_config.action_name</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>fbc6ba51834f76109a9f7429feaad351</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>8</position>
+            <related_list>sys_ux_predicate_m2m_action_assignment.declarative_action_assignment</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>73c6ba51834f76109a9f7429feaad352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>9</position>
+            <related_list>one_api_feature_provider.type_document</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>f7c6ba51834f76109a9f7429feaad352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>10</position>
+            <related_list>sys_ux_form_action.declarative_action</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>7fc6ba51834f76109a9f7429feaad352</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>11</position>
+            <related_list>sys_declarative_action_assignment.sys_overrides</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>f3c6ba51834f76109a9f7429feaad353</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>12</position>
+            <related_list>sys_playbook_experience_action_assignment_map.declarative_action_assignment</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>7bc6ba51834f76109a9f7429feaad353</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>13</position>
+            <related_list>sc_wizard_action_config.declarative_action</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>ffc6ba51834f76109a9f7429feaad353</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>14</position>
+            <related_list>sys_metadata_customization.sys_metadata</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>77c6ba51834f76109a9f7429feaad354</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>15</position>
+            <related_list>sc_variable_action_config.declarative_action</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>fbc6ba51834f76109a9f7429feaad354</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>16</position>
+            <related_list>sys_traced_metadata.metadata_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>73c6ba51834f76109a9f7429feaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>17</position>
+            <related_list>sys_cs_ai_search_results_action_config.action_name</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>f7c6ba51834f76109a9f7429feaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>18</position>
+            <related_list>sys_metadata_delete.sys_parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>7fc6ba51834f76109a9f7429feaad355</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>19</position>
+            <related_list>sys_metadata_delete_related.sys_parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>f3c6ba51834f76109a9f7429feaad356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>20</position>
+            <related_list>sys_delete_recovery.initiating_metadata</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>7bc6ba51834f76109a9f7429feaad356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>21</position>
+            <related_list>sys_atf_what_changed.application_file</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>ffc6ba51834f76109a9f7429feaad356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>22</position>
+            <related_list>REL:df364130c3110100bac1addbdfba8f78</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>77c6ba51834f76109a9f7429feaad357</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Action Assignment - test" name="sys_declarative_action_assignment" related_list="NULL" sys_domain="global" view="e6c63a51834f76109a9f7429feaad394">33c6ba51834f76109a9f7429feaad34e</list_id>
+            <order_by/>
+            <position>23</position>
+            <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_id>fbc6ba51834f76109a9f7429feaad357</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Action Assignment - test</calculated_name>
+            <filter/>
+            <name>sys_declarative_action_assignment</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-02-13 06:40:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33c6ba51834f76109a9f7429feaad34e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>アクションのアサイン - test</sys_name>
+            <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+            <sys_update_name>sys_ui_related_sys_declarative_action_assignment_test</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-02-13 06:40:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="test" name="test">e6c63a51834f76109a9f7429feaad394</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
