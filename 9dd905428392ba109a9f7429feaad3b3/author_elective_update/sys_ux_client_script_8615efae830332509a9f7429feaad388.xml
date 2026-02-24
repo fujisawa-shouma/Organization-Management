@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="人事異動申請（幹部）">076cf56783267e109a9f7429feaad373</macroponent>
+        <name>___2/items</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({api, helpers}) {
+// debugger;
+	const items = api.state.idouriyuu_choice;
+	const listItems = items.map(v => {
+		return {
+			"id": v.value,
+			"label": v.isplayValue
+		};
+	});
+	return listItems;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-17 07:37:36</sys_created_on>
+        <sys_id>8615efae830332509a9f7429feaad388</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>___2/items</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ux_client_script_8615efae830332509a9f7429feaad388</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-17 08:18:14</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_ux_client_script_8615efae830332509a9f7429feaad388</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="人事異動申請（幹部）"&gt;076cf56783267e109a9f7429feaad373&lt;/macroponent&gt;&lt;name&gt;___2/items&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {TransformApiHelpers} params.helpers
+ */
+function evaluateProperty({api, helpers}) {
+// debugger;
+	const items = api.state.idouriyuu_choice;
+	const listItems = items.map(v =&gt; {
+		return {
+			"id": v.value,
+			"label": v.isplayValue
+		};
+	});
+	return listItems;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin_fujisawa_shouma&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-17 07:37:36&lt;/sys_created_on&gt;&lt;sys_id&gt;8615efae830332509a9f7429feaad388&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;___2/items&lt;/sys_name&gt;&lt;sys_package display_value="Organization Management" source="x_1882833_organi_0"&gt;9dd905428392ba109a9f7429feaad3b3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Organization Management"&gt;9dd905428392ba109a9f7429feaad3b3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_8615efae830332509a9f7429feaad388&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin_fujisawa_shouma&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-17 08:18:14&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>188886880</payload_hash>
+        <record_name>___2/items</record_name>
+        <reverted_from/>
+        <source>c64d52e68387fe109a9f7429feaad3b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-17 08:18:14</sys_created_on>
+        <sys_id>f483bbe283c332509a9f7429feaad33f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>19c6aadb2b50000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-18 04:11:39</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>3483bbe211c3325011090b3ea4d9df3e</update_guid>
+        <update_guid_history>3483bbe211c3325011090b3ea4d9df3e:188886880,f221376efd83325095646aa03c2ec466:1135550408,653a27aaf443325023fbe4ad96f058d7:-1999783426</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-17 08:22:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>26e258cc95304b828d69477eab152721</sys_id>
+        <sys_metadata>8615efae830332509a9f7429feaad388</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>___2/items</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_8615efae830332509a9f7429feaad388</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_8615efae830332509a9f7429feaad388">f483bbe283c332509a9f7429feaad33f</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-17 08:22:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

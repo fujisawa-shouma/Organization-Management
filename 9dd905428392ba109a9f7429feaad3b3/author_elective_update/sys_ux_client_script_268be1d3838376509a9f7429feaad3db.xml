@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="申請一覧">6a77e0d7834b36509a9f7429feaad330</macroponent>
+        <name>New client script 1</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    var log = event.payload.cell.metadata.openRecordMetadata.sysId;
+    console.log(log);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-19 06:50:52</sys_created_on>
+        <sys_id>268be1d3838376509a9f7429feaad3db</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ux_client_script_268be1d3838376509a9f7429feaad3db</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-19 07:07:36</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_ux_client_script_268be1d3838376509a9f7429feaad3db</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="申請一覧"&gt;6a77e0d7834b36509a9f7429feaad330&lt;/macroponent&gt;&lt;name&gt;New client script 1&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    var log = event.payload.cell.metadata.openRecordMetadata.sysId;
+    console.log(log);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin_fujisawa_shouma&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-19 06:50:52&lt;/sys_created_on&gt;&lt;sys_id&gt;268be1d3838376509a9f7429feaad3db&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;New client script 1&lt;/sys_name&gt;&lt;sys_package display_value="Organization Management" source="x_1882833_organi_0"&gt;9dd905428392ba109a9f7429feaad3b3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Organization Management"&gt;9dd905428392ba109a9f7429feaad3b3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_268be1d3838376509a9f7429feaad3db&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin_fujisawa_shouma&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-19 07:07:36&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>650816231</payload_hash>
+        <record_name>New client script 1</record_name>
+        <reverted_from/>
+        <source>c64d52e68387fe109a9f7429feaad3b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-19 07:07:36</sys_created_on>
+        <sys_id>a586359b83c376509a9f7429feaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c74b9bfb70000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-19 07:07:36</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>e186359b1ac3765064963a2fa532ff01</update_guid>
+        <update_guid_history>e186359b1ac3765064963a2fa532ff01:650816231,de547957f2c37650de0a1cb085fbc99f:869005285,9024b15791c37650a73613dd2a0a6215:-164605386,27d3391772c37650eb1e38f39882c4d9:1159751878,7593fdd380c376501e1c78b7e10790ed:1710800156,8b23799346c37650b103df1f2db5d04f:-569875635,26f2b19383c37650bd1d99632ecd8455:1710800156,a8b27953a0c37650f9fcfd11f4876649:-942694008</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-19 07:53:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>5edddf0e644b46de9e7d66dcdc7caef1</sys_id>
+        <sys_metadata>268be1d3838376509a9f7429feaad3db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_268be1d3838376509a9f7429feaad3db</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_268be1d3838376509a9f7429feaad3db">a586359b83c376509a9f7429feaad302</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-19 07:53:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
