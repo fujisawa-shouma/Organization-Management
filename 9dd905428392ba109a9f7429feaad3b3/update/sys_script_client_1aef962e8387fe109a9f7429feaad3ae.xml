@@ -22,7 +22,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1aef962e8387fe109a9f7429feaad3ae</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>message test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -30,7 +30,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_script_client_1aef962e8387fe109a9f7429feaad3ae</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-02-17 02:53:26</sys_updated_on>
+        <sys_updated_on>2026-02-24 03:04:20</sys_updated_on>
         <table>x_1882833_organi_0_jinji_idou</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

@@ -18,7 +18,7 @@ function handler({api, event, helpers, imports}) {
     var url_h = "/x_1882833_organi_0_meisai_list.do?";
     var xlsx = url_h + "XLSX&";
     // var url_l = "sysparm_query=kenmu_number%3D%E4%B8%BB%E5%8B%99%5Esinsei_number%3D";
-    var url_l = "sysparm_query=sinsei_number%3De1715603837a76109a9f7429feaad3ec%5EGROUPBYname_kanji&sysparm_first_row=1&sysparm_view=export";
+    var url_l = "sysparm_query=sinsei_number%3De1715603837a76109a9f7429feaad3ec%5EGROUPBYname_kanji&sysparm_first_row=1&sysparm_view=";
     // var url_h = "/x_1882833_organi_0_jinji_idou_list.do?";
     // var xlsx = url_h + "PDF&";
     // var url_l = "sysparm_query=GROUPBYstage&sysparm_first_row=1&sysparm_view=export";
@@ -36,14 +36,14 @@ function handler({api, event, helpers, imports}) {
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-02-18 07:48:47</sys_created_on>
         <sys_id>377570cb83cbb2509a9f7429feaad3d5</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>New client script 9</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ux_client_script_377570cb83cbb2509a9f7429feaad3d5</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-02-20 09:06:40</sys_updated_on>
+        <sys_updated_on>2026-02-24 02:21:24</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

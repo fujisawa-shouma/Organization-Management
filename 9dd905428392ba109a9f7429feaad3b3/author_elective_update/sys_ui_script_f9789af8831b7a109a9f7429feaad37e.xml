@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_1882833_organi_0.list message</name>
+        <script><![CDATA[// Replace "yourFunctionName" with an appropriate function name
+
+(function() {
+    try {
+        // URL から必要なパラメータを取得
+        var url = new GlideURL(window.location.href);
+        var table = url.getParam("sysparm_table");
+        var view = url.getParam("sysparm_view");
+
+        // 対象テーブル & 対象ビューのみ
+        if (table !== "x_1882833_organi_0_jinji_idou") // ←対象テーブルに変更
+            return;
+
+        // view 未指定のときは "default" という扱いにしたい場合はここで補正してもOK
+        if (!view || view === "") {
+            view = "default";
+        }
+
+        if (view === "export") { // ←表示したいビュー名
+            showListViewInfoMessage("このビューでは一部の列が制限されています。");
+        }
+    } catch (e) {
+        jslog("ListView message script error: " + e);
+    }
+});
+
+// Define your core UI functions here
+function showListViewInfoMessage(msg) {
+
+
+    var target = document.querySelector(".list_nav_top") ||
+        document.querySelector(".navbar-header");
+
+    if (!target)
+        return;
+
+    var html =
+        '<div class="alert alert-info list-custom-message" style="margin: 8px 0;">' +
+        '<span class="icon-info btn-icon"></span> ' +
+        msg +
+        '</div>';
+
+    target.insertAdjacentHTML("afterend", html);
+
+}]]></script>
+        <script_name>list message</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-24 01:30:10</sys_created_on>
+        <sys_id>f9789af8831b7a109a9f7429feaad37e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1882833_organi_0.list message</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ui_script_f9789af8831b7a109a9f7429feaad37e</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-24 01:30:41</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_ui_script_f9789af8831b7a109a9f7429feaad37e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;ignore_in_now_experience&gt;false&lt;/ignore_in_now_experience&gt;&lt;name&gt;x_1882833_organi_0.list message&lt;/name&gt;&lt;script&gt;&lt;![CDATA[// Replace "yourFunctionName" with an appropriate function name
+
+(function() {
+    try {
+        // URL から必要なパラメータを取得
+        var url = new GlideURL(window.location.href);
+        var table = url.getParam("sysparm_table");
+        var view = url.getParam("sysparm_view");
+
+        // 対象テーブル &amp; 対象ビューのみ
+        if (table !== "x_1882833_organi_0_jinji_idou") // ←対象テーブルに変更
+            return;
+
+        // view 未指定のときは "default" という扱いにしたい場合はここで補正してもOK
+        if (!view || view === "") {
+            view = "default";
+        }
+
+        if (view === "export") { // ←表示したいビュー名
+            showListViewInfoMessage("このビューでは一部の列が制限されています。");
+        }
+    } catch (e) {
+        jslog("ListView message script error: " + e);
+    }
+});
+
+// Define your core UI functions here
+function showListViewInfoMessage(msg) {
+
+
+    var target = document.querySelector(".list_nav_top") ||
+        document.querySelector(".navbar-header");
+
+    if (!target)
+        return;
+
+    var html =
+        '&lt;div class="alert alert-info list-custom-message" style="margin: 8px 0;"&gt;' +
+        '&lt;span class="icon-info btn-icon"&gt;&lt;/span&gt; ' +
+        msg +
+        '&lt;/div&gt;';
+
+    target.insertAdjacentHTML("afterend", html);
+
+}]]&gt;&lt;/script&gt;&lt;script_name&gt;list message&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin_fujisawa_shouma&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-24 01:30:10&lt;/sys_created_on&gt;&lt;sys_id&gt;f9789af8831b7a109a9f7429feaad37e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1882833_organi_0.list message&lt;/sys_name&gt;&lt;sys_package display_value="Organization Management" source="x_1882833_organi_0"&gt;9dd905428392ba109a9f7429feaad3b3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Organization Management"&gt;9dd905428392ba109a9f7429feaad3b3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_f9789af8831b7a109a9f7429feaad37e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin_fujisawa_shouma&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-24 01:30:41&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1559336085</payload_hash>
+        <record_name>x_1882833_organi_0.list message</record_name>
+        <reverted_from/>
+        <source>5ff4c2b083977a109a9f7429feaad3ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-24 01:30:41</sys_created_on>
+        <sys_id>c759967c831b7a109a9f7429feaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c8d4519130000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-24 01:30:41</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>0759967c791b7a1031d8533c1f0a6467</update_guid>
+        <update_guid_history>0759967c791b7a1031d8533c1f0a6467:-1559336085,eb39527c2b1b7a105c8f7b2ec6611e9c:390073631</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-24 01:31:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>3a089c6bda3a46e891c0e812d306a8c9</sys_id>
+        <sys_metadata>f9789af8831b7a109a9f7429feaad37e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1882833_organi_0.list message</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_ui_script_f9789af8831b7a109a9f7429feaad37e</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_f9789af8831b7a109a9f7429feaad37e">c759967c831b7a109a9f7429feaad368</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-24 01:31:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

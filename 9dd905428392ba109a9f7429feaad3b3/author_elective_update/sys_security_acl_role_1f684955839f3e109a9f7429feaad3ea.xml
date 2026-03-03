@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-25 08:54:22</sys_created_on>
+        <sys_id>1f684955839f3e109a9f7429feaad3ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.mi_admin</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_security_acl display_value="">f5680955839f3e109a9f7429feaad3b5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1f684955839f3e109a9f7429feaad3ea</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-25 08:54:22</sys_updated_on>
+        <sys_user_role display_value="mi_admin" name="mi_admin">969773c493331210edf8869e44891855</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_security_acl_role_1f684955839f3e109a9f7429feaad3ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-02-25 08:54:22</sys_created_on><sys_id>1f684955839f3e109a9f7429feaad3ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.mi_admin</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_security_acl display_value="">f5680955839f3e109a9f7429feaad3b5</sys_security_acl><sys_update_name>sys_security_acl_role_1f684955839f3e109a9f7429feaad3ea</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-02-25 08:54:22</sys_updated_on><sys_user_role display_value="mi_admin" name="mi_admin">969773c493331210edf8869e44891855</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1867975862</payload_hash>
+        <record_name>.mi_admin</record_name>
+        <reverted_from/>
+        <source>5ff4c2b083977a109a9f7429feaad3ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-25 08:54:22</sys_created_on>
+        <sys_id>c4880d55839f3e109a9f7429feaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c9401a8d10000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-25 08:54:22</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>84880d556d9f3e10170daadc7c613539</update_guid>
+        <update_guid_history>84880d556d9f3e10170daadc7c613539:1867975862</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".mi_admin">ad1f98a9831bbe109a9f7429feaad3a2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-26 00:31:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>ba6693b1455547f0aee2457a2c683779</sys_id>
+        <sys_metadata>1f684955839f3e109a9f7429feaad3ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.mi_admin</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent display_value="x_1882833_organi_0_meisai.*">f5680955839f3e109a9f7429feaad3b5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_1f684955839f3e109a9f7429feaad3ea</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_1f684955839f3e109a9f7429feaad3ea">c4880d55839f3e109a9f7429feaad33a</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-26 00:31:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
