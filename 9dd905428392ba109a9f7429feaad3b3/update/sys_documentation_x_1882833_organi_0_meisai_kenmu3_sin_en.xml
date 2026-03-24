@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="kenmu3_sin" label="新職名（兼務3）" language="en" table="x_1882833_organi_0_meisai">
+    <sys_documentation element="kenmu3_sin" label="新兼務3" language="en" table="x_1882833_organi_0_meisai">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>kenmu3_sin</element>
             <help/>
             <hint/>
-            <label>新職名（兼務3）</label>
+            <label>新兼務3</label>
             <language>en</language>
             <name>x_1882833_organi_0_meisai</name>
-            <plural>新職名（兼務3）s</plural>
+            <plural>新兼務3s</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
             <sys_created_on>2026-01-13 05:30:41</sys_created_on>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>新職名（兼務3）</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>新兼務3</sys_name>
             <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
             <sys_policy/>
             <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
             <sys_update_name>sys_documentation_x_1882833_organi_0_meisai_kenmu3_sin_en</sys_update_name>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-13 05:30:41</sys_updated_on>
+            <sys_updated_on>2026-02-06 08:29:35</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

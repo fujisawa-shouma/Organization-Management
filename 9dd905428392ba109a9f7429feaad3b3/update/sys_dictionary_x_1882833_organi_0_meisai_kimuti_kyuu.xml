@@ -13,7 +13,7 @@
         <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>旧勤務地</column_label>
+        <column_label>現勤務地</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -34,11 +34,12 @@
         <function_field>false</function_field>
         <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>10000</max_length>
         <name>x_1882833_organi_0_meisai</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -52,13 +53,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-13 05:59:07</sys_created_on>
-        <sys_name>旧勤務地</sys_name>
+        <sys_name>現勤務地</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_dictionary_x_1882833_organi_0_meisai_kimuti_kyuu</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-13 06:03:02</sys_updated_on>
+        <sys_updated_on>2026-02-05 04:12:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

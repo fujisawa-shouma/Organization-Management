@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="List">7ff373544303121093711347efb8f23c</macroponent>
+        <name>異動情報明細</name>
+        <properties>{"metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzE4ODI4MzNfb3JnYW5pXzBfbWVpc2FpMTc2OTc0OTg1NDEzMzcxODkzNzEwLjI4NTg4NjE1","id":"ZEdGaWJHVjRYekU0T0RJNE16TmZiM0puWVc1cFh6QmZiV1ZwYzJGcE1UYzJPVGMwT1RnMU5ERXpNemN4T0Rrek56RXdMakk0TlRnNE5qRTExNzY5NzQ5ODU0MTMzMzY0NDI3MzAuODA4NDA1","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"durationFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"table":"x_1882833_organi_0_meisai","columns":"sinsei_number,number,name,bikou,hatureibi,kenmu1_sin,kenmu2_sin,kenmu3_sin,name_kanji,shumu_sin,yakui_sin,sakusei_kaisuu","dataSources":[{"allowRealTime":true,"dataCategories":["trend","group","simple"],"filterQuery":null,"id":"dGFibGV4XzE4ODI4MzNfb3JnYW5pXzBfbWVpc2FpMTc2OTc0OTg1NDEzMzcxODkzNzEwLjI4NTg4NjE1","isDatabaseView":false,"label":null,"sourceType":"table","tableOrViewName":"x_1882833_organi_0_meisai"}],"emptyStateAlignment":"vertical-centered","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateIllustration":"no-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":false,"groupByField":"hatureibi","groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE4ODI4MzNfb3JnYW5pXzBfbWVpc2FpMTc2OTc0OTg1NDEzMzcxODkzNzEwLjI4NTg4NjE1","groupByField":"hatureibi","isRange":true,"isPaBucket":false,"isChoice":false}]}],"hideDotwalk":false,"limit":10,"maxCharLimit":4000,"showColumnFiltering":true,"showColumnGrouping":true,"showColumnReorder":true,"showColumnResizing":true,"showColumnSorting":true,"showFilterIcon":false,"showHeader":true,"headerTitle":"異動情報明細","showHeaderSeparator":false,"showInlineEditing":true,"showLinks":true,"showPersonalization":true,"showViewAll":true,"allowListPagination":true,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"showBorder":true,"wrapTitle":false,"showLoadingIndicator":false}</properties>
+        <requested_by/>
+        <required_translations>[{"message":"No data available.","comment":"","code":"PAR_COMPONENT.696081705d99eea4848d7f46746d2106"},{"message":"There are no scores available for the selected criteria. Contact your admin for more info.","comment":"","code":"PAR_COMPONENT.696081705d99eea4848d7f46746d2106"},{"message":"異動情報明細","comment":"","code":"PAR_COMPONENT.696081705d99eea4848d7f46746d2106"}]</required_translations>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-30 05:10:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>696081705d99eea4848d7f46746d2106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>異動情報明細</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>par_visualization_696081705d99eea4848d7f46746d2106</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-30 05:10:53</sys_updated_on>
+        <type>List</type>
+    </par_visualization>
+</record_update>

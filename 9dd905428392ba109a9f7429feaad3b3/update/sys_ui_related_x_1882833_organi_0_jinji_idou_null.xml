@@ -2,6 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_1882833_organi_0_jinji_idou" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
+            <group_by_field/>
             <list_id display_value="人事異動申請 - Default view" name="x_1882833_organi_0_jinji_idou" related_list="NULL" sys_domain="global" view="Default view">9d6f6a8c838b7e109a9f7429feaad33c</list_id>
             <order_by/>
             <position>0</position>
@@ -16,6 +17,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
+            <group_by_field/>
             <list_id display_value="人事異動申請 - Default view" name="x_1882833_organi_0_jinji_idou" related_list="NULL" sys_domain="global" view="Default view">9d6f6a8c838b7e109a9f7429feaad33c</list_id>
             <order_by/>
             <position>1</position>
@@ -30,6 +32,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
+            <group_by_field/>
             <list_id display_value="人事異動申請 - Default view" name="x_1882833_organi_0_jinji_idou" related_list="NULL" sys_domain="global" view="Default view">9d6f6a8c838b7e109a9f7429feaad33c</list_id>
             <order_by/>
             <position>2</position>

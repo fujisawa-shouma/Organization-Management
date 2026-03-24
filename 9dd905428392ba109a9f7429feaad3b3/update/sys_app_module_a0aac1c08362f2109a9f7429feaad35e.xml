@@ -19,6 +19,8 @@
         <report/>
         <require_confirmation>true</require_confirmation>
         <roles/>
+        <route/>
+        <screen/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-15 05:04:52</sys_created_on>
@@ -37,6 +39,7 @@
         <timeline_page/>
         <title>新規作成（幹部）</title>
         <uncancelable>false</uncancelable>
+        <ux_list/>
         <view_name/>
         <window_name/>
     </sys_app_module>

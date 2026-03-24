@@ -19,6 +19,8 @@
         <report/>
         <require_confirmation>true</require_confirmation>
         <roles>x_1882833_organi_0._user</roles>
+        <route/>
+        <screen/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-13 01:57:14</sys_created_on>
@@ -37,6 +39,7 @@
         <timeline_page/>
         <title>所属s</title>
         <uncancelable>false</uncancelable>
+        <ux_list/>
         <view_name/>
         <window_name/>
     </sys_app_module>

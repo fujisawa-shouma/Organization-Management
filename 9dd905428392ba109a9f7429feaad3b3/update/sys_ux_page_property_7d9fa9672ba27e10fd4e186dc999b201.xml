@@ -3,7 +3,7 @@
         <choices/>
         <description>A default view for Organization Management generated</description>
         <name>view</name>
-        <page display_value="Organization Management">029fa96745a27e10cd93ff52b2fe2315</page>
+        <page display_value="人事異動申請">029fa96745a27e10cd93ff52b2fe2315</page>
         <required_translations/>
         <route/>
         <suffix/>

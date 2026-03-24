@@ -2,6 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_1882833_organi_0_jinji_idou" version="2" view="workspace-organization-management-0">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
+            <group_by_field/>
             <list_id display_value="人事異動申請 - Workspace Organization Management 0" name="x_1882833_organi_0_jinji_idou" related_list="NULL" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">e9afa1a783a27e109a9f7429feaad313</list_id>
             <order_by/>
             <position>0</position>
@@ -16,6 +17,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
+            <group_by_field/>
             <list_id display_value="人事異動申請 - Workspace Organization Management 0" name="x_1882833_organi_0_jinji_idou" related_list="NULL" sys_domain="global" view="4e9fa96703a27e109027edcb7fbded09">e9afa1a783a27e109a9f7429feaad313</list_id>
             <order_by/>
             <position>1</position>

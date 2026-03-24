@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1882833_organi_0_meisai</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1882833_organi_0_meisai">nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>自動兼務レコード作成</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var name = current.name;
+    var num = current.sinsei_number;
+
+    var gr = new GlideRecord('x_1882833_organi_0_meisai');
+    gr.addQuery('name', name);
+    gr.addQuery('sinsei_number', num);
+    gr.query();
+
+    var count = gr.getRowCount();
+	gs.addInfoMessage(count);
+    if (count == 0) {
+        gs.addInfoMessage('test');
+        var sho = new GlideRecord('x_1882833_organi_0_shozoku');
+        sho.addQuery('user_id', current.name);
+        sho.addQuery('kenmu_number', '!=', 1);
+        sho.orderBy('kenmu_number');
+        sho.query();
+
+        while (sho.next()) {
+            gs.addInfoMessage('test');
+            // gr.initialize();
+            // gr.sinsei_number = num;
+            // gr.name = name;
+            // gr.insert();
+        }
+    }
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-03 01:30:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8c7d42c683beb2109a9f7429feaad32f</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>自動兼務レコード作成</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_script_8c7d42c683beb2109a9f7429feaad32f</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-03 02:29:50</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=8c7d42c683beb2109a9f7429feaad32f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_script_8c7d42c683beb2109a9f7429feaad32f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_1882833_organi_0_meisai&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_1882833_organi_0_meisai"&gt;nameISNOTEMPTY^EQ&lt;item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;自動兼務レコード作成&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var name = current.name;
+    var num = current.sinsei_number;
+
+    var gr = new GlideRecord('x_1882833_organi_0_meisai');
+    gr.addQuery('name', name);
+    gr.addQuery('sinsei_number', num);
+    gr.query();
+
+    var count = gr.getRowCount();
+	gs.addInfoMessage(count);
+    if (count == 0) {
+        gs.addInfoMessage('test');
+        var sho = new GlideRecord('x_1882833_organi_0_shozoku');
+        sho.addQuery('user_id', current.name);
+        sho.addQuery('kenmu_number', '!=', 1);
+        sho.orderBy('kenmu_number');
+        sho.query();
+
+        while (sho.next()) {
+            gs.addInfoMessage('test');
+            // gr.initialize();
+            // gr.sinsei_number = num;
+            // gr.name = name;
+            // gr.insert();
+        }
+    }
+
+
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin_fujisawa_shouma&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-03 01:30:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8c7d42c683beb2109a9f7429feaad32f&lt;/sys_id&gt;&lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;&lt;sys_name&gt;自動兼務レコード作成&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Organization Management" source="x_1882833_organi_0"&gt;9dd905428392ba109a9f7429feaad3b3&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Organization Management"&gt;9dd905428392ba109a9f7429feaad3b3&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_8c7d42c683beb2109a9f7429feaad32f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin_fujisawa_shouma&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-03 02:29:50&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=8c7d42c683beb2109a9f7429feaad32f"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1861990780</payload_hash>
+        <record_name>自動兼務レコード作成</record_name>
+        <reverted_from/>
+        <source>ee7fa1b183fa32109a9f7429feaad3b7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-03 02:29:50</sys_created_on>
+        <sys_id>388dd24a8332f2109a9f7429feaad3d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c2155b32e0000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-03 02:29:50</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>308dd24a0032f21029b580bb796ab5cf</update_guid>
+        <update_guid_history>308dd24a0032f21029b580bb796ab5cf:1861990780,0e3d160ae832f210e316ceef3dee45dd:-2059050359,041ddec69f32f21086eb4a7945ef6143:424781299,abbc92c66232f210a37236bee6933ce7:916162525,5b8b1a060532f210257f0a5eb859d824:2145421802,e93b96c20832f210f798abf7a57fbf1b:-1719157271,65aa5e8eb4feb21000eb488dd363d0c9:-1561138262,425a5a429b32f210479dfdbefb30609d:-1261381581,031a12425932f210b1c71073aa009daa:1527023345,5ce89a8e38feb21039b6c4b8a1d98071:656078943,c616124ad9feb21057a54678760e5d4c:-413985518,12f5d60ad2feb210cdfbceb6c85ead1e:-1493398672,c1249e0691feb210a6a2d8f4508df035:-1810458100,37e3d60635feb21032c9412085b30d03:-7396297,13c1560211feb21094aececc90efdf02:-1397782530,d7a11202dffeb2107eeb7efdbf75e443:1358778815,c1819ace05beb210c1a497fe33ff23ee:329503966,8f41d2ce2ebeb21078ac40a80f95a259:-842626694,8421da8e4dbeb210b1f4ef362143c7a8:-1692946503,2df0968e17beb210e011dac215c5a2f0:171146394,fac0528edabeb210655869e75fc2b566:697370079,3ea05a4ea6beb2108bccab837bb0c2b8:-151970514,db50924ee9beb210a61ef60babf154e6:-1819476636,0e40de0e0dbeb2108b6e0c339cb87b97:-560679002,5d00de4aefbeb2107b5b5d72cbe904d1:-1799437698</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-03 05:06:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>0d6fe0d3ddd840a08286c04ce8498400</sys_id>
+        <sys_metadata>8c7d42c683beb2109a9f7429feaad32f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>自動兼務レコード作成</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent display_value="異動情報明細">14d9ae97835a36509a9f7429feaad3df</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_script_8c7d42c683beb2109a9f7429feaad32f</sys_update_name>
+        <sys_update_version display_value="sys_script_8c7d42c683beb2109a9f7429feaad32f">388dd24a8332f2109a9f7429feaad3d0</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-03 05:06:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

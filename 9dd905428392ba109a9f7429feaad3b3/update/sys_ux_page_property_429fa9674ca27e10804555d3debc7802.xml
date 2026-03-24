@@ -3,7 +3,7 @@
         <choices/>
         <description/>
         <name>chrome_footer</name>
-        <page display_value="Organization Management">029fa96745a27e10cd93ff52b2fe2315</page>
+        <page display_value="人事異動申請">029fa96745a27e10cd93ff52b2fe2315</page>
         <required_translations>[ ]</required_translations>
         <route/>
         <suffix/>
@@ -13,17 +13,22 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>429fa9674ca27e10804555d3debc7802</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>chrome_footer</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ux_page_property_429fa9674ca27e10804555d3debc7802</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-26 04:44:25</sys_updated_on>
+        <sys_updated_on>2026-02-02 04:33:26</sys_updated_on>
         <type>json</type>
-        <unique_name>x_1882833_organi_0.029fa96745a27e10cd93ff52b2fe2315.root.chrome_footer</unique_name>
-        <value>{"public_page":{"enable_footer_topbar":false,"footer_topbar_options":{},"enable_footer_bar":false,"footer_bar_options":{}}}</value>
+        <unique_name>x_1882833_organi_0.029fa96745a27e10cd93ff52b2fe2315.root.global.chrome_footer</unique_name>
+        <value>{
+    "public_page": {
+        "footer_topbar_options": {},
+        "footer_bar_options": {}
+    }
+}</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=429fa9674ca27e10804555d3debc7802"/>
 </record_update>

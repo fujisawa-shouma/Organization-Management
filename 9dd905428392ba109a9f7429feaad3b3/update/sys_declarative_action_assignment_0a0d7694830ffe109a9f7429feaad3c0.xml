@@ -38,6 +38,8 @@
         <group/>
         <group_by>false</group_by>
         <icon/>
+        <interaction/>
+        <interaction_input_map/>
         <label>兼務追加</label>
         <model display_value="List">c3547169534723003eddddeeff7b126c</model>
         <model_conditions/>
@@ -58,7 +60,7 @@ gr.initialize();
 gr.sinsei_number = current.sinsei_number;
 gr.type = current.type;
 gr.name_kanji = current.name_kanji;
-// gr.kenmu_number = "兼務5";
+gr.kenmu_number = "追加欄";
 gr.insert();]]></server_script>
         <specificity>11</specificity>
         <sys_class_name>sys_declarative_action_assignment</sys_class_name>
@@ -67,7 +69,7 @@ gr.insert();]]></server_script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0a0d7694830ffe109a9f7429feaad3c0</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>兼務追加</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -75,7 +77,7 @@ gr.insert();]]></server_script>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_declarative_action_assignment_0a0d7694830ffe109a9f7429feaad3c0</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-02-12 00:31:51</sys_updated_on>
+        <sys_updated_on>2026-03-23 06:48:19</sys_updated_on>
         <table>x_1882833_organi_0_meisai</table>
         <tooltip/>
         <ui_component/>

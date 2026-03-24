@@ -24,7 +24,7 @@
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
-        <dynamic_default_value display_value="Me">bdcb83a85f220100a9ad2572f2b4773d</dynamic_default_value>
+        <dynamic_default_value display_value="Sender">2fd8e97bef3221002841f7f775c0fbc1</dynamic_default_value>
         <dynamic_ref_qual/>
         <element>kihyousha</element>
         <element_reference>false</element_reference>
@@ -39,6 +39,7 @@
         <next_element/>
         <primary>false</primary>
         <read_only>true</read_only>
+        <read_only_option>instance_configured</read_only_option>
         <read_roles/>
         <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>

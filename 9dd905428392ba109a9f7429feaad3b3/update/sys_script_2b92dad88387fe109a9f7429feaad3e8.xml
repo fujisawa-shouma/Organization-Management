@@ -37,7 +37,7 @@
     } else {
         gr.type = "exe";
     }
-
+	gr.kenmu_number = "新規入力欄";
     gr.insert();
 
 })(current, previous);]]></script>
@@ -47,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2b92dad88387fe109a9f7429feaad3e8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>異動情報明細作成</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -55,7 +55,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_script_2b92dad88387fe109a9f7429feaad3e8</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-02-10 01:30:09</sys_updated_on>
+        <sys_updated_on>2026-03-23 07:31:51</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

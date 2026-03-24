@@ -28,7 +28,10 @@
         <sys_updated_on>2026-01-22 05:54:56</sys_updated_on>
         <table>x_1882833_organi_0_meisai</table>
         <template>hatureibi=2026-01-22^juukyo=false^kazoku=false^naiji_umu=false^EQ</template>
-        <user display_value="admin fujisawa_shouma">eb8a25a52b4aa6100ce3fca16e91bfec</user>
+        <template_condition/>
+        <template_v2/>
+        <user display_value="藤澤 昇真">eb8a25a52b4aa6100ce3fca16e91bfec</user>
+        <v2>false</v2>
         <view/>
     </sys_template>
 </record_update>

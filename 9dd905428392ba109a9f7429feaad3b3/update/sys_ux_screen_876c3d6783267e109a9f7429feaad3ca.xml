@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
     <sys_ux_screen action="INSERT_OR_UPDATE">
         <active>true</active>
-        <app_config display_value="Organization Management App Config">4e9fa9679ba27e10f93e64ea92f98713</app_config>
+        <app_config display_value="人事異動申請">4e9fa9679ba27e10f93e64ea92f98713</app_config>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
         <disable_interoperable>false</disable_interoperable>
@@ -316,7 +316,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>876c3d6783267e109a9f7429feaad3ca</sys_id>
-        <sys_mod_count>517</sys_mod_count>
+        <sys_mod_count>624</sys_mod_count>
         <sys_name>人事異動申請（幹部）</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -324,7 +324,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ux_screen_876c3d6783267e109a9f7429feaad3ca</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-02-24 02:40:45</sys_updated_on>
+        <sys_updated_on>2026-03-23 08:23:19</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=876c3d6783267e109a9f7429feaad3ca"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">ace17861bc7032108bb2f58e8d11a1fb</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-08 23:59:29</sys_created_on>
+        <sys_id>625b09068392ba109a9f7429feaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-08 23:59:29</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

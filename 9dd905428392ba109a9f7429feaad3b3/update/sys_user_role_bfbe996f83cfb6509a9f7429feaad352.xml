@@ -4,6 +4,7 @@
         <can_delegate>true</can_delegate>
         <description/>
         <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
         <federated_id>t+Xuxv7XTa1Sx3U/jus2MeXKduewG0PnOL+UbXIPlyM=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>

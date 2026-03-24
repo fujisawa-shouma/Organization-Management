@@ -5,6 +5,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category/>
+        <cc_render_type/>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -45,7 +46,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="admin_fujisawa_shouma">eb8a25a52b4aa6100ce3fca16e91bfec</owner>
+        <owner display_value="藤澤 昇真">eb8a25a52b4aa6100ce3fca16e91bfec</owner>
         <picture/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=47e5254a8356ba109a9f7429feaad3a7&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
@@ -58,6 +59,7 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
+        <secondary_owners/>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>

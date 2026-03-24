@@ -32,13 +32,14 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="Workflow">workflow</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_1882833_organi_0_jinji_idou</name>
         <next_element/>
         <primary>false</primary>
         <read_only>true</read_only>
+        <read_only_option>instance_configured</read_only_option>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -58,7 +59,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_dictionary_x_1882833_organi_0_jinji_idou_stage</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-15 06:23:42</sys_updated_on>
+        <sys_updated_on>2026-03-23 08:44:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

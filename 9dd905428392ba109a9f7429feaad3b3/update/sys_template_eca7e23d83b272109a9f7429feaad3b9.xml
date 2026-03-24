@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>TEMPLATE8</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-02 08:35:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eca7e23d83b272109a9f7429feaad3b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE8</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_template_eca7e23d83b272109a9f7429feaad3b9</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-02 08:35:37</sys_updated_on>
+        <table>x_1882833_organi_0_meisai</table>
+        <template>hatureibi=2026-02-01^juukyo=false^kazoku=false^kimuti_sin=2^naiji_umu=false^name=eb8a25a52b4aa6100ce3fca16e91bfec^yakui_sin=20^EQ</template>
+        <template_condition/>
+        <template_v2/>
+        <user display_value="藤澤 昇真">eb8a25a52b4aa6100ce3fca16e91bfec</user>
+        <v2>false</v2>
+        <view/>
+    </sys_template>
+</record_update>

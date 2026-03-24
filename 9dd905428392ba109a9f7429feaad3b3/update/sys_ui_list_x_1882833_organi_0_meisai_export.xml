@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1882833_organi_0_meisai" version="2" view="export">
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1882833_organi_0_meisai" version="2" view="Export">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>kenmu_number</element>
@@ -250,7 +250,7 @@
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
             <sys_updated_on>2026-02-20 09:00:25</sys_updated_on>
             <sys_user/>
-            <view display_value="Export" name="export">aa4adcd2c3d130108d7c52569740dd23</view>
+            <view display_value="Export" name="Export">aa4adcd2c3d130108d7c52569740dd23</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

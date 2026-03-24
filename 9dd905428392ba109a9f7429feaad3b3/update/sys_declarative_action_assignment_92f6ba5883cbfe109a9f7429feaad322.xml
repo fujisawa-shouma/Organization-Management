@@ -35,6 +35,8 @@
         <group/>
         <group_by>false</group_by>
         <icon/>
+        <interaction/>
+        <interaction_input_map/>
         <label>test</label>
         <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
         <model_conditions/>

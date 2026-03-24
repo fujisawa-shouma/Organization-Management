@@ -8,7 +8,7 @@
         </element>
         <element label="兼務番号" max_length="40" name="kenmu_number" type="integer"/>
         <element display="true" label="User ID" max_length="40" name="user_id" reference="sys_user" type="reference"/>
-        <element label="氏名（漢字）" max_length="40" name="name" read_only="true" type="string"/>
+        <element label="氏名（漢字）" max_length="40" name="name" read_only="true" read_only_option="instance_configured" type="string"/>
         <element choice="1" label="役割等級" max_length="40" name="role" type="choice">
             <choice>
                 <element inactive_on_update="false" label="13" value="13"/>

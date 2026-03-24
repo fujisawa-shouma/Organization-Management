@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -19,7 +19,7 @@
         <is_rest>false</is_rest>
         <message/>
         <name>ユーザーから自動入力</name>
-        <order>100</order>
+        <order>10</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -30,17 +30,36 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
     if (!gs.nil(current.name)) {
-        var gr = new GlideRecord('sys_user');
-        gr.addQuery('sys_id', current.name);
+        var gr = new GlideRecord('x_1882833_organi_0_shozoku');
+        gr.addQuery('user_id', current.name);
+        gr.addQuery('kenmu_number', 1);
         gr.query();
 
         if (gr.next()) {
-            current.name_kanji = gr.u_ukanji_name;
-            current.number = gr.u_number;
+            current.name_kanji = gr.user_id.u_ukanji_name;
+            current.number = gr.user_id.u_number;
         }
         current.update();
-    }
 
+        // gr = new GlideRecord('x_1882833_organi_0_shozoku');
+        // gr.addQuery('user_id', current.name);
+        // gr.addQuery('kenmu_number', '!=', 1);
+        // gr.orderBy('kenmu_number');
+        // gr.query();
+		
+        // var meisai = new GlideRecord('x_1882833_organi_0_meisai');
+		// var i = 0;
+        // while (gr.next()) {
+        //     meisai.initialize();
+        //     meisai.sinsei_number = current.sinsei_number;
+        //     meisai.name = current.name;
+		// 	meisai.type = current.type;
+        //     meisai.insert();
+		// 	i++;
+        // }
+		// gs.addInfoMessage(i);
+
+    }
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
@@ -48,7 +67,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>66b9fe618322ba109a9f7429feaad3f5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>ユーザーから自動入力</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -56,9 +75,22 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_script_66b9fe618322ba109a9f7429feaad3f5</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-20 08:16:55</sys_updated_on>
+        <sys_updated_on>2026-02-05 07:38:27</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=66b9fe618322ba109a9f7429feaad3f5"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>66b9fe618322ba109a9f7429feaad3f5</documentkey>
+        <fieldname>message</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-02-03 07:39:23</sys_created_on>
+        <sys_id>57542f8a837af2109a9f7429feaad399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-02-03 07:39:23</sys_updated_on>
+        <tablename>sys_script</tablename>
+        <value/>
+    </sys_translated_text>
 </record_update>

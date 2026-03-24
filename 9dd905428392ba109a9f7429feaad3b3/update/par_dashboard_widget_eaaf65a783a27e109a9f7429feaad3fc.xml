@@ -5,6 +5,7 @@
         <component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":"","contextMenuActions":[]}</component_props>
         <h>3</h>
         <name/>
+        <required_translations>[{"message":"Happening Now","comment":"","code":"PAR_DASHBOARD.1aaf65a783a27e109a9f7429feaad381.eaaf65a783a27e109a9f7429feaad3fc"}]</required_translations>
         <stored_component/>
         <sys_class_name>par_dashboard_widget</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>

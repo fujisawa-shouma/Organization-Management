@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>sinsei_form</internal_name>
+        <layout>2across</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-09 06:19:09</sys_created_on>
+        <sys_id>7ee16286835eba109a9f7429feaad3f8</sys_id>
+        <sys_mod_count>151</sys_mod_count>
+        <sys_name>申請フォーム</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>item_option_new_set_7ee16286835eba109a9f7429feaad3f8</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-13 01:41:03</sys_updated_on>
+        <title>申請フォーム</title>
+        <type>one_to_one</type>
+        <version>151</version>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>item_option_new_set_7ee16286835eba109a9f7429feaad3f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>false</display_title><internal_name>sinsei_form</internal_name><layout>2across</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-09 06:19:09</sys_created_on><sys_id>7ee16286835eba109a9f7429feaad3f8</sys_id><sys_mod_count>151</sys_mod_count><sys_name>申請フォーム</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>item_option_new_set_7ee16286835eba109a9f7429feaad3f8</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2026-01-13 01:41:03</sys_updated_on><title>申請フォーム</title><type>one_to_one</type><version>151</version><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>-2117801630</payload_hash>
+        <record_name>申請フォーム</record_name>
+        <reverted_from/>
+        <source>8bb94edf831636509a9f7429feaad3cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>backedout</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-01-13 01:41:03</sys_created_on>
+        <sys_id>59f88e9f831636509a9f7429feaad382</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_recorded_at>19bb5037c180000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 01:45:59</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>59f88e9f601636505304b36f9417d481</update_guid>
+        <update_guid_history>59f88e9f601636505304b36f9417d481:-2117801630,a7e84e9fd61636508592f2e38affa09d:-1909103327,1be84e9fd8163650011249707ea0c18d:-1612707957,9be84e9f501636503c3162b1540a6b7d:-1404009654,1fe84e9ffb163650b6b640aade92ae6d:-1195311351,96b8469f61163650fefb5be9ed75e950:-986613048,49b8069ff91636507615bda9ae7b4c55:-777914745,4cb8c29f211636505c3850de749db616:-569216442,aaa8429fbf163650882c88c9ad6cb443:-360518139,38a8029fac1636505f00e1e030e1665d:-151819836,3e98ce5f8e163650c3053b97d7c11c08:56878467,a8984e5f5516365000864664c2919e5a:265576770,0688ca5f54163650ee655a13c2834419:561972140,54888a5ffe16365020d23ed013eb6533:770670443,b9780a5f12163650d60ca57dbee66cde:979368746,1868825fcc1636509d48933e2927cb34:1188067049,3b388e1f7f16365004bfe61e88513a90:1396765352,8d188a1f6a163650922e16ff94b4c7c8:1605463655,1df7861f4d1636501381c03f023a4f02:1814161958,22d74edbc416365083e4b54bccea1da8:2022860261,d5f6869beb1636501908f597af3290a3:-2063408732,dee3768eacdeba10ca87cbadffc96df4:-1854710429,96c3728eebdeba10e5d06d5bdfd0de61:-1558315059,6fd2b20e90deba10261870486e0502bf:-1349616756,0ea2faca37deba10259735b58d86a7a9:-1140918453,65a13a4a99deba10161be3970c979a9c:-932220150,aa513e0a3cdeba10efdff973ab589c15:-723521847,ee313a0a3adeba103cb1d34c9db527b9:-514823544,3021360ad1deba10bffac1c8c2b3a459:-306125241,7be0bec6d1deba10ad02981c6da8d56d:-97426938,bfe0bec64cdeba107adcb1a688714351:111271365,bbe0bec694deba109fb413125382e442:319969668,a7e0bec645deba10c319081bbb1b3933:616365038,ebe0bec62fdeba10bac11483eeb3f917:825063341,e7e0bec61fdeba10dfa7757ae928b308:1033761644,e3e07ec62fdeba10d28b1e1a24f587f9:1242459947,efe07ec690deba1027f624c0ed3cf9e9:1451158250,ebe07ec662deba1074bdb1c9ce0424da:1659856553,a3e07ec67adeba10465eb48686fc82a6:1868554856,77c03ac64adeba10f9a3cbd3357c87a3:2077253159,cfc03ac651deba10871c24bc040a6b0f:-2009015834,0bb076c6addeba100b735aec178428d6:-1800317531,5280368680deba10b2fafdcc7a5e79d4:-1503922161,9730fe469ddeba10d483fe632bc2c654:-1295223858,a320be46bcdeba109104fc7b235dc71a:-1086525555,e9efe246c0deba1033f4da1aab4dfd5b:-877827252,348d6202dbdeba1038d8f21778993803:-669128949,436d2ece049eba103a48a02a946232d1:-460430646,9b5daacee99eba105f69a098f2b833e1:-251732343,a7ecea8ed99eba109073d96723aefebd:-43034040,fbcce68e719eba10a9092dd2ba6cd1ce:165664263,4ccc628ef69eba10fb324090411ef798:374362566,7f8cae4eee9eba10cf340563c710c790:-644926679,d4fbea0ee69eba10fccb011327b7406c:-436228376,79dba60e9a9eba10bf810cd75a16f070:-227530073,4fabaeca129eba10a79d6667114d41b5:-18831770,355bae8aac9eba104cf666a4c705c5e7:189866533,6e4b6e8a4e9eba10e1df0949d2192f0a:398564836,15ca2e4a9a9eba1035138fa5d3d0fec2:607263139,24ca2e4ae59eba102b9e23f373a4beb0:815961442,04caea4aca9eba10863186a9c3fbcad7:1024659745,9bbaea4a349eba100ee053a69d88d47a:1233358048,26baaa4a969eba10096f410e7096acec:1529753418,02baaa4a8d9eba10a45391f3f008d945:1738451721,ddba6a4a2a9eba10e7c2e24f1d2a54db:1947150024,60ba6a4a789eba10221aeee225f9d6bc:-2139118969,0cba6a4a8f9eba10b1e3689216ecdc08:-1930420666,1baa2a4a689eba10ce4714b184e50f61:-1721722363,2aaa2a4a379eba10a7b78b125cbc2e4f:-1513024060,4aaae64a629eba10fbfd7273c91295cd:-1304325757,69aae64a0f9eba100274aa28936749bb:-1095627454,fcaae64aba9eba104406b60432038a38:-886929151,dcaae64ad59eba100ebb789b5eea5426:-590533781,e79aa64aad9eba104110ed82801193b1:-381835478,4f9aa64a3c9eba101edff9de9fb46854:-173137175,629aa64a809eba10eebf0e1b1410a51c:35561128,469a664a179eba1042da432ce571ecd8:244259431,219a664afb9eba1050a66931f61e1aa1:452957734,4d9a664a129eba10d6ffe237dac9ba50:661656037,389a664af09eba1038b22c43faacc919:870354340,d49a264a649eba10fe63325696a530b5:1079052643,fb8a264a039eba1010ab93dac22cca71:1287750946,178a264a9e9eba108c4ce46e9b811b53:1584146316,ea8ae24a0a9eba10c39d0d6e3da290cd:1792844619,428ae24afd9eba10e1753cd000bc0771:2001542922,bf2ae60a7a9eba1064372e370937cdcf:-2084726071,d62aa60ae69eba106fd147f0212e6980:-1876027768,281ae20ae89eba10b41b5ad453568a25:-1667329465,f7e96ec6199eba101d4e8a965b269843:-1458631162,52d9eac6dc9eba104d56cd3a2a74ce8d:-1249932859,f5d9aac6499eba10e71aed4da7706269:-1041234556,e9c926c6a99eba109f865fa0eb83bbea:-832536253,35b9a6c6a89eba10d1d2b43b22ffbe07:-536140883,079962c6219eba10b9b18e39a4cdbd77:-327442580,5a89ae86049eba104cc343586c165393:-118744277,ec79ea86e59eba1059e47fc66d3c6ee0:89954026,4079ea86669eba1070dccd0c05e423b6:298652329,84e82a46599eba108df5f93bc9cce83c:507350632,04a8ee06079eba10af3ba76659c05bc7:716048935,3578aa06ed9eba104e58a370b7bc399a:924747238,2558a606c69eba10e02acc89256ef125:1133445541,1f2822067e9eba10efd073093132b9ae:1342143844,3e086ac2a79eba10b6276ef2e3713fcb:1638539214,1c47e282bb9eba1015609223678c5b20:1847237517,3507ea42369eba10b17a5f5224082e50:2055935820,f4e6e642199eba10ac80666d58af5724:-2030333173,77b66242a29eba10e8eee74357a7bcc8:-1821634870,60b6ee021d9eba1033a5f380f5978f84:-1612936567,0786aa02609eba10bed467427df934ba:-1404238264,7266a602b19eba1078c0d4c35e83b8d8:-1195539961,a3562602529eba10dc8f48fa83314f49:-1287640580,57362202fd9eba10422431dba830926d:811449384,b7e5a6cee05eba100187face60db3b5e:1107844754,32d5a2ce6f5eba105f78c54c26b7001b:1316543057,7a55ee4e155eba10a591df8cf9f74190:-64351379,a115a64e885eba108964112587e82b72:144346924,95e4ae0ee35eba10875c0effd1f339f9:1942637966,3dd46e0ec95eba10628960ff27cf835f:-2143631027,c1d46e0e415eba1093e696a2a562b701:-1934932724,d2c4aa0e475eba10098fc3068bd07d4b:-1726234421,14c46a0e395eba107a03b5fba2e3822b:-1517536118,c6b4e60e465eba1013e72fe44565709c:-1308837815,57a4660e9c5eba10abe284746586fb9e:-1012442445,2394e20eaf5eba103766f7011ba946c7:-803744142,3b84eecaa95eba103f5b6f868779dc2a:-595045839,c5046a8a135eba103074957febdddafa:-386347536,6dd3e68a645eba109dfaf61cfe7091b1:-177649233,4ac3a68a425eba103d3871d2844ba7b1:31049070,fdb3a28aa25eba109047450d49c42ea5:239747373,7ba3e28a7b5eba10cbf5ba9832ea3184:448445676,e8a3628ae75eba10f2e35734a5727481:657143979,2f83ae4a435eba10bcbb0a6141931bc6:865842282,1d836e4ac95eba1063f4ab4afd508b9b:1162237652,ee636a4a395eba1046509137b6d630f5:1370935955,8a636a4aae5eba10d97646ff389234be:1579634258,2d632a4a2c5eba1092ca833db9731ccc:1788332561,8d632a4aa75eba10712c328a291fd1a1:1997030864,27532a4a755eba10df5d390762ec7a00:-2089238129,af53e64aa45eba107b0ed6ed84adbbf0:-1880539826,2b53e64ad75eba10ba4951f7e9d4a8e1:-1671841523,e053a24aff5eba105fe096c22563bc79:-1463143220,1513ae0a1a5eba10d3f460eda294cb46:-1254444917,95f2aa0af55eba1062b339a4cff7b12b:-409746293,3dd2660a595eba10d1c9d946193919ad:-201047990,5db2220aea5eba108205b3724a7ec971:7650313,7cb2220adb5eba10d1db9e477bf80d5f:216348616,c8b2eec6455eba10ee833dedcb53369f:425046919,9ba2eec6305eba10ec274feba4f1db8b:633745222,c2a2aec6085eba1055df69037e054ddf:842443525,508226c6cf5eba10db2509917ddf2d70:1051141828,8b62a2c6075eba10bbaad3fc7cb49291:1259840131,c4422e86735eba1010e1f8d83bfa2025:1095433062</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="申請フォーム">e71906df831636509a9f7429feaad307</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2026-01-13 01:41:46</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>3a54d47599484be390dfdc52d567dbb1</sys_id>
+        <sys_metadata>7ee16286835eba109a9f7429feaad3f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>申請フォーム</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>item_option_new_set_7ee16286835eba109a9f7429feaad3f8</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_7ee16286835eba109a9f7429feaad3f8">59f88e9f831636509a9f7429feaad382</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-01-13 01:41:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -2,7 +2,7 @@
     <sys_ux_registry_m2m_category action="INSERT_OR_UPDATE">
         <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
         <order/>
-        <page_registry display_value="Organization Management">029fa96745a27e10cd93ff52b2fe2315</page_registry>
+        <page_registry display_value="人事異動申請">029fa96745a27e10cd93ff52b2fe2315</page_registry>
         <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-26 04:44:25</sys_created_on>

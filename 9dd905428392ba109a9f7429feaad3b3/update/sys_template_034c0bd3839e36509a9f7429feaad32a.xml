@@ -28,7 +28,10 @@
         <sys_updated_on>2026-01-13 06:35:22</sys_updated_on>
         <table>x_1882833_organi_0_meisai</table>
         <template>bikou=idou^hatureibi=2026-02-01^name=7ec78f9f835e36509a9f7429feaad305^shumu_sin=bc8c3217831e36509a9f7429feaad361^yakui_sin=90^EQ</template>
-        <user display_value="admin fujisawa_shouma">eb8a25a52b4aa6100ce3fca16e91bfec</user>
+        <template_condition/>
+        <template_v2/>
+        <user display_value="藤澤 昇真">eb8a25a52b4aa6100ce3fca16e91bfec</user>
+        <v2>false</v2>
         <view/>
     </sys_template>
 </record_update>

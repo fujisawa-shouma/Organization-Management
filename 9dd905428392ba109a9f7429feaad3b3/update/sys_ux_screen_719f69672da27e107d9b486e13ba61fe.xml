@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
     <sys_ux_screen action="INSERT_OR_UPDATE">
         <active>true</active>
-        <app_config display_value="Organization Management App Config">4e9fa9679ba27e10f93e64ea92f98713</app_config>
+        <app_config display_value="人事異動申請">4e9fa9679ba27e10f93e64ea92f98713</app_config>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
         <disable_interoperable>false</disable_interoperable>

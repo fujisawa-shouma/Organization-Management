@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="人事異動：幹部">da7d520a831eba109a9f7429feaad3b6</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-09 06:19:09</sys_created_on>
+        <sys_id>04422e86835eba109a9f7429feaad327</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>申請フォーム.人事異動：幹部</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>io_set_item_04422e86835eba109a9f7429feaad327</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-09 06:19:09</sys_updated_on>
+        <variable_set display_value="申請フォーム">7ee16286835eba109a9f7429feaad3f8</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>io_set_item_04422e86835eba109a9f7429feaad327</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="人事異動：幹部">da7d520a831eba109a9f7429feaad3b6</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-09 06:19:09</sys_created_on><sys_id>04422e86835eba109a9f7429feaad327</sys_id><sys_mod_count>1</sys_mod_count><sys_name>申請フォーム.人事異動：幹部</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>io_set_item_04422e86835eba109a9f7429feaad327</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-09 06:19:09</sys_updated_on><variable_set display_value="申請フォーム">7ee16286835eba109a9f7429feaad3f8</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>-2061920610</payload_hash>
+        <record_name>申請フォーム.人事異動：幹部</record_name>
+        <reverted_from/>
+        <source>8bb94edf831636509a9f7429feaad3cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>backedout</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-09 06:19:09</sys_created_on>
+        <sys_id>84422e86835eba109a9f7429feaad33e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_recorded_at>19ba168a9c40000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 01:45:58</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>44422e86235eba104e79abb7aba76d3d</update_guid>
+        <update_guid_history>44422e86235eba104e79abb7aba76d3d:-2061920610</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="申請フォーム.人事異動：幹部">882946df831636509a9f7429feaad342</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-13 01:41:46</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>56e6631470b84d48a0b076dfdd324c40</sys_id>
+        <sys_metadata>04422e86835eba109a9f7429feaad327</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>申請フォーム.人事異動：幹部</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>io_set_item_04422e86835eba109a9f7429feaad327</sys_update_name>
+        <sys_update_version display_value="io_set_item_04422e86835eba109a9f7429feaad327">84422e86835eba109a9f7429feaad33e</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-13 01:41:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -40,6 +40,8 @@
         <group/>
         <group_by>false</group_by>
         <icon/>
+        <interaction/>
+        <interaction_input_map/>
         <label>明細追加</label>
         <model display_value="List">c3547169534723003eddddeeff7b126c</model>
         <model_conditions/>

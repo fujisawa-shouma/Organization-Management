@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_1882833_organi_0_meisai">
         <active>true</active>
         <array>false</array>
-        <attributes>hasLabels=true</attributes>
+        <attributes>all_tables.text_index_translations=true,hasLabels=true</attributes>
         <audit>true</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -39,6 +39,7 @@
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -58,7 +59,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_dictionary_x_1882833_organi_0_meisai_null</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-26 04:44:32</sys_updated_on>
+        <sys_updated_on>2026-02-05 03:27:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>true</text_index>
         <unique>false</unique>

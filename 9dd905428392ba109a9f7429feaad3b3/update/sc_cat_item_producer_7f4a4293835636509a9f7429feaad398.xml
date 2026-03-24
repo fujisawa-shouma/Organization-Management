@@ -7,6 +7,7 @@
         <billable>false</billable>
         <can_cancel>false</can_cancel>
         <category/>
+        <cc_render_type/>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -47,7 +48,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="admin fujisawa_shouma">eb8a25a52b4aa6100ce3fca16e91bfec</owner>
+        <owner display_value="藤澤 昇真">eb8a25a52b4aa6100ce3fca16e91bfec</owner>
         <picture/>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
@@ -81,6 +82,7 @@
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
 */]]></script>
+        <secondary_owners/>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>

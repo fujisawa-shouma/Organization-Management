@@ -18,6 +18,6 @@
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
         <sys_updated_on>2026-01-26 04:44:25</sys_updated_on>
         <theme display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</theme>
-        <ux_app_configuration display_value="Organization Management App Config">4e9fa9679ba27e10f93e64ea92f98713</ux_app_configuration>
+        <ux_app_configuration display_value="人事異動申請">4e9fa9679ba27e10f93e64ea92f98713</ux_app_configuration>
     </m2m_app_config_theme>
 </record_update>
