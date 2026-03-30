@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="stage" table="x_1882833_organi_0_jinji_idou">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -16,7 +16,7 @@
         <column_label>ステージ</column_label>
         <comments/>
         <create_roles/>
-        <default_value>10</default_value>
+        <default_value>0</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -59,7 +59,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_dictionary_x_1882833_organi_0_jinji_idou_stage</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-23 08:44:39</sys_updated_on>
+        <sys_updated_on>2026-03-27 01:25:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

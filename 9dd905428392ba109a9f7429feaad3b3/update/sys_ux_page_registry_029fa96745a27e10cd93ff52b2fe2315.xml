@@ -12,14 +12,14 @@
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-26 04:44:25</sys_created_on>
         <sys_id>029fa96745a27e10cd93ff52b2fe2315</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>人事異動申請</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>-</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ux_page_registry_029fa96745a27e10cd93ff52b2fe2315</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-24 05:25:49</sys_updated_on>
-        <title>人事異動申請</title>
+        <sys_updated_on>2026-03-25 01:48:30</sys_updated_on>
+        <title>-</title>
     </sys_ux_page_registry>
 </record_update>

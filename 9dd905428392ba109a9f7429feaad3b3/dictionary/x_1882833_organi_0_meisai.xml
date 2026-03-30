@@ -114,7 +114,7 @@
         </element>
         <element label="主務/兼務" max_length="10000" name="kenmu_number" read_only="true" read_only_option="display_read_only" type="string"/>
         <element label="実施日" max_length="10000" name="jissibi" type="glide_date"/>
-        <element label="データ内容" max_length="1000000" name="data" type="string"/>
+        <element label="データ内容" max_length="100000000" name="data" type="string"/>
         <element choice="1" label="旧役割等級" max_length="10000" name="role_kyuu" type="choice">
             <choice/>
         </element>

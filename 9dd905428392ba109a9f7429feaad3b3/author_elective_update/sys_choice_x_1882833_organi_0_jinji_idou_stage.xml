@@ -20,7 +20,7 @@
             <element>stage</element>
             <hint/>
             <inactive>false</inactive>
-            <label>ドラフト</label>
+            <label>起票中</label>
             <language>en</language>
             <name>x_1882833_organi_0_jinji_idou</name>
             <sequence>10</sequence>
@@ -29,29 +29,10 @@
             <sys_created_on>2026-01-14 00:22:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-14 00:22:28</sys_updated_on>
-            <value>10</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>stage</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>申請前最終確認</label>
-            <language>en</language>
-            <name>x_1882833_organi_0_jinji_idou</name>
-            <sequence>20</sequence>
-            <synonyms/>
-            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-21 02:24:42</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 23:56:38</sys_updated_on>
-            <value>20</value>
+            <sys_updated_on>2026-03-27 01:14:40</sys_updated_on>
+            <value>0</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -67,10 +48,10 @@
             <sys_created_on>2026-03-23 08:48:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 08:48:41</sys_updated_on>
-            <value>30</value>
+            <sys_updated_on>2026-03-27 01:14:43</sys_updated_on>
+            <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -86,10 +67,10 @@
             <sys_created_on>2026-01-14 00:22:52</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>6</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 08:48:50</sys_updated_on>
-            <value>40</value>
+            <sys_updated_on>2026-03-27 01:14:44</sys_updated_on>
+            <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -105,10 +86,10 @@
             <sys_created_on>2026-03-23 08:49:14</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 08:49:14</sys_updated_on>
-            <value>50</value>
+            <sys_updated_on>2026-03-27 01:14:46</sys_updated_on>
+            <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -124,10 +105,10 @@
             <sys_created_on>2026-03-23 08:49:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 08:49:55</sys_updated_on>
-            <value>60</value>
+            <sys_updated_on>2026-03-27 01:14:48</sys_updated_on>
+            <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -143,10 +124,10 @@
             <sys_created_on>2026-03-23 23:51:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 23:52:02</sys_updated_on>
-            <value>70</value>
+            <sys_updated_on>2026-03-27 01:14:49</sys_updated_on>
+            <value>5</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -162,10 +143,10 @@
             <sys_created_on>2026-03-23 23:52:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 23:52:22</sys_updated_on>
-            <value>80</value>
+            <sys_updated_on>2026-03-27 01:14:51</sys_updated_on>
+            <value>6</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -181,10 +162,10 @@
             <sys_created_on>2026-03-23 23:52:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 23:52:45</sys_updated_on>
-            <value>90</value>
+            <sys_updated_on>2026-03-27 01:14:53</sys_updated_on>
+            <value>7</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -200,10 +181,10 @@
             <sys_created_on>2026-03-23 23:53:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 23:53:05</sys_updated_on>
-            <value>100</value>
+            <sys_updated_on>2026-03-27 01:14:55</sys_updated_on>
+            <value>8</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -219,10 +200,10 @@
             <sys_created_on>2026-03-23 23:53:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 23:53:24</sys_updated_on>
-            <value>110</value>
+            <sys_updated_on>2026-03-27 01:14:56</sys_updated_on>
+            <value>9</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -238,10 +219,10 @@
             <sys_created_on>2026-03-23 23:53:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 23:53:42</sys_updated_on>
-            <value>120</value>
+            <sys_updated_on>2026-03-27 01:14:58</sys_updated_on>
+            <value>10</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -257,10 +238,10 @@
             <sys_created_on>2026-03-23 23:54:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 23:54:11</sys_updated_on>
-            <value>130</value>
+            <sys_updated_on>2026-03-27 01:15:00</sys_updated_on>
+            <value>11</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -276,10 +257,10 @@
             <sys_created_on>2026-03-23 23:54:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 23:54:39</sys_updated_on>
-            <value>140</value>
+            <sys_updated_on>2026-03-27 01:15:02</sys_updated_on>
+            <value>12</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -295,10 +276,29 @@
             <sys_created_on>2026-03-23 23:54:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 23:54:59</sys_updated_on>
-            <value>150</value>
+            <sys_updated_on>2026-03-27 01:15:03</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>人事受領</label>
+            <language>en</language>
+            <name>x_1882833_organi_0_jinji_idou</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-03-27 00:58:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-03-27 01:15:05</sys_updated_on>
+            <value>14</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -314,10 +314,10 @@
             <sys_created_on>2026-01-14 00:24:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-03-23 08:50:02</sys_updated_on>
-            <value>1000</value>
+            <sys_updated_on>2026-03-27 01:15:09</sys_updated_on>
+            <value>15</value>
         </sys_choice>
     </sys_choice>
 </record_update>

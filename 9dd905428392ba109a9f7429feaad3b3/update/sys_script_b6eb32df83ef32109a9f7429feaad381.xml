@@ -37,7 +37,12 @@
     var number = current.number;
     var oya_meisai = current.sys_id;
 
-    var str = '[' + hatureibi + ']' + name + '(' + number + ')';
+    if (!gs.nil(name)) {
+        var str = '[' + hatureibi + ']' + name + '(' + number + ')';
+    } else {
+        var str = '[' + hatureibi + '](' + number + ')';
+    }
+
     // current.name_kanji = str;
 
     var gr = new GlideRecord('x_1882833_organi_0_meisai');
@@ -63,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b6eb32df83ef32109a9f7429feaad381</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>発令日変更</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -71,9 +76,22 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_script_b6eb32df83ef32109a9f7429feaad381</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-23 07:40:31</sys_updated_on>
+        <sys_updated_on>2026-03-25 07:41:30</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=b6eb32df83ef32109a9f7429feaad381"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>b6eb32df83ef32109a9f7429feaad381</documentkey>
+        <fieldname>message</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-03-25 06:05:13</sys_created_on>
+        <sys_id>4b4e68de833ff21070ec9370ceaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-03-25 06:05:13</sys_updated_on>
+        <tablename>sys_script</tablename>
+        <value/>
+    </sys_translated_text>
 </record_update>

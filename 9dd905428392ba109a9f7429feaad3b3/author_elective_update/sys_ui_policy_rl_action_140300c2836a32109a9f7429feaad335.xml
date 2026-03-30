@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action">
+    <sys_ui_policy_rl_action action="DELETE">
+        <list>REL:6e276d448366f2109a9f7429feaad30d</list>
+        <sys_class_name>sys_ui_policy_rl_action</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-21 04:59:11</sys_created_on>
+        <sys_id>140300c2836a32109a9f7429feaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REL:6e276d448366f2109a9f7429feaad30d</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ui_policy_rl_action_140300c2836a32109a9f7429feaad335</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-21 04:59:11</sys_updated_on>
+        <ui_policy display_value="関連リスト表示制限">569b868483aaf2109a9f7429feaad319</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_rl_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_ui_policy_rl_action_140300c2836a32109a9f7429feaad335</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action"><sys_ui_policy_rl_action action="INSERT_OR_UPDATE"><list>REL:6e276d448366f2109a9f7429feaad30d</list><sys_class_name>sys_ui_policy_rl_action</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-21 04:59:11</sys_created_on><sys_id>140300c2836a32109a9f7429feaad335</sys_id><sys_mod_count>0</sys_mod_count><sys_name>REL:6e276d448366f2109a9f7429feaad30d</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>sys_ui_policy_rl_action_140300c2836a32109a9f7429feaad335</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-21 04:59:11</sys_updated_on><ui_policy display_value="関連リスト表示制限">569b868483aaf2109a9f7429feaad319</ui_policy><visible>false</visible></sys_ui_policy_rl_action></record_update>]]></payload>
+        <payload_hash>1331256248</payload_hash>
+        <record_name>REL:6e276d448366f2109a9f7429feaad30d</record_name>
+        <reverted_from/>
+        <source>e3b0f56983a67a109a9f7429feaad37d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-21 04:59:11</sys_created_on>
+        <sys_id>060340c2836a32109a9f7429feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bdeebc45f0000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-21 04:59:11</sys_updated_on>
+        <type>UI Policy Related List Action</type>
+        <update_guid>c20340c2036a3210485cbb3be4328b52</update_guid>
+        <update_guid_history>c20340c2036a3210485cbb3be4328b52:1331256248</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-03-27 01:34:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_rl_action">sys_ui_policy_rl_action</sys_db_object>
+        <sys_id>720d5c1f307a49f29c69c8fee6933e24</sys_id>
+        <sys_metadata>140300c2836a32109a9f7429feaad335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REL:6e276d448366f2109a9f7429feaad30d</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_rl_action_140300c2836a32109a9f7429feaad335</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_rl_action_140300c2836a32109a9f7429feaad335">060340c2836a32109a9f7429feaad353</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-03-27 01:34:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

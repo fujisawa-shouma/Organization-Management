@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
         <dashboard display_value="Organization Management">1aaf65a783a27e109a9f7429feaad381</dashboard>
-        <experience display_value="人事異動申請">029fa96745a27e10cd93ff52b2fe2315</experience>
+        <experience display_value="-">029fa96745a27e10cd93ff52b2fe2315</experience>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-26 04:44:44</sys_created_on>

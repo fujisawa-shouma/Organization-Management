@@ -50,13 +50,13 @@
     shozokuGr.orderBy('kenmu_number');
     shozokuGr.query();
 
+    var name = user.u_ukanji_name;
+    var number = user.u_number;
+    current.number = number;
+    var str = '[' + hatureibi + ']' + name + '(' + number + ')';
+    current.name_kanji = str;
+    current.kenmu_number = "主務";
     if (shozokuGr.next()) {
-        var name = user.u_ukanji_name;
-        var number = user.u_number;
-        current.number = number;
-        var str = '[' + hatureibi + ']' + name + '(' + number + ')';
-        current.name_kanji = str;
-        current.kenmu_number = "主務";
         current.yakui_kyuu = shozokuGr.yakui;
         current.shumu_kyuu = shozokuGr.bumon.bumon_name;
         current.kimuti_kyuu = shozokuGr.kinmuti;
@@ -81,17 +81,20 @@
             meisaiGr.insert();
             int++;
         }
-        if (int != 4) {
-            while (int <= 4) {
-                meisaiGr = new GlideRecord('x_1882833_organi_0_meisai');
-                meisaiGr.initialize();
-                meisaiGr.sinsei_number = current.sinsei_number;
-                meisaiGr.kenmu_number = "兼務" + int;
-                meisaiGr.oya_meisai = current.sys_id;
-                meisaiGr.name_kanji = current.name_kanji;
-                meisaiGr.insert();
-                int++;
-            }
+
+    } else {
+		i = 1;
+    }
+    if (int != 4) {
+        while (int <= 4) {
+            meisaiGr = new GlideRecord('x_1882833_organi_0_meisai');
+            meisaiGr.initialize();
+            meisaiGr.sinsei_number = current.sinsei_number;
+            meisaiGr.kenmu_number = "兼務" + int;
+            meisaiGr.oya_meisai = current.sys_id;
+            meisaiGr.name_kanji = current.name_kanji;
+            meisaiGr.insert();
+            int++;
         }
     }
 
@@ -102,7 +105,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b806fe9383ef32109a9f7429feaad3a6</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>氏名の変更</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -110,7 +113,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_script_b806fe9383ef32109a9f7429feaad3a6</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-23 07:46:07</sys_updated_on>
+        <sys_updated_on>2026-03-25 07:37:12</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

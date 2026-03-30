@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1882833_organi_0_meisai</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>データ内容挿入</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous) {
+
+    var values = "";
+    var columns = [
+        'role_sin',
+        'yakushoku_3',
+        'kenmu1_kyuu',
+        'kenmu3_sin',
+        'kenmu1_sin',
+        'tyokkan_kyuu',
+        'naiji_yotei',
+        'grade_sin',
+        'fukusuu_flg',
+        'genyakushoku_2',
+        'vu_sin',
+        'shumu_sin',
+        'reason',
+        'bikou',
+        'genyakushoku_1',
+        'kimuti_kyuu',
+        'kenmu2_kyuu',
+        'kimuti_sin',
+        'tantoumei',
+        'naiji_umu',
+        'yakui_kyuu',
+        'kenmu5_kyuu',
+        'yakushoku_1',
+        'number',
+        'tyokkann_sin',
+        'ninmen',
+        'kenmu2_sin',
+        'ryou',
+        'sinshozoku',
+        'type',
+        'grade_kyuu',
+        'vu_kyuu',
+        'jissibi',
+        'role_kyuu',
+        'yakui_sin',
+        'kenmu4_kyuu',
+        'kazoku',
+        'name',
+        'genyakushoku_4',
+        'kenmu4_sin',
+        'bikou_gen',
+        'kenmu3_kyuu',
+        'hatureibi',
+        'sakusei_kaisuu',
+        'genyakushoku_3',
+        'yakushoku_4',
+        'juukyo',
+        'yakushoku_2',
+        'shumu_kyuu',
+		'kenmu_number'
+    ];
+
+
+    var gr = new GlideRecord('x_1882833_organi_0_meisai');
+    gr.addQuery('oya_meisai', current.oya_meisai);
+    gr.addQuery('sinsei_number', current.sinsei_number);
+    gr.query();
+
+    while (gr.next()) {
+        for (var i = 0; i < columns.length; i++) {
+            var col = columns[i];
+
+            if (!gr.isValidField(col)) {
+                continue;
+            }
+            values = values + ',' + gr.getDisplayValue(col);
+        }
+    }
+
+    values = values
+        .split(',')
+        .filter(function(v) {
+            return v && v !== 'null' && v !== 'true' && v !== 'false';
+        })
+        .join(',');
+
+    gr = new GlideRecord('x_1882833_organi_0_meisai');
+    gr.addQuery('oya_meisai', current.oya_meisai);
+    gr.addQuery('sinsei_number', current.sinsei_number);
+    gr.query();
+
+    while (gr.next()) {
+        gr.data = values;
+        gr.update();
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-03-26 00:41:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a9ae06e8333321070ec9370ceaad348</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>データ内容挿入</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_script_0a9ae06e8333321070ec9370ceaad348</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-03-26 08:06:10</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=0a9ae06e8333321070ec9370ceaad348"/>
+</record_update>

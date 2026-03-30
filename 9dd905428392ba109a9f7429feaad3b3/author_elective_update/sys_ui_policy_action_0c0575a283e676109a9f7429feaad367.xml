@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>shouninsha_7</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-23 02:34:06</sys_created_on>
+        <sys_id>0c0575a283e676109a9f7429feaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shouninsha_7</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0c0575a283e676109a9f7429feaad367</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-23 02:34:06</sys_updated_on>
+        <table>x_1882833_organi_0_jinji_idou</table>
+        <ui_policy display_value="申請前最終確認">8dff93f5832632109a9f7429feaad3c9</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=0c0575a283e676109a9f7429feaad367"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_ui_policy_action_0c0575a283e676109a9f7429feaad367</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>shouninsha_7</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-23 02:34:06</sys_created_on><sys_id>0c0575a283e676109a9f7429feaad367</sys_id><sys_mod_count>0</sys_mod_count><sys_name>shouninsha_7</sys_name><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>sys_ui_policy_action_0c0575a283e676109a9f7429feaad367</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-23 02:34:06</sys_updated_on><table>x_1882833_organi_0_jinji_idou</table><ui_policy display_value="申請前最終確認">8dff93f5832632109a9f7429feaad3c9</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=0c0575a283e676109a9f7429feaad367"/></record_update>]]></payload>
+        <payload_hash>-511291670</payload_hash>
+        <record_name>shouninsha_7</record_name>
+        <reverted_from/>
+        <source>6e872d1683a6f2109a9f7429feaad3e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-23 02:34:06</sys_created_on>
+        <sys_id>4c0575a283e676109a9f7429feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19be8b3a64b0000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-23 02:34:06</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>0c0575a2a3e67610f08e61493c48486a</update_guid>
+        <update_guid_history>0c0575a2a3e67610f08e61493c48486a:-511291670</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-03-27 01:34:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>0df01ca65a3f4c8c818dc011557422e4</sys_id>
+        <sys_metadata>0c0575a283e676109a9f7429feaad367</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shouninsha_7</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_0c0575a283e676109a9f7429feaad367</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_0c0575a283e676109a9f7429feaad367">4c0575a283e676109a9f7429feaad36b</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-03-27 01:34:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

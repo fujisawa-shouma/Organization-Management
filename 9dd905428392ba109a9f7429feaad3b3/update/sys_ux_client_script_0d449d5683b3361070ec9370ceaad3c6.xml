@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="人事異動申請">3515d4d6837bf21070ec9370ceaad3be</macroponent>
+        <name>URLをセット</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    var url_h = "";
+    var sys_id = api.data.record.sysId;
+    var url_l = '&sysparm_view=';
+    var select = api.state.url;
+
+    if(select == "default"){
+        url_h = "/x_1882833_organi_0_meisai_list.do?XLSX&sysparm_query=kenmu_number=主務&sinsei_number.sys_id=";
+    }else{
+        url_h = "/x_1882833_organi_0_meisai_list.do?XLSX&sysparm_query=kenmu_number!=新規入力欄^kenmu_number!=入力中&sinsei_number.sys_id=";
+    }
+    
+    var url = url_h + sys_id + url_l + select;
+
+    api.setState('url',url);
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-03-25 08:56:47</sys_created_on>
+        <sys_id>0d449d5683b3361070ec9370ceaad3c6</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>URLをセット</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ux_client_script_0d449d5683b3361070ec9370ceaad3c6</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-03-26 03:34:57</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

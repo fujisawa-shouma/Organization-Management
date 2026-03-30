@@ -3,7 +3,7 @@
         <choices/>
         <description>Header Configuration</description>
         <name>chrome_header</name>
-        <page display_value="人事異動申請">029fa96745a27e10cd93ff52b2fe2315</page>
+        <page display_value="-">029fa96745a27e10cd93ff52b2fe2315</page>
         <required_translations>[ {
   "message" : "Configure workspace",
   "code" : "",

@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.stage == 10</condition>
+        <condition>current.stage == 0 &amp;&amp; !gs.nil(current.sys_id)</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_icon/>
@@ -33,17 +33,17 @@
         <onclick/>
         <order>150</order>
         <script><![CDATA[var api = new jinji_approval();
-var answer = api.request(current.sys_id);
-if (answer == false) {
-	gs.addErrorMessage("異動情報明細は1件以上記入してください。");
-    action.setRedirectURL(current);
+var sys_id = current.sys_id;
+var answer = api.request(sys_id);
+if (answer == '1') {
+    gs.addErrorMessage("異動情報明細は1件以上記入してください。");
+} else if (answer == '2') {
+    gs.addErrorMessage("主務の行は発令日の記入が必須になっています。");
 } else {
-    if (current.stage == 10) {
-        current.state = 2;
-        current.update();
-        gs.addInfoMessage("承認依頼しました。");
-        action.setRedirectURL(current);
-    }
+    api.requestDelete(sys_id);
+    current.state = 2;
+    current.update();
+    gs.addInfoMessage("承認依頼しました。");
 }]]></script>
         <show_form_icon_only>false</show_form_icon_only>
         <show_insert>true</show_insert>
@@ -57,7 +57,7 @@ if (answer == false) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d7f64fa3839232109a9f7429feaad3ee</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>承認依頼</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -65,7 +65,7 @@ if (answer == false) {
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ui_action_d7f64fa3839232109a9f7429feaad3ee</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-24 05:43:46</sys_updated_on>
+        <sys_updated_on>2026-03-27 01:29:38</sys_updated_on>
         <table>x_1882833_organi_0_jinji_idou</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

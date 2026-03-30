@@ -41,7 +41,7 @@
         <model display_value="List">c3547169534723003eddddeeff7b126c</model>
         <model_conditions/>
         <model_field_required/>
-        <order>10</order>
+        <order>3000</order>
         <payload_map/>
         <read_access>false</read_access>
         <record_conditions/>
@@ -53,9 +53,18 @@
         <script_condition/>
         <scripted_client_condition/>
         <server_script><![CDATA[var gr = new GlideRecord('x_1882833_organi_0_meisai');
+gr.addQuery('sinsei_number',current.sinsei_number);
+gr.addQuery('kenmu_number','新規入力欄');
+gr.query();
+gr.next();
+var oya = gr.sys_id;
+
+gr = new GlideRecord('x_1882833_organi_0_meisai');
 gr.initialize();
 gr.shumu_sin = current.shumu_sin;
 gr.sinsei_number = current.sinsei_number;
+gr.kenmu_number = '入力中';
+gr.oya_meisai = oya;
 gr.insert();]]></server_script>
         <specificity>11</specificity>
         <sys_class_name>sys_declarative_action_assignment</sys_class_name>
@@ -64,7 +73,7 @@ gr.insert();]]></server_script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>31884cb0830b32109a9f7429feaad341</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>行コピー</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -72,7 +81,7 @@ gr.insert();]]></server_script>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_declarative_action_assignment_31884cb0830b32109a9f7429feaad341</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-02-15 23:57:40</sys_updated_on>
+        <sys_updated_on>2026-03-26 02:12:44</sys_updated_on>
         <table>x_1882833_organi_0_meisai</table>
         <tooltip/>
         <ui_component/>

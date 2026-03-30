@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="live_feed=false" audit="true" db_object_id="7226461b831636509a9f7429feaad365" extends="task" label="人事異動申請" max_length="40" name="x_1882833_organi_0_jinji_idou" text_index="true" type="collection">
         <element active="false" label="人事部門承認者9" max_length="32" name="shouninsha9" read_only="true" read_only_option="instance_configured" reference="x_1882833_organi_0_shozoku" type="reference"/>
-        <element choice="1" default="10" label="ステージ" max_length="40" name="stage" read_only="true" read_only_option="instance_configured" type="workflow">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="0" label="ステージ" max_length="40" name="stage" read_only="true" read_only_option="instance_configured" type="workflow">
             <choice>
-                <element inactive_on_update="false" label="7次承認待ち" sequence="90" value="90"/>
-                <element inactive_on_update="false" label="13次承認待ち" sequence="150" value="150"/>
-                <element inactive_on_update="false" label="9次承認待ち" sequence="110" value="110"/>
-                <element inactive_on_update="false" label="11次承認待ち" sequence="130" value="130"/>
-                <element inactive_on_update="false" label="8次承認待ち" sequence="100" value="100"/>
-                <element inactive_on_update="false" label="12次承認待ち" sequence="140" value="140"/>
-                <element inactive_on_update="false" label="6次承認待ち" sequence="80" value="80"/>
-                <element inactive_on_update="false" label="4次承認待ち" sequence="60" value="60"/>
-                <element inactive_on_update="false" label="１次承認待ち" sequence="30" value="30"/>
-                <element inactive="true" inactive_on_update="true" label="申請前最終確認" sequence="20" value="20"/>
-                <element inactive_on_update="false" label="ドラフト" sequence="10" value="10"/>
-                <element inactive_on_update="false" label="5次承認待ち" sequence="70" value="70"/>
-                <element inactive_on_update="false" label="完了" sequence="1000" value="1000"/>
-                <element inactive_on_update="false" label="2次承認待ち" sequence="40" value="40"/>
-                <element inactive_on_update="false" label="10次承認待ち" sequence="120" value="120"/>
-                <element inactive_on_update="false" label="3次承認待ち" sequence="50" value="50"/>
+                <element inactive_on_update="false" label="7次承認待ち" sequence="90" value="7"/>
+                <element inactive_on_update="false" label="13次承認待ち" sequence="150" value="13"/>
+                <element inactive_on_update="false" label="9次承認待ち" sequence="110" value="9"/>
+                <element inactive_on_update="false" label="11次承認待ち" sequence="130" value="11"/>
+                <element inactive_on_update="false" label="8次承認待ち" sequence="100" value="8"/>
+                <element inactive_on_update="false" label="12次承認待ち" sequence="140" value="12"/>
+                <element inactive_on_update="false" label="6次承認待ち" sequence="80" value="6"/>
+                <element inactive_on_update="false" label="4次承認待ち" sequence="60" value="4"/>
+                <element inactive_on_update="false" label="１次承認待ち" sequence="30" value="1"/>
+                <element inactive_on_update="false" label="起票中" sequence="10" value="0"/>
+                <element inactive_on_update="false" label="5次承認待ち" sequence="70" value="5"/>
+                <element inactive_on_update="false" label="完了" sequence="1000" value="15"/>
+                <element inactive_on_update="false" label="2次承認待ち" sequence="40" value="2"/>
+                <element inactive_on_update="false" label="人事受領" sequence="200" value="14"/>
+                <element inactive_on_update="false" label="10次承認待ち" sequence="120" value="10"/>
+                <element inactive_on_update="false" label="3次承認待ち" sequence="50" value="3"/>
             </choice>
         </element>
         <element active="false" label="承認者23" max_length="32" name="shouninsha_23" reference="sys_user" type="reference"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
     <sys_process_flow action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1882833_organi_0_jinji_idou">stage=10^ORstage=15^EQ<item display_value="ドラフト" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="10"/>
-            <item display_value="15" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="true" value="15"/>
+        <condition table="x_1882833_organi_0_jinji_idou">stage=10^ORstage=15^EQ<item display_value="10次承認待ち" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="10"/>
+            <item display_value="完了" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="true" value="15"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
