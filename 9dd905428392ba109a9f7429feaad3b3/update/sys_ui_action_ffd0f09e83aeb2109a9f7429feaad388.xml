@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.stage == 10</condition>
+        <condition>current.stage == 0</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_icon/>
@@ -65,7 +65,7 @@ if (answer != "OK") {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ffd0f09e83aeb2109a9f7429feaad388</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>インポート</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -73,7 +73,7 @@ if (answer != "OK") {
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ui_action_ffd0f09e83aeb2109a9f7429feaad388</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-02-11 05:18:33</sys_updated_on>
+        <sys_updated_on>2026-03-30 02:58:40</sys_updated_on>
         <table>x_1882833_organi_0_jinji_idou</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

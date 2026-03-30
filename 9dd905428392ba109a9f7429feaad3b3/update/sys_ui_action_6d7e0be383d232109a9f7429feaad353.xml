@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
-        <active>false</active>
+        <active>true</active>
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition/>
+        <condition>current.assigned_to==gs.getUserID();</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_icon/>
-        <form_button_v2>false</form_button_v2>
+        <form_button_v2>true</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
-        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
         <isolate_script>false</isolate_script>
         <list_action>false</list_action>
@@ -32,7 +32,17 @@
         <name>承認</name>
         <onclick/>
         <order>300</order>
-        <script/>
+        <script><![CDATA[current.update();
+var gr = new GlideRecord('sysapproval_approver');
+gr.addQuery('sysapproval',current.sys_id);
+gr.addQuery('state','requested');
+gr.addQuery('approver',gs.getUserID());
+gr.query();
+
+if(gr.next()){
+	gr.state = 'approved';
+	gr.update();
+}]]></script>
         <show_form_icon_only>false</show_form_icon_only>
         <show_insert>true</show_insert>
         <show_list_icon_only>false</show_list_icon_only>
@@ -45,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6d7e0be383d232109a9f7429feaad353</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>承認</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -53,7 +63,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ui_action_6d7e0be383d232109a9f7429feaad353</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-14 01:31:21</sys_updated_on>
+        <sys_updated_on>2026-03-27 04:25:09</sys_updated_on>
         <table>x_1882833_organi_0_jinji_idou</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

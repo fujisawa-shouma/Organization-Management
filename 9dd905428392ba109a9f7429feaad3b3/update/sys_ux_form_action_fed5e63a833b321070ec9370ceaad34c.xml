@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>承認</name>
+        <specificity>20</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-03-27 04:04:31</sys_created_on>
+        <sys_id>fed5e63a833b321070ec9370ceaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>承認</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ux_form_action_fed5e63a833b321070ec9370ceaad34c</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-03-27 04:04:31</sys_updated_on>
+        <table>x_1882833_organi_0_jinji_idou</table>
+        <ui_action display_value="承認">6d7e0be383d232109a9f7429feaad353</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=fed5e63a833b321070ec9370ceaad34c"/>
+</record_update>

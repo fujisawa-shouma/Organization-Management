@@ -336,6 +336,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kyuu_tantoumei</element>
+            <position>24</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-03-27 06:45:41</sys_created_on>
+            <sys_id>63bacbf6837f321070ec9370ceaad394</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-03-27 06:45:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>25</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-03-30 00:20:24</sys_created_on>
+            <sys_id>705f417b8333321070ec9370ceaad3c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_meisai" sys_domain="global" view="Default view">568207d3835e36509a9f7429feaad3d4</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-03-30 00:20:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

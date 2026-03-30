@@ -20,7 +20,7 @@
             </choice>
         </element>
         <element default="javascript:RP.getParameterValue('fukusuu_flg') || '';" label="複数フラグ" max_length="10000" name="fukusuu_flg" type="boolean"/>
-        <element label="現兼務2" max_length="10000" name="genyakushoku_2" type="string"/>
+        <element label="現兼務2" max_length="10000" name="genyakushoku_2" read_only="true" read_only_option="instance_configured" type="string"/>
         <element choice="1" label="新VU区分" max_length="10000" name="vu_sin" type="choice">
             <choice>
                 <element inactive_on_update="false" label="12" value="12"/>
@@ -35,6 +35,7 @@
                 <element inactive_on_update="false" label="定年退職" value="teinen"/>
             </choice>
         </element>
+        <element label="現担当名" max_length="40" name="kyuu_tantoumei" read_only="true" read_only_option="instance_configured" type="string"/>
         <element label="[発令日]氏名(従業員番号)" max_length="32" name="oya_meisai" reference="x_1882833_organi_0_meisai" type="reference"/>
         <element choice="3" default="変動なし" label="異動理由" max_length="10000" name="bikou" type="choice">
             <choice>
@@ -46,8 +47,15 @@
                 <element inactive_on_update="false" label="昇任" value="昇任"/>
             </choice>
         </element>
-        <element label="現兼務1" max_length="10000" name="genyakushoku_1" type="string"/>
-        <element choice="1" label="現勤務地" max_length="10000" name="kimuti_kyuu" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="0" label="ステータス" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="新規作成" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="人事受領" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="完了" sequence="20" value="20"/>
+            </choice>
+        </element>
+        <element label="現兼務1" max_length="10000" name="genyakushoku_1" read_only="true" read_only_option="instance_configured" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="現勤務地" max_length="10000" name="kimuti_kyuu" read_only="true" read_only_option="instance_configured" type="choice">
             <choice>
                 <element inactive_on_update="false" label="神戸本社" sequence="4" value="4"/>
                 <element inactive_on_update="false" label="東京支店" value="1"/>
@@ -60,16 +68,15 @@
                 <element inactive_on_update="false" label="東京支店" sequence="1" value="1"/>
             </choice>
         </element>
-        <element label="担当名" max_length="10000" name="tantoumei" type="string"/>
+        <element label="新担当名" max_length="10000" name="tantoumei" type="string"/>
         <element label="内示有無" max_length="10000" name="naiji_umu" type="boolean"/>
-        <element choice="1" label="現役職" max_length="10000" name="yakui_kyuu" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="現役職" max_length="10000" name="yakui_kyuu" read_only="true" read_only_option="instance_configured" type="choice">
             <choice>
                 <element inactive_on_update="false" label="課長" value="20"/>
                 <element inactive_on_update="false" label="特別主席" value="特別主席"/>
                 <element inactive_on_update="false" label="部長" value="90"/>
             </choice>
         </element>
-        <element label="旧職名（兼務5）" max_length="32" name="kenmu5_kyuu" reference="x_1882833_organi_0_bumon" type="reference"/>
         <element default="javascript:RP.getParameterValue('num') || '';" label="申請番号" max_length="32" name="sinsei_number" reference="x_1882833_organi_0_jinji_idou" type="reference"/>
         <element default="[]()" display="true" label="[発令日]氏名(従業員番号)（裏）" max_length="10000" name="name_kanji" type="string"/>
         <element label="新役職(兼務1)" max_length="10000" name="yakushoku_1" type="string"/>
@@ -100,13 +107,13 @@
                 <element inactive_on_update="false" label="幹部" value="exe"/>
             </choice>
         </element>
-        <element choice="1" label="現職務等級" max_length="10000" name="grade_kyuu" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="現職務等級" max_length="10000" name="grade_kyuu" read_only="true" read_only_option="instance_configured" type="choice">
             <choice>
                 <element inactive_on_update="false" label="12" value="12"/>
                 <element inactive_on_update="false" label="3" value="3"/>
             </choice>
         </element>
-        <element choice="1" label="現VU区分" max_length="10000" name="vu_kyuu" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="現VU区分" max_length="10000" name="vu_kyuu" read_only="true" read_only_option="instance_configured" type="choice">
             <choice>
                 <element inactive_on_update="false" label="12" value="12"/>
                 <element inactive_on_update="false" label="3" value="3"/>
@@ -128,18 +135,18 @@
         <element label="現役職(兼務4)" max_length="10000" name="kenmu4_kyuu" type="string"/>
         <element label="家族帯同の有無" max_length="10000" name="kazoku" type="boolean"/>
         <element label="氏名" max_length="32" name="name" reference="sys_user" type="reference"/>
-        <element label="現兼務4" max_length="10000" name="genyakushoku_4" type="string"/>
+        <element label="現兼務4" max_length="10000" name="genyakushoku_4" read_only="true" read_only_option="instance_configured" type="string"/>
         <element label="新兼務4" max_length="10000" name="kenmu4_sin" type="string"/>
         <element default="true" label="アクティブ" max_length="40" name="active" type="boolean"/>
         <element label="備考" max_length="10000" name="bikou_gen" type="string"/>
         <element label="現役職(兼務3)" max_length="10000" name="kenmu3_kyuu" type="string"/>
         <element attributes="backgroundColor = ''" label="発令日" max_length="30" name="hatureibi" type="glide_date"/>
         <element label="作成行数" max_length="10000" name="sakusei_kaisuu" type="integer"/>
-        <element label="現兼務3" max_length="10000" name="genyakushoku_3" type="string"/>
+        <element label="現兼務3" max_length="10000" name="genyakushoku_3" read_only="true" read_only_option="instance_configured" type="string"/>
         <element label="新役職(兼務4)" max_length="10000" name="yakushoku_4" type="string"/>
         <element label="住居変更の有無" max_length="10000" name="juukyo" type="boolean"/>
         <element label="新役職(兼務2)" max_length="10000" name="yakushoku_2" type="string"/>
-        <element label="現所属" max_length="10000" name="shumu_kyuu" type="string"/>
+        <element label="現所属" max_length="10000" name="shumu_kyuu" read_only="true" read_only_option="instance_configured" type="string"/>
         <index name="index">
             <element name="kenmu1_kyuu"/>
         </index>
@@ -165,21 +172,18 @@
             <element name="kenmu4_sin"/>
         </index>
         <index name="index9">
-            <element name="kenmu5_kyuu"/>
-        </index>
-        <index name="index10">
             <element name="name"/>
         </index>
-        <index name="index11">
+        <index name="index10">
             <element name="oya_meisai"/>
         </index>
-        <index name="index12">
+        <index name="index11">
             <element name="shumu_kyuu"/>
         </index>
-        <index name="index13">
+        <index name="index12">
             <element name="shumu_sin"/>
         </index>
-        <index name="index14">
+        <index name="index13">
             <element name="sinsei_number"/>
         </index>
     </element>

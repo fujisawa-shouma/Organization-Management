@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="メモ" section_id="bea3e89e832eb2109a9f7429feaad3ea" sys_domain="global" table="x_1882833_organi_0_jinji_idou" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>watch_list</element>
+            <element>shounin_hinin</element>
             <position>0</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-02-03 07:26:56</sys_created_on>
-            <sys_id>78812f06837af2109a9f7429feaad31d</sys_id>
+            <sys_created_on>2026-03-27 02:52:23</sys_created_on>
+            <sys_id>86555eb683b7321070ec9370ceaad3d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="メモ" display_value="メモ" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">bea3e89e832eb2109a9f7429feaad3ea</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-02-03 07:26:56</sys_updated_on>
+            <sys_updated_on>2026-03-27 02:52:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <position>1</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-03-27 02:52:23</sys_created_on>
+            <sys_id>ca555eb683b7321070ec9370ceaad3e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="メモ" display_value="メモ" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">bea3e89e832eb2109a9f7429feaad3ea</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-03-27 02:52:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>activity.xml</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-02-03 07:26:56</sys_created_on>
-            <sys_id>38812f06837af2109a9f7429feaad31e</sys_id>
+            <sys_created_on>2026-03-27 02:52:23</sys_created_on>
+            <sys_id>4a555eb683b7321070ec9370ceaad3e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
             <sys_ui_section caption="メモ" display_value="メモ" name="x_1882833_organi_0_jinji_idou" sys_domain="global" view="Default view">bea3e89e832eb2109a9f7429feaad3ea</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-02-03 07:26:56</sys_updated_on>
+            <sys_updated_on>2026-03-27 02:52:23</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>

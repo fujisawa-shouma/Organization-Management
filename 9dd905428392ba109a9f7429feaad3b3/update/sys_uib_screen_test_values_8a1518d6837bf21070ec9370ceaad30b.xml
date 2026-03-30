@@ -3,7 +3,7 @@
         <macroponent/>
         <macroponent_config>{
     "table": "x_1882833_organi_0_jinji_idou",
-    "sysId": "3e57e34683bbb21070ec9370ceaad394",
+    "sysId": "5fc74e7f83f7321070ec9370ceaad3d3",
     "query": "",
     "extraParams": "",
     "views": "",
@@ -15,12 +15,48 @@
         "forcedViewName": null,
         "inputExtraParams": null,
         "inputQuery": null,
-        "inputSysId": "5deb3a3f74a532104f345e3235ae47e8",
-        "inputTable": "task",
+        "inputSysId": "d553f5378377321070ec9370ceaad3ee",
+        "inputTable": "x_1882833_organi_0_jinji_idou",
         "isMappedToAppShell": true,
         "screen": null,
         "shouldSuppressGlobalEvents": true,
         "userPrefs": null
+    },
+    "5865e308432021105571609dc7b8f23b": {
+        "allRecordsSelected": false,
+        "columnFilteringPopoverDisplay": "",
+        "columnLimit": 0,
+        "columnPreferenceKey": "",
+        "columns": "",
+        "currentPage": 0,
+        "enableCardClickOpen": false,
+        "enableCellFiltering": true,
+        "enableColumnFiltering": true,
+        "enableColumnGrouping": true,
+        "enableColumnSorting": true,
+        "enableDeclarativeActions": false,
+        "enableDotWalk": true,
+        "enableInfiniteScroll": false,
+        "enableLiveList": false,
+        "enableOnlySingleSelection": false,
+        "enableQuickEdit": false,
+        "enableQuickFormNavigation": true,
+        "enableReferenceLinks": false,
+        "enforceViewRulesForQuickForm": true,
+        "fetchHighlightedValues": false,
+        "filter": "",
+        "fixedFilter": "sysapproval=d553f5378377321070ec9370ceaad3ee",
+        "groupBy": "",
+        "listControllerId": "xJGw1PimD01G9TQPeaznF943T",
+        "listId": null,
+        "listType": "default",
+        "liveUpdates": "off",
+        "nestBy": "",
+        "onlyEnableSelectionWhenRequiredByActions": true,
+        "pageSysId": "3515d4d6837bf21070ec9370ceaad3be",
+        "showListOpenedByLinkSection": null,
+        "table": "sysapproval_approver",
+        "view": ""
     }
 }</macroponent_config>
         <screen display_value="人事異動申請">4e1518d6837bf21070ec9370ceaad305</screen>
@@ -28,13 +64,13 @@
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-03-25 04:15:06</sys_created_on>
         <sys_id>8a1518d6837bf21070ec9370ceaad30b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_8a1518d6837bf21070ec9370ceaad30b</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-25 04:26:50</sys_updated_on>
+        <sys_updated_on>2026-03-30 04:38:32</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>
