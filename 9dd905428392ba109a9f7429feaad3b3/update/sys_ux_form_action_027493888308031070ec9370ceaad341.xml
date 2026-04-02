@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>申請書削除</name>
+        <specificity>20</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-03-31 04:40:35</sys_created_on>
+        <sys_id>027493888308031070ec9370ceaad341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>申請書削除</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ux_form_action_027493888308031070ec9370ceaad341</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-03-31 04:40:35</sys_updated_on>
+        <table>x_1882833_organi_0_jinji_idou</table>
+        <ui_action display_value="申請書削除">ef4a0f6b839232109a9f7429feaad3e9</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=027493888308031070ec9370ceaad341"/>
+</record_update>

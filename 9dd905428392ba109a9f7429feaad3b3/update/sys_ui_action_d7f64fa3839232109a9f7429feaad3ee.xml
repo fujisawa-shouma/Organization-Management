@@ -39,6 +39,8 @@ if (answer == '1') {
     gs.addErrorMessage("異動情報明細は1件以上記入してください。");
 } else if (answer == '2') {
     gs.addErrorMessage("主務の行は発令日の記入が必須になっています。");
+} else if (answer == '3') {
+    gs.addErrorMessage("今日の日付より以前の日付が発令日に設定されています。");
 } else {
     api.requestDelete(sys_id);
     current.state = 2;
@@ -57,7 +59,7 @@ if (answer == '1') {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d7f64fa3839232109a9f7429feaad3ee</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>承認依頼</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -65,7 +67,7 @@ if (answer == '1') {
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ui_action_d7f64fa3839232109a9f7429feaad3ee</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-27 01:29:38</sys_updated_on>
+        <sys_updated_on>2026-03-31 08:08:55</sys_updated_on>
         <table>x_1882833_organi_0_jinji_idou</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

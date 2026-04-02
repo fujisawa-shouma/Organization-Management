@@ -1032,7 +1032,7 @@
                                                         "propertyValues": {
                                                             "disableCollapse": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": true
                                                             },
                                                             "inRecordPageTab": {
                                                                 "type": "JSON_LITERAL",
@@ -1044,7 +1044,7 @@
                                                             },
                                                             "isContextMenuHidden": {
                                                                 "type": "JSON_LITERAL",
-                                                                "value": false
+                                                                "value": true
                                                             },
                                                             "isFormOptionsHidden": {
                                                                 "type": "JSON_LITERAL",
@@ -1177,6 +1177,10 @@
                                                                         "showTileIcons": {
                                                                             "type": "JSON_LITERAL",
                                                                             "value": true
+                                                                        },
+                                                                        "tagEditorIsVisible": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": false
                                                                         },
                                                                         "title": {
                                                                             "type": "TRANSLATION_LITERAL",
@@ -2436,6 +2440,10 @@
                                                                                 "operator": "IF"
                                                                             },
                                                                             "type": "CLIENT_TRANSFORM"
+                                                                        },
+                                                                        "toggleAllGroupsEnabled": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": false
                                                                         },
                                                                         "wrapCellContent": {
                                                                             "type": "JSON_LITERAL",
@@ -6447,6 +6455,157 @@
     },
     {
         "definition": {
+            "id": "e72c75f648cda0becbd28db9a44b569f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stepper_1",
+        "elementLabel": "Stepper 1",
+        "eventMappings": [],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "hideNumbers": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "items": {
+                "container": [
+                    {
+                        "container": {
+                            "id": {
+                                "type": "JSON_LITERAL",
+                                "value": "1"
+                            },
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "起票中"
+                                }
+                            },
+                            "progress": {
+                                "type": "JSON_LITERAL",
+                                "value": "partial"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    {
+                        "container": {
+                            "id": {
+                                "type": "JSON_LITERAL",
+                                "value": "2"
+                            },
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "承認中"
+                                }
+                            },
+                            "progress": {
+                                "type": "JSON_LITERAL",
+                                "value": "partial"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    {
+                        "container": {
+                            "id": {
+                                "type": "JSON_LITERAL",
+                                "value": "5"
+                            },
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "人事受領"
+                                }
+                            },
+                            "progress": {
+                                "type": "JSON_LITERAL",
+                                "value": "partial"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    {
+                        "container": {
+                            "disabled": {
+                                "type": "JSON_LITERAL",
+                                "value": false
+                            },
+                            "id": {
+                                "type": "JSON_LITERAL",
+                                "value": "6"
+                            },
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "完了"
+                                }
+                            },
+                            "progress": {
+                                "type": "JSON_LITERAL",
+                                "value": "partial"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    }
+                ],
+                "type": "LIST_CONTAINER"
+            },
+            "labelPosition": {
+                "type": "JSON_LITERAL",
+                "value": "bottom"
+            },
+            "manageSelectedItem": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "pageToSelectedItem": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "readonly": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "selectedItem": {
+                "binding": {
+                    "address": [
+                        "record",
+                        "form",
+                        "fields",
+                        "state",
+                        "value"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "showCompletedCount": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
             "id": "d356d14b6e293a3020a244b63d278d8f",
             "type": "MACROPONENT"
         },
@@ -8685,6 +8844,10 @@
                                     ]
                                 },
                                 "type": "STATE_BINDING"
+                            },
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "^active=true"
                             }
                         ],
                         "type": "LIST_CONTAINER"
@@ -9070,7 +9233,7 @@
             },
             "columns": {
                 "type": "JSON_LITERAL",
-                "value": ""
+                "value": "user_id,user_id.u_number,bumon,kenmu_number,kinmuti"
             },
             "currentPage": {
                 "type": "JSON_LITERAL",
@@ -9777,6 +9940,10 @@
                 "styles": {}
             },
             {
+                "element_id": "stepper_1",
+                "styles": {}
+            },
+            {
                 "element_id": "ribbon_container",
                 "styles": {}
             },
@@ -10019,7 +10186,19 @@
   "code" : "",
   "comment" : ""
 }, {
+  "message" : "人事受領",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "完了",
+  "code" : "",
+  "comment" : ""
+}, {
   "message" : "所属一覧",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "承認中",
   "code" : "",
   "comment" : ""
 }, {
@@ -10048,6 +10227,10 @@
   "comment" : ""
 }, {
   "message" : "発令日を修正",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "起票中",
   "code" : "",
   "comment" : ""
 } ]</required_translations>
@@ -10204,14 +10387,14 @@
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-03-25 04:15:05</sys_created_on>
         <sys_id>3515d4d6837bf21070ec9370ceaad3be</sys_id>
-        <sys_mod_count>159</sys_mod_count>
+        <sys_mod_count>179</sys_mod_count>
         <sys_name>人事異動申請</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ux_macroponent_3515d4d6837bf21070ec9370ceaad3be</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-30 04:43:37</sys_updated_on>
+        <sys_updated_on>2026-04-02 07:44:58</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=3515d4d6837bf21070ec9370ceaad3be"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

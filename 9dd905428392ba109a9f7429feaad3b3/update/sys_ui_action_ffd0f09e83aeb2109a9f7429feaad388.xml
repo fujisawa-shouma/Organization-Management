@@ -11,10 +11,10 @@
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_icon/>
-        <form_button_v2>false</form_button_v2>
+        <form_button_v2>true</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
-        <form_menu_button_v2>true</form_menu_button_v2>
+        <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
         <format_for_configurable_workspace>false</format_for_configurable_workspace>
         <hint/>
@@ -40,10 +40,10 @@ current.update();
 if (answer != "OK") {
 
     if (answer == "添付無し") {
-        gs.addErrorMessage('一括申請用のExcelファイルは必須です。少なくとも1件添付してください。');
+        gs.addErrorMessage('一括申請用のExcelファイルは必須です。<br>少なくとも1件添付してください。');
 
     } else if (answer == "フォーマット違い") {
-        gs.addErrorMessage('Excelファイルのフォーマットが違います。内容を確認して再添付してください。');
+        gs.addErrorMessage('Excelファイルのフォーマットが違います。<br>内容を確認して再添付してください。');
 
     } else if (answer == "データ不足") {
         gs.addErrorMessage('必須データが入力されていません。');
@@ -52,6 +52,8 @@ if (answer != "OK") {
         gs.addErrorMessage('エラー');
     }
 
+}else{
+	gs.addInfoMessage('インポートが完了しました。');
 }]]></script>
         <show_form_icon_only>false</show_form_icon_only>
         <show_insert>true</show_insert>
@@ -65,7 +67,7 @@ if (answer != "OK") {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ffd0f09e83aeb2109a9f7429feaad388</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>インポート</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -73,7 +75,7 @@ if (answer != "OK") {
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ui_action_ffd0f09e83aeb2109a9f7429feaad388</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-30 02:58:40</sys_updated_on>
+        <sys_updated_on>2026-04-01 04:18:50</sys_updated_on>
         <table>x_1882833_organi_0_jinji_idou</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

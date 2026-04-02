@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.assigned_to==gs.getUserID();</condition>
+        <condition>current.state == 2 || current.state == 5;</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_icon/>
@@ -32,16 +32,22 @@
         <name>差戻</name>
         <onclick/>
         <order>400</order>
-        <script><![CDATA[current.update();
-var gr = new GlideRecord('sysapproval_approver');
-gr.addQuery('sysapproval',current.sys_id);
-gr.addQuery('state','requested');
-gr.addQuery('approver',gs.getUserID());
-gr.query();
+        <script><![CDATA[if (current.state == 2) {
+    current.update();
+    var gr = new GlideRecord('sysapproval_approver');
+    gr.addQuery('sysapproval', current.sys_id);
+    gr.addQuery('state', 'requested');
+    gr.addQuery('approver', gs.getUserID());
+    gr.query();
 
-if(gr.next()){
-	gr.state = 'rejected';
-	gr.update();
+    if (gr.next()) {
+        gr.state = 'rejected';
+        gr.update();
+    }
+} else if (current.state == 5) {
+    current.assigned_to = '';
+    current.state = 1;
+    current.update();
 }]]></script>
         <show_form_icon_only>false</show_form_icon_only>
         <show_insert>true</show_insert>
@@ -55,7 +61,7 @@ if(gr.next()){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>580a836b839232109a9f7429feaad39e</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>差戻</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -63,7 +69,7 @@ if(gr.next()){
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ui_action_580a836b839232109a9f7429feaad39e</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-27 04:25:14</sys_updated_on>
+        <sys_updated_on>2026-04-02 04:36:39</sys_updated_on>
         <table>x_1882833_organi_0_jinji_idou</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

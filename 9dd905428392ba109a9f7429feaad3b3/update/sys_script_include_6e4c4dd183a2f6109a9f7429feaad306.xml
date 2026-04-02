@@ -41,21 +41,20 @@ Ikkatusinsei.prototype = {
 
             var headers = parser.getColumnHeaders();
 
-            // --- 5行目まで進める ---
-            var targetExcelRow = 5; // Excel 行番号
-            var dataRowAdvance = targetExcelRow - 1; // 2行目=1, …, 6行目=5
-            for (var i = 0; i < dataRowAdvance; i++) {
+            // --- 1行目まで進める ---
+            var targetExcelRow = 1; // Excel 行番号
+            for (var i = 0; i < targetExcelRow; i++) {
                 if (!parser.next()) {
                     return "フォーマット違い";
                 }
             }
 
-            // ここで5行目に位置している想定
+            // ここで1行目に位置している想定
             var row = parser.getRow();
 
             var startIdx = 1; // B列
-            var endIdx = 17; // R列
-            var letters = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'];
+            var endIdx = 3; // D列
+            var letters = ['B', 'C', 'D'];
             var parts = [];
 
             for (var idx = startIdx; idx <= endIdx; idx++) {
@@ -65,11 +64,7 @@ Ikkatusinsei.prototype = {
                 parts.push(val);
             }
 
-            var expectedHeaders = ['No.',
-                '発令日', '氏名', '従業員番号', '新役位', '新職名', '新勤務地',
-                '新職務等級', '新役割等級', '新VU区分',
-                '旧役位', '旧職名', '旧勤務地', '旧職務等級', '旧役割等級', '旧VU区分', '備考'
-            ];
+            var expectedHeaders = ['No.', '発令日', '従業員番号'];
 
             var x = [];
             var y = [];
@@ -88,7 +83,7 @@ Ikkatusinsei.prototype = {
 
             if (flg != false) {
                 for (var errCount = 0; errCount < x.length; errCount++) {
-                    gs.addErrorMessage(att.file_name + "の" + x[errCount] + "5セルが「" + y[errCount] + "」になっています。正しくは「" + z[errCount] + "」です。");
+                    gs.addErrorMessage(att.file_name + "の" + x[errCount] + "2セルが「" + y[errCount] + "」になっています。正しくは「" + z[errCount] + "」です。");
                 }
                 return "フォーマット違い";
             }
@@ -100,9 +95,10 @@ Ikkatusinsei.prototype = {
                 if (!parser.next()) {
                     break;
                 }
+
                 row = parser.getRow();
                 startIdx = 1; // B列
-                endIdx = 17; // R列
+                endIdx = 3; // D列
                 parts = [];
 
                 var noVal = row[headers[1]]; // B列（No.）
@@ -118,21 +114,21 @@ Ikkatusinsei.prototype = {
                 }
 
                 var errFlg = false;
-                for (var idx = startIdx; idx <= endIdx; idx++) {
+                for (var idx_2 = startIdx; idx_2 <= endIdx; idx_2++) {
                     if (errFlg == true) {
                         break;
                     }
-                    var val = row[headers[idx]];
+                    val_2 = row[headers[idx_2]];
 
-                    if (idx == 4) {
-                        if (gs.nil(val)) {
-                            errMsg.push(att.file_name + "の" +"No." + count + "は従業員番号が記入されていないため、処理をスキップしました。");
+                    if (idx_2 == 3) {
+                        if (gs.nil(val_2)) {
+                            errMsg.push(att.file_name + "の" + "No." + count + "は従業員番号が記入されていないため、処理をスキップしました。");
                             errFlg = true;
                             break;
                         } else {
-                            var userSysId = this.serchUser(val);
+                            var userSysId = this.serchUser(val_2);
                             if (userSysId == "NoHit") {
-                                errMsg.push(att.file_name + "の" +"No." + count + "は記載の従業員番号で登録されているユーザーがいないため、処理をスキップしました。");
+                                errMsg.push(att.file_name + "の" + "No." + count + "は記載の従業員番号で登録されているユーザーがいないため、処理をスキップしました。");
                                 errFlg = true;
                                 break;
                             } else {
@@ -142,7 +138,7 @@ Ikkatusinsei.prototype = {
                             }
                         }
                     }
-                    parts.push(val);
+                    parts.push(val_2);
                     nullCount = 0;
                 }
                 count++;
@@ -156,140 +152,7 @@ Ikkatusinsei.prototype = {
             gs.addInfoMessage(errMsg[msgCount]);
         }
 
-        while (att.next()) {
-            var gsa = new GlideSysAttachment();
-            var inputStream = gsa.getContentStream(att.getUniqueValue());
-
-            var parser = new sn_impex.GlideExcelParser(); // .xlsx 専用
-            parser.setNullToEmpty(true);
-            parser.setSource(inputStream);
-            var sheetNames = parser.getSheetNames();
-            if (sheetNames && sheetNames.length > 0) {
-                parser.setSheetName(sheetNames[0]);
-            }
-            if (!parser.parse()) {
-                gs.addErrorMessage(parser.getErrorMessage() || 'Excel parse failed.');
-                current.setAbortAction(true);
-            }
-
-            var headers = parser.getColumnHeaders();
-
-            // --- 5行目まで進める ---
-            var targetExcelRow = 5; // Excel 行番号
-            var dataRowAdvance = targetExcelRow - 1; // 2行目=1, …, 6行目=5
-            for (var i = 0; i < dataRowAdvance; i++) {
-                if (!parser.next()) {
-                    return "フォーマット違い";
-                }
-            }
-
-            // ここで5行目に位置している想定
-            var row = parser.getRow();
-
-            var startIdx = 1; // B列
-            var endIdx = 17; // R列
-            var letters = ['B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R'];
-            var parts = [];
-
-            for (var idx = startIdx; idx <= endIdx; idx++) {
-                var letter = letters[idx - startIdx];
-                var val = row[headers[idx]];
-                val = val.replace(/[\s\u3000]+/g, '');
-                parts.push(val);
-            }
-
-            var expectedHeaders = ['No.',
-                '発令日', '氏名', '従業員番号', '新役位', '新職名', '新勤務地',
-                '新職務等級', '新役割等級', '新VU区分',
-                '旧役位', '旧職名', '旧勤務地', '旧職務等級', '旧役割等級', '旧VU区分', '備考'
-            ];
-
-            var x = [];
-            var y = [];
-            var z = [];
-            var flg = false;
-
-            for (var i = 0; i < expectedHeaders.length; i++) {
-                if (parts[i] != expectedHeaders[i]) {
-                    x.push(letters[i]);
-                    y.push(parts[i]);
-                    z.push(expectedHeaders[i]);
-                    flg = true;
-                    continue;
-                }
-            }
-
-            if (flg != false) {
-                for (var errCount = 0; errCount < x.length; errCount++) {
-                    gs.addErrorMessage(att.file_name + "の" +x[errCount] + "5セルが「" + y[errCount] + "」になっています。正しくは「" + z[errCount] + "」です。");
-                }
-                return "フォーマット違い";
-            }
-
-            var count = 1;
-            var nullCount = 0;
-
-            while (true) {
-                if (!parser.next()) {
-                    break;
-                }
-                row = parser.getRow();
-                startIdx = 1; // B列
-                endIdx = 17; // R列
-                parts = [];
-
-                var noVal = row[headers[1]]; // B列（No.）
-                if (gs.nil(noVal)) {
-                    nullCount++;
-                    if (nullCount >= 2) {
-                        // 空白2行連続 → 終了
-                        break;
-                    } else {
-                        // 空白1行だけ → スキップして次の行へ
-                        continue;
-                    }
-                }
-
-                var errFlg = false;
-                for (var idx = startIdx; idx <= endIdx; idx++) {
-                    if (errFlg == true) {
-                        break;
-                    }
-                    var val = row[headers[idx]];
-
-                    if (idx == 4) {
-                        if (gs.nil(val)) {
-                            errMsg.push(att.file_name + "の" +"No." + count + "は従業員番号が記入されていないため、処理をスキップしました。");
-                            errFlg = true;
-                            break;
-                        } else {
-                            var userSysId = this.serchUser(val);
-                            if (userSysId == "NoHit") {
-                                errMsg.push(att.file_name + "の" +"No." + count + "は記載の従業員番号で登録されているユーザーがいないため、処理をスキップしました。");
-                                errFlg = true;
-                                break;
-                            } else {
-                                parts.push(userSysId);
-                                nullCount = 0;
-                                continue;
-                            }
-                        }
-                    }
-                    parts.push(val);
-                    nullCount = 0;
-                }
-                count++;
-                if (errFlg == false) {
-                    this.addMeisai(sys_id, parts, shubetu);
-                }
-            }
-            parser.close();
-        }
-
-        for (var msgCount = 0; msgCount < errMsg.length; msgCount++) {
-            gs.addInfoMessage(errMsg[msgCount]);
-        }
-        att.deleteMultiple();
+        // att.deleteMultiple();
         return "OK";
     },
 
@@ -298,27 +161,31 @@ Ikkatusinsei.prototype = {
         gr.initialize();
 
         var gdt = parts[1];
-        var gd = new GlideDate();
-        gd.setValue(gdt);
-        gr.hatureibi = gd;
+        // var gd = new GlideDate();
+        // gd.setValue(gdt);
 
-        if (shubetu == 1) {
-            shubetu = "gen";
+        var day = gdt;
+        var month = day.substring(0, 8);
+        var day_fix = day.substring(8, 10);
+        var day_fix2 = '01';
+        if (day_fix == 1) {
+            day_fix = 1;
+            day_fix2 = '01';
+        } else if (day_fix < 16) {
+            day_fix = 1;
+            day_fix2 = '01';
+        } else if (day_fix == 16) {
+            day_fix = 16;
+            day_fix2 = '16';
         } else {
-            shubetu = "exe";
+            day_fix = 16;
+            day_fix2 = '16';
         }
-        gr.type = shubetu;
-        gr.sinsei_number = sys_id;
-        gr.name = parts[3]['sys_id'];
-        gr.name_kanji = parts[3]['name'];
-        gr.number = parts[3]['number'];
-        gr.yakui_sin = parts[4];
-        gr.kimuti_sin = parts[6];
+        var ans = month + day_fix;
 
-        var ans = this.serchShozoku(parts[3]['sys_id']);
-        if (ans != 'NoHit') {
-            gr.yakui_kyuu = ans['yakui'];
-        }
+        gr.hatureibi = ans;
+        gr.sinsei_number = sys_id;
+        gr.name = parts[2]['sys_id'];
 
         gr.insert();
 
@@ -341,34 +208,19 @@ Ikkatusinsei.prototype = {
 
     },
 
-    serchShozoku: function(sys_id) {
-        var shozoku = [];
-        var gr = new GlideRecord('x_1882833_organi_0_shozoku');
-        gr.addQuery('user_id', sys_id);
-        gr.query();
-
-        if (gr.next()) {
-            shozoku.yakui = gr.getValue('yakui');
-            return shozoku;
-        } else {
-            return "NoHit";
-        }
-
-    },
-
     type: 'Ikkatusinsei'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-19 02:43:27</sys_created_on>
         <sys_id>6e4c4dd183a2f6109a9f7429feaad306</sys_id>
-        <sys_mod_count>130</sys_mod_count>
+        <sys_mod_count>149</sys_mod_count>
         <sys_name>Ikkatusinsei</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_script_include_6e4c4dd183a2f6109a9f7429feaad306</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-22 02:51:03</sys_updated_on>
+        <sys_updated_on>2026-03-30 08:27:58</sys_updated_on>
     </sys_script_include>
 </record_update>

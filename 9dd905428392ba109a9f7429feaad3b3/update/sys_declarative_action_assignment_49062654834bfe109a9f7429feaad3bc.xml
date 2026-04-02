@@ -41,7 +41,7 @@
         <model display_value="List">c3547169534723003eddddeeff7b126c</model>
         <model_conditions/>
         <model_field_required/>
-        <order>0</order>
+        <order>2000</order>
         <payload_map/>
         <read_access>false</read_access>
         <record_conditions/>
@@ -68,8 +68,13 @@ if (kenmu == "主務" || kenmu == '追加欄') {
     meisaiGr.addQuery('oya_meisai', sys_id);
     meisaiGr.addQuery();
     meisaiGr.query();
-    meisaiGr.deleteMultiple();
-    current.deleteRecord();
+
+	while(meisaiGr.next()){
+		meisaiGr.active = false;
+		meisaiGr.update();
+	}
+    current.active = false;
+	current.update();
 	current.setAbortAction(true);
 }
 
@@ -87,7 +92,7 @@ current.deleteRecord();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>49062654834bfe109a9f7429feaad3bc</sys_id>
-        <sys_mod_count>86</sys_mod_count>
+        <sys_mod_count>88</sys_mod_count>
         <sys_name>行削除</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -95,7 +100,7 @@ current.deleteRecord();
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_declarative_action_assignment_49062654834bfe109a9f7429feaad3bc</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-23 07:33:42</sys_updated_on>
+        <sys_updated_on>2026-03-31 05:58:23</sys_updated_on>
         <table>x_1882833_organi_0_meisai</table>
         <tooltip/>
         <ui_component/>

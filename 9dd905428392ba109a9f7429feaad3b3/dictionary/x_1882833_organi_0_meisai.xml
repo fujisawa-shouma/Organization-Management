@@ -134,7 +134,7 @@
         </element>
         <element label="現役職(兼務4)" max_length="10000" name="kenmu4_kyuu" type="string"/>
         <element label="家族帯同の有無" max_length="10000" name="kazoku" type="boolean"/>
-        <element label="氏名" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="氏名" max_length="32" name="name" reference="sys_user" type="reference"/>
         <element label="現兼務4" max_length="10000" name="genyakushoku_4" read_only="true" read_only_option="instance_configured" type="string"/>
         <element label="新兼務4" max_length="10000" name="kenmu4_sin" type="string"/>
         <element default="true" label="アクティブ" max_length="40" name="active" type="boolean"/>

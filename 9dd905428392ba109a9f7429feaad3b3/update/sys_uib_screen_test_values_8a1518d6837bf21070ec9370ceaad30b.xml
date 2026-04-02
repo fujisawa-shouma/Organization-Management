@@ -3,7 +3,7 @@
         <macroponent/>
         <macroponent_config>{
     "table": "x_1882833_organi_0_jinji_idou",
-    "sysId": "5fc74e7f83f7321070ec9370ceaad3d3",
+    "sysId": "145ca78c83c8031070ec9370ceaad369",
     "query": "",
     "extraParams": "",
     "views": "",
@@ -15,7 +15,7 @@
         "forcedViewName": null,
         "inputExtraParams": null,
         "inputQuery": null,
-        "inputSysId": "d553f5378377321070ec9370ceaad3ee",
+        "inputSysId": "7a77327383bf321070ec9370ceaad3a7",
         "inputTable": "x_1882833_organi_0_jinji_idou",
         "isMappedToAppShell": true,
         "screen": null,
@@ -45,7 +45,7 @@
         "enforceViewRulesForQuickForm": true,
         "fetchHighlightedValues": false,
         "filter": "",
-        "fixedFilter": "sysapproval=d553f5378377321070ec9370ceaad3ee",
+        "fixedFilter": "sysapproval=7a77327383bf321070ec9370ceaad3a7",
         "groupBy": "",
         "listControllerId": "xJGw1PimD01G9TQPeaznF943T",
         "listId": null,
@@ -64,13 +64,13 @@
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-03-25 04:15:06</sys_created_on>
         <sys_id>8a1518d6837bf21070ec9370ceaad30b</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_8a1518d6837bf21070ec9370ceaad30b</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-30 04:38:32</sys_updated_on>
+        <sys_updated_on>2026-03-31 06:27:50</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

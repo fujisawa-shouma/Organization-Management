@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name/>
-        <active>false</active>
-        <client>false</client>
+        <action_name>sinseisho_sakujo</action_name>
+        <active>true</active>
+        <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
-
+    if (!confirm('表示されている申請書および申請書に紐づく異動情報明細を削除します。\nよろしいでしょうか？')) {
+        return false;
+    }
+    g_form.submit('sinseisho_sakujo');
 }]]></client_script_v2>
         <comments/>
-        <condition/>
-        <form_action>true</form_action>
-        <form_button>true</form_button>
+        <condition>current.stage == 0</condition>
+        <form_action>false</form_action>
+        <form_button>false</form_button>
         <form_button_icon/>
-        <form_button_v2>false</form_button_v2>
+        <form_button_v2>true</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
-        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
         <isolate_script>false</isolate_script>
         <list_action>false</list_action>
@@ -29,12 +32,23 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>削除</name>
+        <name>申請書削除</name>
         <onclick/>
-        <order>600</order>
-        <script/>
+        <order>10000</order>
+        <script><![CDATA[current.active = false;
+current.update();
+
+var gr = new GlideRecord('x_1882833_organi_0_meisai');
+gr.addQuery('active', true);
+gr.addQuery('sinsei_number', current.sys_id);
+gr.query();
+
+while (gr.next()) {
+    gr.active = false;
+    gr.update();
+}]]></script>
         <show_form_icon_only>false</show_form_icon_only>
-        <show_insert>true</show_insert>
+        <show_insert>false</show_insert>
         <show_list_icon_only>false</show_list_icon_only>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -45,17 +59,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ef4a0f6b839232109a9f7429feaad3e9</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>削除</sys_name>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>申請書削除</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ui_action_ef4a0f6b839232109a9f7429feaad3e9</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-14 01:31:21</sys_updated_on>
+        <sys_updated_on>2026-03-31 05:35:25</sys_updated_on>
         <table>x_1882833_organi_0_jinji_idou</table>
-        <ui11_compatible>true</ui11_compatible>
+        <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>
 </record_update>

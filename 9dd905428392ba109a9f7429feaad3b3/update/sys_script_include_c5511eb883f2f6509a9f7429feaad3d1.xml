@@ -17,27 +17,49 @@ jinji_approval.prototype = {
         var gr = new GlideRecord('x_1882833_organi_0_meisai');
         gr.addQuery('sinsei_number', sys_id);
         gr.addQuery('kenmu_number', '主務');
+        gr.addQuery('state', '!=', 20);
+		gr.addQuery('active', true);
         gr.query();
 
         if (!gr.hasNext()) {
             return '1';
         }
 
-		while(gr.next()){
-			if(gs.nil(gr.hatureibi)){
-				return '2';
-			}
-		}
-		return '0'
+        while (gr.next()) {
+            if (gs.nil(gr.hatureibi)) {
+                return '2';
+            }
+
+            var varDate = gr.hatureibi;
+
+            var today = new GlideDateTime();
+            var gdt = new GlideDateTime(today.getLocalDate() + " 00:00:00");
+
+            var target = new GlideDateTime(varDate + " 00:00:00");
+
+            var diffMs = target.getNumericValue() - gdt.getNumericValue();
+
+            var diffDays = diffMs / (1000 * 60 * 60 * 24);
+
+            if (diffDays < 0) {
+				return '3';
+            }
+        }
+        return '0';
 
     },
 
     requestDelete: function(sys_id) {
         var gr = new GlideRecord('x_1882833_organi_0_meisai');
         gr.addQuery('sinsei_number', sys_id);
+		gr.addQuery('active', true);
         gr.addEncodedQuery('kenmu_number=新規入力欄^ORkenmu_number=入力中');
         gr.query();
-        gr.deleteMultiple();
+        
+		while(gr.next()){
+			gr.active = false;
+			gr.update();
+		}
     },
 
     type: 'jinji_approval'
@@ -46,13 +68,13 @@ jinji_approval.prototype = {
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-30 04:29:42</sys_created_on>
         <sys_id>c5511eb883f2f6509a9f7429feaad3d1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>jinji_approval</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_script_include_c5511eb883f2f6509a9f7429feaad3d1</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-26 08:24:31</sys_updated_on>
+        <sys_updated_on>2026-03-31 08:00:27</sys_updated_on>
     </sys_script_include>
 </record_update>

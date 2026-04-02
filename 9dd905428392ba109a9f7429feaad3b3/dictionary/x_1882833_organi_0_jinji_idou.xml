@@ -54,7 +54,7 @@
         <element label="承認者2" max_length="32" name="shouninsha_2" reference="sys_user" type="reference"/>
         <element active="false" label="承認者18" max_length="32" name="shouninsha_18" reference="sys_user" type="reference"/>
         <element active="false" label="承認者20" max_length="32" name="shouninsha_20" reference="sys_user" type="reference"/>
-        <element default="eb8a25a52b4aa6100ce3fca16e91bfec" label="承認者1" mandatory="true" max_length="32" name="shouninsha_1" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="eb8a25a52b4aa6100ce3fca16e91bfec" label="承認者1" mandatory="true" max_length="32" name="shouninsha_1" reference="sys_user" type="reference"/>
         <element label="承認者6" max_length="32" name="shouninsha_6" reference="sys_user" type="reference"/>
         <element choice="3" default="0" label="新部門マスタ" max_length="40" name="sinbumon" type="choice">
             <choice>
