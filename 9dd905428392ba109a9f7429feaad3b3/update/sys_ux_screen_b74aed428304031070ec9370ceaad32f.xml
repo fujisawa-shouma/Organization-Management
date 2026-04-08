@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="人事異動申請">b653ffc2833fb21070ec9370ceaad3c9</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings>[]</event_mappings>
+        <macroponent display_value="Default">734aad428304031070ec9370ceaad3ed</macroponent>
+        <macroponent_config>{
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "label": {
+        "type": "JSON_LITERAL",
+        "value": ""
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    }
+}</macroponent_config>
+        <name>Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="新部門">e74a2d8a83c0031070ec9370ceaad345</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-04-06 02:04:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b74aed428304031070ec9370ceaad32f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ux_screen_b74aed428304031070ec9370ceaad32f</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-04-07 06:41:23</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=b74aed428304031070ec9370ceaad32f"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>b74aed428304031070ec9370ceaad32f</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-04-06 02:04:37</sys_created_on>
+        <sys_id>7f4aed428304031070ec9370ceaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-04-06 02:04:37</sys_updated_on>
+        <tablename>sys_ux_screen</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

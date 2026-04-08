@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="人事異動申請">69d985048362f2109a9f7429feaad3d1</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>新規作成（一般）</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>https://dev182911.service-now.com/x_1882833_organi_0_jinji_idou.do?sys_id=-1&amp;sinsei_shubetu=1</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 05:03:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>11e989048362f2109a9f7429feaad381</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>新規作成（一般）</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_app_module_11e989048362f2109a9f7429feaad381</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 05:04:10</sys_updated_on>
+        <timeline_page/>
+        <title>新規作成（一般）</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</application>
+        <file_path/>
+        <instance_id>7c4cfa791bfd359852a243f4bd4bcb3a</instance_id>
+        <instance_name>dev182911</instance_name>
+        <name>sys_app_module_11e989048362f2109a9f7429feaad381</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="人事異動申請">69d985048362f2109a9f7429feaad3d1</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>新規作成（一般）</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1</order><override_menu_roles>false</override_menu_roles><query>https://dev182911.service-now.com/x_1882833_organi_0_jinji_idou.do?sys_id=-1&amp;sinsei_shubetu=1</query><report/><require_confirmation>true</require_confirmation><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin_fujisawa_shouma</sys_created_by><sys_created_on>2026-01-15 05:03:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>11e989048362f2109a9f7429feaad381</sys_id><sys_mod_count>1</sys_mod_count><sys_name>新規作成（一般）</sys_name><sys_overrides/><sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package><sys_policy/><sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope><sys_update_name>sys_app_module_11e989048362f2109a9f7429feaad381</sys_update_name><sys_updated_by>admin_fujisawa_shouma</sys_updated_by><sys_updated_on>2026-01-15 05:04:10</sys_updated_on><timeline_page/><title>新規作成（一般）</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>783724903</payload_hash>
+        <record_name>新規作成（一般）</record_name>
+        <reverted_from/>
+        <source>8055c5888322f2109a9f7429feaad344</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-01-15 05:04:10</sys_created_on>
+        <sys_id>94aa89848362f2109a9f7429feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bc00a2c0d0000001</sys_recorded_at>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-01-15 05:04:10</sys_updated_on>
+        <type>Module</type>
+        <update_guid>dcaa89841c62f21028d4f4dab89c9e3e</update_guid>
+        <update_guid_history>dcaa89841c62f21028d4f4dab89c9e3e:783724903,706a41843b62f2106051b8a42f0a0504:408391814</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-04-08 00:06:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>c5ce34df192147829e0169e09fdfdfc4</sys_id>
+        <sys_metadata>11e989048362f2109a9f7429feaad381</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>新規作成（一般）</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_scope_delete display_value="">1430e82c68714f4381eed4a26c3645e1</sys_scope_delete>
+        <sys_update_name>sys_app_module_11e989048362f2109a9f7429feaad381</sys_update_name>
+        <sys_update_version display_value="sys_app_module_11e989048362f2109a9f7429feaad381">94aa89848362f2109a9f7429feaad3d5</sys_update_version>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-04-08 00:06:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

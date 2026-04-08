@@ -5,7 +5,123 @@
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
         <disable_interoperable>false</disable_interoperable>
-        <event_mappings>[]</event_mappings>
+        <event_mappings>[
+    {
+        "eventMappingId": "eeeehhddeecceehhtDBEgwjjXaaIhWuxcpxn",
+        "isConfiguration": null,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_1882833_organi_0.NAV_ITEM_SELECTED_RELAY_fe725cde833bf21070ec9370ceaad301",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_1882833_organi_0.NAV_ITEM_SELECTED_RELAY_fe725cde833bf21070ec9370ceaad301",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "clientTransformScript": null,
+                "clientTransformScriptUxValue": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.NAV_ITEM_SELECTED",
+                    "payload": {
+                        "container": {
+                            "external": {
+                                "binding": {
+                                    "address": [
+                                        "external"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "fields": {
+                                "binding": {
+                                    "address": [
+                                        "fields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "multiInstField": {
+                                "binding": {
+                                    "address": [
+                                        "multiInstField"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "navigationOptions": {
+                                "binding": {
+                                    "address": [
+                                        "navigationOptions"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "params": {
+                                "binding": {
+                                    "address": [
+                                        "params"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "passiveNavigation": {
+                                "binding": {
+                                    "address": [
+                                        "passiveNavigation"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "redirect": {
+                                "binding": {
+                                    "address": [
+                                        "redirect"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "route": {
+                                "binding": {
+                                    "address": [
+                                        "route"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "targetRoute": {
+                                "binding": {
+                                    "address": [
+                                        "targetRoute"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "title": {
+                                "binding": {
+                                    "address": [
+                                        "title"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "8b82bf18e5276c8e423b6e4e0889b463"
+                },
+                "operation": null,
+                "targetId": "pYHavPanBkeeddggeeddFIIeeQqNyZiiw",
+                "type": "EVENT"
+            }
+        ]
+    }
+]</event_mappings>
         <macroponent display_value="Default">fe725cde833bf21070ec9370ceaad301</macroponent>
         <macroponent_config>{
     "bare": {
@@ -50,7 +166,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>83725cde833bf21070ec9370ceaad316</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -58,7 +174,20 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ux_screen_83725cde833bf21070ec9370ceaad316</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-25 04:08:32</sys_updated_on>
+        <sys_updated_on>2026-04-07 08:32:55</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=83725cde833bf21070ec9370ceaad316"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>83725cde833bf21070ec9370ceaad316</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-04-06 01:24:07</sys_created_on>
+        <sys_id>62012d8e8380031070ec9370ceaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-04-06 01:24:07</sys_updated_on>
+        <tablename>sys_ux_screen</tablename>
+        <value/>
+    </sys_translated_text>
 </record_update>

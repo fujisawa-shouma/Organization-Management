@@ -4,27 +4,69 @@
             <element>bumon_name</element>
             <position>0</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-01-13 05:25:11</sys_created_on>
-            <sys_id>604cbad3831e36509a9f7429feaad328</sys_id>
+            <sys_created_on>2026-04-07 05:50:39</sys_created_on>
+            <sys_id>60a7ebd68388031070ec9370ceaad39f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_bumon" sys_domain="global" view="Default view">e84c7ad3831e36509a9f7429feaad3ba</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-01-13 05:25:11</sys_updated_on>
+            <sys_updated_on>2026-04-07 05:50:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
+            <element>hyouji_on</element>
             <position>1</position>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-            <sys_created_on>2026-02-05 05:16:44</sys_created_on>
-            <sys_id>89e6153e8372f2109a9f7429feaad32c</sys_id>
+            <sys_created_on>2026-04-07 05:50:39</sys_created_on>
+            <sys_id>eca7ebd68388031070ec9370ceaad39f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_bumon" sys_domain="global" view="Default view">e84c7ad3831e36509a9f7429feaad3ba</sys_ui_section>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-            <sys_updated_on>2026-02-05 05:16:44</sys_updated_on>
+            <sys_updated_on>2026-04-07 05:50:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>2</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-04-07 06:11:02</sys_created_on>
+            <sys_id>0b4c2f5283c8031070ec9370ceaad3f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_bumon" sys_domain="global" view="Default view">e84c7ad3831e36509a9f7429feaad3ba</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-04-07 06:11:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sakuseisha</element>
+            <position>3</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-04-07 06:31:10</sys_created_on>
+            <sys_id>cae03fda83c8031070ec9370ceaad31f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_bumon" sys_domain="global" view="Default view">e84c7ad3831e36509a9f7429feaad3ba</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-04-07 06:31:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>kyouyuu</element>
+            <position>4</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2026-04-07 06:35:26</sys_created_on>
+            <sys_id>b4e1f79e83c8031070ec9370ceaad398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1882833_organi_0_bumon" sys_domain="global" view="Default view">e84c7ad3831e36509a9f7429feaad3ba</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2026-04-07 06:35:26</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

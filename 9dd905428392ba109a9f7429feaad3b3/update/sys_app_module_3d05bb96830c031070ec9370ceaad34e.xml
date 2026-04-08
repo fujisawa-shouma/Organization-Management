@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <application display_value="人事異動申請">69d985048362f2109a9f7429feaad3d1</application>
         <assessment/>
         <device_type/>
@@ -10,12 +10,12 @@
         <image/>
         <link_type>DIRECT</link_type>
         <map_page/>
-        <mobile_title>一括申請</mobile_title>
+        <mobile_title>申請書一覧</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>30</order>
+        <order>2</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>https://dev182911.service-now.com/com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=f89a87d48362b6109a9f7429feaad3e5</query>
+        <query>https://dev267963.service-now.com/x/1882833/jinji/jinjiitiran</query>
         <report/>
         <require_confirmation>true</require_confirmation>
         <roles/>
@@ -23,21 +23,21 @@
         <screen/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-        <sys_created_on>2026-01-19 00:10:27</sys_created_on>
+        <sys_created_on>2026-04-07 06:49:30</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>bbad6c1583aeb6109a9f7429feaad3ea</sys_id>
+        <sys_id>3d05bb96830c031070ec9370ceaad34e</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>一括申請</sys_name>
+        <sys_name>申請書一覧</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
-        <sys_update_name>sys_app_module_bbad6c1583aeb6109a9f7429feaad3ea</sys_update_name>
+        <sys_update_name>sys_app_module_3d05bb96830c031070ec9370ceaad34e</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-30 01:06:51</sys_updated_on>
+        <sys_updated_on>2026-04-07 06:52:37</sys_updated_on>
         <timeline_page/>
-        <title>一括申請</title>
+        <title>申請書一覧</title>
         <uncancelable>false</uncancelable>
         <ux_list/>
         <view_name/>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="人事異動申請">3515d4d6837bf21070ec9370ceaad3be</macroponent>
+        <name>所属入力方法選択後のフラグ設定</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers 
+*/
+function handler({api, event, helpers, imports}) {
+    var value = event.payload.value;
+    if(value == 'sentakusi'){
+        api.setState('sentakusi',false);
+        api.setState('jiyuu',true);
+        api.setState('sakujo',true);
+    }else if(value == 'jiyuu'){
+        api.setState('sentakusi',true);
+        api.setState('jiyuu',false);
+        api.setState('sakujo',true);
+    }else if(value == 'sakujo'){
+        api.setState('sentakusi',true);
+        api.setState('jiyuu',true);
+        api.setState('sakujo',false);
+        api.setState('shozoku','');
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-04-07 02:53:07</sys_created_on>
+        <sys_id>c1c7aed28380031070ec9370ceaad3a5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>所属入力方法選択後のフラグ設定</sys_name>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_ux_client_script_c1c7aed28380031070ec9370ceaad3a5</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-04-07 03:53:13</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

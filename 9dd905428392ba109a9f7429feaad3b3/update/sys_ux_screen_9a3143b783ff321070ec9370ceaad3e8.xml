@@ -166,7 +166,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9a3143b783ff321070ec9370ceaad3e8</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -174,7 +174,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ux_screen_9a3143b783ff321070ec9370ceaad3e8</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-31 04:29:33</sys_updated_on>
+        <sys_updated_on>2026-04-06 01:50:00</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=9a3143b783ff321070ec9370ceaad3e8"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

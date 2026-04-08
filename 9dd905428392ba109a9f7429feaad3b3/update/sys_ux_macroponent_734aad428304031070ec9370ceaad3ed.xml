@@ -95,10 +95,6 @@
                         "showSearchButton": {
                             "type": "JSON_LITERAL",
                             "value": false
-                        },
-                        "showSubtitle": {
-                            "type": "JSON_LITERAL",
-                            "value": false
                         }
                     },
                     "slot": null,
@@ -136,117 +132,15 @@
                                 },
                                 "elementId": "presentational_list_1",
                                 "elementLabel": "Presentational List",
-                                "eventMappings": [
-                                    {
-                                        "eventMappingId": "9053f8cfcabb449dc2855df2ed935854",
-                                        "isConfiguration": false,
-                                        "offRowStorageId": null,
-                                        "sourceEventApiName": "now_list.NOW_LIST#CELL_LINK_CLICKED",
-                                        "sourceEventCorrelationId": null,
-                                        "sourceEventDefinition": {
-                                            "apiName": "now_list.NOW_LIST#CELL_LINK_CLICKED",
-                                            "id": null,
-                                            "type": "UXEVENT"
-                                        },
-                                        "sourceEventSysId": null,
-                                        "targets": [
-                                            {
-                                                "broker": null,
-                                                "clientScript": null,
-                                                "clientTransformScript": "",
-                                                "conditional": null,
-                                                "declarativeAction": null,
-                                                "event": {
-                                                    "apiName": "x_1882833_organi_0.NAV_ITEM_SELECTED_RELAY_4a3143b783ff321070ec9370ceaad3ca",
-                                                    "payload": {
-                                                        "container": {
-                                                            "external": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "fields": {
-                                                                "container": {
-                                                                    "sysId": {
-                                                                        "binding": {
-                                                                            "address": [
-                                                                                "cell",
-                                                                                "metadata",
-                                                                                "referenceSysId"
-                                                                            ]
-                                                                        },
-                                                                        "type": "EVENT_PAYLOAD_BINDING"
-                                                                    },
-                                                                    "table": {
-                                                                        "binding": {
-                                                                            "address": [
-                                                                                "list_controller",
-                                                                                "current",
-                                                                                "table"
-                                                                            ]
-                                                                        },
-                                                                        "type": "DATA_OUTPUT_BINDING"
-                                                                    }
-                                                                },
-                                                                "type": "MAP_CONTAINER"
-                                                            },
-                                                            "multiInstField": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "navigationOptions": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "params": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "passiveNavigation": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "redirect": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "route": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": "sinseisho"
-                                                            },
-                                                            "targetRoute": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            },
-                                                            "title": {
-                                                                "type": "JSON_LITERAL",
-                                                                "value": null
-                                                            }
-                                                        },
-                                                        "type": "MAP_CONTAINER"
-                                                    },
-                                                    "sysId": "de31c37783ff321070ec9370ceaad3ab"
-                                                },
-                                                "operation": null,
-                                                "targetId": "eezJyWeehhQUAaaSQjjccMBawQdoFeF",
-                                                "type": "EVENT"
-                                            }
-                                        ]
-                                    }
-                                ],
+                                "eventMappings": [],
                                 "isHero": true,
                                 "isHidden": null,
                                 "preset": {
                                     "controllerElementId": "list_controller",
-                                    "disabledEventTargetIds": [
-                                        "b3b5ae2fe6068c9ec72d9739ca9f60d6"
-                                    ],
+                                    "disabledEventTargetIds": [],
                                     "id": "33f6672f7d096e5a32e4e96b497748e4"
                                 },
                                 "propertyValues": {
-                                    "cellEditingEnabled": {
-                                        "type": "JSON_LITERAL",
-                                        "value": false
-                                    },
                                     "options": {
                                         "type": "JSON_LITERAL",
                                         "value": {}
@@ -876,7 +770,7 @@
             },
             "columns": {
                 "type": "JSON_LITERAL",
-                "value": "number,stage,assigned_to"
+                "value": "bumon_name,hyouji_on,sakuseisha,kyouyuu"
             },
             "currentPage": {
                 "type": "JSON_LITERAL",
@@ -924,7 +818,7 @@
             },
             "enableQuickEdit": {
                 "type": "JSON_LITERAL",
-                "value": false
+                "value": true
             },
             "enableQuickFormNavigation": {
                 "type": "JSON_LITERAL",
@@ -932,7 +826,7 @@
             },
             "enableReferenceLinks": {
                 "type": "JSON_LITERAL",
-                "value": true
+                "value": false
             },
             "enforceViewRulesForQuickForm": {
                 "type": "JSON_LITERAL",
@@ -944,11 +838,30 @@
             },
             "filter": {
                 "type": "JSON_LITERAL",
-                "value": "assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORkihyoushaDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stage!=15"
+                "value": ""
             },
             "fixedFilter": {
-                "type": "JSON_LITERAL",
-                "value": ""
+                "transform": {
+                    "operands": {
+                        "container": [
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "active=true^sakuseishaDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORkyouyuuLIKE"
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "user"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            }
+                        ],
+                        "type": "LIST_CONTAINER"
+                    },
+                    "operator": "CONCAT"
+                },
+                "type": "CLIENT_TRANSFORM"
             },
             "groupBy": {
                 "type": "JSON_LITERAL",
@@ -1002,7 +915,7 @@
             },
             "table": {
                 "type": "JSON_LITERAL",
-                "value": "x_1882833_organi_0_jinji_idou"
+                "value": "x_1882833_organi_0_bumon"
             },
             "view": {
                 "type": "JSON_LITERAL",
@@ -1014,7 +927,7 @@
 ]</data>
         <description>A page created from UIB using the "Record List" component.</description>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events>de31c37783ff321070ec9370ceaad3ab</dispatched_events>
+        <dispatched_events/>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -1072,32 +985,51 @@
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_persistence_config/>
-        <state_properties>[]</state_properties>
+        <state_properties>[
+    {
+        "description": null,
+        "fieldType": "string",
+        "initialValue": {
+            "binding": {
+                "address": [
+                    "user",
+                    "sys_id"
+                ],
+                "category": "session"
+            },
+            "type": "CONTEXT_BINDING"
+        },
+        "label": "newClientStateParam1",
+        "name": "user",
+        "shape": "",
+        "valueType": "string"
+    }
+]</state_properties>
         <style_config>{}</style_config>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-        <sys_created_on>2026-03-30 08:38:00</sys_created_on>
-        <sys_id>4a3143b783ff321070ec9370ceaad3ca</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_created_on>2026-04-06 02:04:36</sys_created_on>
+        <sys_id>734aad428304031070ec9370ceaad3ed</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
-        <sys_update_name>sys_ux_macroponent_4a3143b783ff321070ec9370ceaad3ca</sys_update_name>
+        <sys_update_name>sys_ux_macroponent_734aad428304031070ec9370ceaad3ed</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-04-06 01:50:00</sys_updated_on>
+        <sys_updated_on>2026-04-07 06:41:23</sys_updated_on>
     </sys_ux_macroponent>
-    <sys_translated_text action="delete_multiple" query="documentkey=4a3143b783ff321070ec9370ceaad3ca"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=734aad428304031070ec9370ceaad3ed"/>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>4a3143b783ff321070ec9370ceaad3ca</documentkey>
+        <documentkey>734aad428304031070ec9370ceaad3ed</documentkey>
         <fieldname>description</fieldname>
         <language>ja</language>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-        <sys_created_on>2026-03-31 00:41:42</sys_created_on>
-        <sys_id>3acd560c8340031070ec9370ceaad343</sys_id>
+        <sys_created_on>2026-04-06 02:04:36</sys_created_on>
+        <sys_id>b74aad428304031070ec9370ceaad3f1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-31 00:41:42</sys_updated_on>
+        <sys_updated_on>2026-04-06 02:04:36</sys_updated_on>
         <tablename>sys_ux_macroponent</tablename>
         <value>A page created from UIB using the "Record List" component.</value>
     </sys_translated_text>

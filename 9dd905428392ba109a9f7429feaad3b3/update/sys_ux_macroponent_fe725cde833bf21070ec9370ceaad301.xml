@@ -91,9 +91,20 @@
                         "disabledEventTargetIds": [],
                         "id": "7390b78659717406599eca6a55e68c44"
                     },
-                    "propertyValues": {},
+                    "propertyValues": {
+                        "showSearchButton": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        },
+                        "showSubtitle": {
+                            "type": "JSON_LITERAL",
+                            "value": false
+                        }
+                    },
                     "slot": null,
-                    "styles": null
+                    "styles": {
+                        "default": {}
+                    }
                 },
                 {
                     "bundleLink": {
@@ -127,18 +138,125 @@
                                 },
                                 "elementId": "presentational_list_1",
                                 "elementLabel": "Presentational List",
-                                "eventMappings": [],
+                                "eventMappings": [
+                                    {
+                                        "eventMappingId": "9053f8cfcabb449dc2855df2ed935854",
+                                        "isConfiguration": false,
+                                        "offRowStorageId": null,
+                                        "sourceEventApiName": "now_list.NOW_LIST#CELL_LINK_CLICKED",
+                                        "sourceEventCorrelationId": null,
+                                        "sourceEventDefinition": {
+                                            "apiName": "now_list.NOW_LIST#CELL_LINK_CLICKED",
+                                            "id": null,
+                                            "type": "UXEVENT"
+                                        },
+                                        "sourceEventSysId": null,
+                                        "targets": [
+                                            {
+                                                "broker": null,
+                                                "clientScript": null,
+                                                "clientTransformScript": "",
+                                                "conditional": null,
+                                                "declarativeAction": null,
+                                                "event": {
+                                                    "apiName": "x_1882833_organi_0.NAV_ITEM_SELECTED_RELAY_fe725cde833bf21070ec9370ceaad301",
+                                                    "payload": {
+                                                        "container": {
+                                                            "external": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "fields": {
+                                                                "container": {
+                                                                    "sysId": {
+                                                                        "binding": {
+                                                                            "address": [
+                                                                                "context",
+                                                                                "row",
+                                                                                "cells",
+                                                                                "sinsei_number",
+                                                                                "metadata",
+                                                                                "internalValue"
+                                                                            ]
+                                                                        },
+                                                                        "type": "EVENT_PAYLOAD_BINDING"
+                                                                    },
+                                                                    "table": {
+                                                                        "type": "JSON_LITERAL",
+                                                                        "value": "x_1882833_organi_0_jinji_idou"
+                                                                    }
+                                                                },
+                                                                "type": "MAP_CONTAINER"
+                                                            },
+                                                            "multiInstField": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "navigationOptions": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "params": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "passiveNavigation": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "redirect": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "route": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "sinseisho"
+                                                            },
+                                                            "targetRoute": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            },
+                                                            "title": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": null
+                                                            }
+                                                        },
+                                                        "type": "MAP_CONTAINER"
+                                                    },
+                                                    "sysId": "d354ff16830c031070ec9370ceaad3a6"
+                                                },
+                                                "operation": null,
+                                                "targetId": "OIIBreehhUDAEWqjjliiKaatGOeehhzBK",
+                                                "type": "EVENT"
+                                            }
+                                        ]
+                                    }
+                                ],
                                 "isHero": true,
                                 "isHidden": null,
                                 "preset": {
                                     "controllerElementId": "list_controller",
-                                    "disabledEventTargetIds": [],
+                                    "disabledEventTargetIds": [
+                                        "b3b5ae2fe6068c9ec72d9739ca9f60d6"
+                                    ],
                                     "id": "33f6672f7d096e5a32e4e96b497748e4"
                                 },
                                 "propertyValues": {
+                                    "cellEditingEnabled": {
+                                        "type": "JSON_LITERAL",
+                                        "value": false
+                                    },
+                                    "columnResizingEnabled": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
                                     "options": {
                                         "type": "JSON_LITERAL",
                                         "value": {}
+                                    },
+                                    "wrapCellContent": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "wrapOff"
                                     }
                                 },
                                 "slot": "left",
@@ -199,7 +317,12 @@
                     },
                     "propertyValues": {},
                     "slot": null,
-                    "styles": null
+                    "styles": {
+                        "default": {
+                            "height": "",
+                            "min-height": "305px"
+                        }
+                    }
                 },
                 {
                     "bundleLink": {
@@ -223,7 +346,12 @@
                     },
                     "propertyValues": {},
                     "slot": "",
-                    "styles": null
+                    "styles": {
+                        "default": {
+                            "min-height": "unset",
+                            "min-width": "unset"
+                        }
+                    }
                 },
                 {
                     "bundleLink": {
@@ -370,7 +498,9 @@
                         }
                     },
                     "slot": null,
-                    "styles": null
+                    "styles": {
+                        "default": {}
+                    }
                 }
             ],
             "layout": {
@@ -378,26 +508,16 @@
                     "children": null,
                     "items": [
                         {
-                            "element_id": "record_list_header_1",
-                            "styles": {}
+                            "element_id": "record_list_header_1"
                         },
                         {
-                            "element_id": "resizable_panes_1",
-                            "styles": {
-                                "height": "",
-                                "min-height": "305px"
-                            }
+                            "element_id": "resizable_panes_1"
                         },
                         {
-                            "element_id": "pagination_control_1",
-                            "styles": {
-                                "min-height": "unset",
-                                "min-width": "unset"
-                            }
+                            "element_id": "pagination_control_1"
                         },
                         {
-                            "element_id": "record_list_footer_container_1",
-                            "styles": {}
+                            "element_id": "record_list_footer_container_1"
                         }
                     ],
                     "root": null,
@@ -409,7 +529,7 @@
                     "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
                     "type": "flex"
                 },
-                "version": "3.0.0"
+                "version": "3.1.0"
             }
         },
         "preset": null,
@@ -765,11 +885,15 @@
             },
             "columns": {
                 "type": "JSON_LITERAL",
-                "value": ""
+                "value": "sinsei_number,number,name,bikou,hatureibi,yakui_sin,shumu_sin,yakushoku_1,kenmu1_sin,yakushoku_2,kenmu2_sin,yakushoku_3,kenmu3_sin,yakushoku_4,kenmu4_sin,kimuti_sin,role_sin,vu_sin,yakui_kyuu,shumu_kyuu,kenmu1_kyuu,genyakushoku_1,kenmu2_kyuu,genyakushoku_2,kenmu3_kyuu,genyakushoku_3,kenmu4_kyuu,genyakushoku_4,kimuti_kyuu,grade_kyuu,vu_kyuu"
             },
             "currentPage": {
                 "type": "JSON_LITERAL",
                 "value": 0
+            },
+            "enableCardClickOpen": {
+                "type": "JSON_LITERAL",
+                "value": false
             },
             "enableCellFiltering": {
                 "type": "JSON_LITERAL",
@@ -803,9 +927,13 @@
                 "type": "JSON_LITERAL",
                 "value": false
             },
+            "enableOnlySingleSelection": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
             "enableQuickEdit": {
                 "type": "JSON_LITERAL",
-                "value": true
+                "value": false
             },
             "enableQuickFormNavigation": {
                 "type": "JSON_LITERAL",
@@ -813,7 +941,7 @@
             },
             "enableReferenceLinks": {
                 "type": "JSON_LITERAL",
-                "value": true
+                "value": false
             },
             "enforceViewRulesForQuickForm": {
                 "type": "JSON_LITERAL",
@@ -829,7 +957,7 @@
             },
             "fixedFilter": {
                 "type": "JSON_LITERAL",
-                "value": ""
+                "value": "kenmu_number=主務"
             },
             "groupBy": {
                 "type": "JSON_LITERAL",
@@ -891,11 +1019,78 @@
             }
         },
         "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "b997a84053021010cbc2ddeeff7b1228",
+            "type": "COMPOSITE"
+        },
+        "elementId": "look_up_multiple_records_1",
+        "elementLabel": "Look up multiple records 1",
+        "eventMappings": [],
+        "inputValues": {
+            "encodedQuery": {
+                "transform": {
+                    "operands": {
+                        "container": [
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "sys_id="
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "sys_id"
+                                    ]
+                                },
+                                "type": "STATE_BINDING"
+                            }
+                        ],
+                        "type": "LIST_CONTAINER"
+                    },
+                    "operator": "CONCAT"
+                },
+                "type": "CLIENT_TRANSFORM"
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": "1000"
+            },
+            "offset": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "sinsei_number"
+            },
+            "sortType": {
+                "type": "JSON_LITERAL",
+                "value": "asc"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_1882833_organi_0_meisai"
+            }
+        },
+        "readEvaluationMode": "EAGER"
     }
 ]</data>
         <description>A page created from UIB using the "Record List" component.</description>
         <disable_auto_reflow>false</disable_auto_reflow>
-        <dispatched_events/>
+        <dispatched_events>d354ff16830c031070ec9370ceaad3a6</dispatched_events>
         <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <extension_point/>
@@ -953,20 +1148,46 @@
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_persistence_config/>
-        <state_properties>[]</state_properties>
+        <state_properties>[
+    {
+        "description": null,
+        "fieldType": "string",
+        "initialValue": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "label": "newClientStateParam1",
+        "name": "sys_id",
+        "shape": "",
+        "valueType": "string"
+    }
+]</state_properties>
         <style_config>{}</style_config>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-03-25 04:03:41</sys_created_on>
         <sys_id>fe725cde833bf21070ec9370ceaad301</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Default</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ux_macroponent_fe725cde833bf21070ec9370ceaad301</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-25 04:08:32</sys_updated_on>
+        <sys_updated_on>2026-04-07 08:32:55</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=fe725cde833bf21070ec9370ceaad301"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>fe725cde833bf21070ec9370ceaad301</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2026-04-06 01:24:07</sys_created_on>
+        <sys_id>e2012d8e8380031070ec9370ceaad383</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-04-06 01:24:07</sys_updated_on>
+        <tablename>sys_ux_macroponent</tablename>
+        <value>A page created from UIB using the "Record List" component.</value>
+    </sys_translated_text>
 </record_update>
