@@ -18,7 +18,7 @@
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
-        <form_style/>
+        <form_style>destructive</form_style>
         <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
         <isolate_script>false</isolate_script>
@@ -59,7 +59,7 @@ while (gr.next()) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ef4a0f6b839232109a9f7429feaad3e9</sys_id>
-        <sys_mod_count>39</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>申請書削除</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -67,7 +67,7 @@ while (gr.next()) {
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ui_action_ef4a0f6b839232109a9f7429feaad3e9</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-31 05:35:25</sys_updated_on>
+        <sys_updated_on>2026-04-14 00:21:58</sys_updated_on>
         <table>x_1882833_organi_0_jinji_idou</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
