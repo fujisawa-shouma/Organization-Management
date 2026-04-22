@@ -2,8 +2,8 @@
     <sys_ux_client_script action="INSERT_OR_UPDATE">
         <controller_preset/>
         <includes/>
-        <macroponent display_value="人事異動申請（幹部）">076cf56783267e109a9f7429feaad373</macroponent>
-        <name>New client script 11</name>
+        <macroponent display_value="人事異動申請">3515d4d6837bf21070ec9370ceaad3be</macroponent>
+        <name>Resist hatureibi</name>
         <preset/>
         <required_translations>[]</required_translations>
         <script><![CDATA[/**
@@ -14,22 +14,38 @@
 * @param {ApiHelpers} params.helpers
 */
 function handler({api, event, helpers, imports}) {
-    var ev = event.payload;
-    console.log(ev);
+    var ym = api.state.yearMonth;
+    var day = api.state.day;
+    let editSysId = api.state.row;
+
+    let hatureibi = '';
+
+    if(ym == null && day == null){
+        hatureibi = hatureibi;
+    }else {
+        hatureibi = ym + '-' + day;
+    }
+
+    let info = {
+        hatureibi : hatureibi,
+        editSysId : editSysId
+    };
+
+    api.data.update_hatureibi_1.execute(info);
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
-        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-        <sys_created_on>2026-03-16 07:19:44</sys_created_on>
-        <sys_id>b2d6a657832f32109a9f7429feaad37b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>New client script 11</sys_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2026-04-17 08:50:05</sys_created_on>
+        <sys_id>ace7472183d8031070ec9370ceaad384</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Resist hatureibi</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
-        <sys_update_name>sys_ux_client_script_b2d6a657832f32109a9f7429feaad37b</sys_update_name>
+        <sys_update_name>sys_ux_client_script_ace7472183d8031070ec9370ceaad384</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-04-21 01:27:04</sys_updated_on>
+        <sys_updated_on>2026-04-21 00:45:30</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>

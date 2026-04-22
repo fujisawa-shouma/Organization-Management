@@ -19,27 +19,28 @@
     "description": "hatureibi"&#13;
   },&#13;
  {&#13;
-    "name": "records",&#13;
-    "label": "records",&#13;
+    "name": "editSysId",&#13;
+    "label": "editSysId",&#13;
     "fieldType": "string",    &#13;
     "readOnly": false,&#13;
     "mandatory": true,&#13;
     "defaultValue": "",&#13;
-    "description": "records"&#13;
+    "description": "editSysId"&#13;
  }&#13;
 ]</props>
         <required_translations/>
         <schema_version>1.0.0</schema_version>
         <script><![CDATA[function transform(input) {
     var hatureibi = input.hatureibi;
-    var records = input.records;
+    var records = input.editSysId;
     var arr = records.split(',');
 
     for (var i = 0; i < arr.length; i++) {
         var gr = new GlideRecord('x_1882833_organi_0_meisai');
         gr.addQuery('sys_id', arr[i]);
         gr.query();
-        if (gr.next()) {gr.hatureibi = hatureibi;
+        if (gr.next()) {
+			gr.hatureibi = hatureibi;
             gr.update();
         }
     }
@@ -48,14 +49,14 @@
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-02-18 04:16:42</sys_created_on>
         <sys_id>050500478347b2509a9f7429feaad3d7</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>update hatureibi</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_050500478347b2509a9f7429feaad3d7</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-04-07 03:34:51</sys_updated_on>
+        <sys_updated_on>2026-04-21 00:41:49</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=050500478347b2509a9f7429feaad3d7"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

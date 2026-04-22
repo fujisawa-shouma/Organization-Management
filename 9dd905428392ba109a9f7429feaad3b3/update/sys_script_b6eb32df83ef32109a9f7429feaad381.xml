@@ -36,14 +36,13 @@
     var name = current.name.u_ukanji_name;
     var number = current.number;
     var oya_meisai = current.sys_id;
+    var str;
 
     if (!gs.nil(name)) {
-        var str = '[' + hatureibi + ']' + name + '(' + number + ')';
+        str = '[' + hatureibi + ']' + name + '(' + number + ')';
     } else {
-        var str = '[' + hatureibi + '](' + number + ')';
+        str = '[' + hatureibi + ']()';
     }
-
-    // current.name_kanji = str;
 
     var gr = new GlideRecord('x_1882833_organi_0_meisai');
     gr.addQuery('sinsei_number', sinsei);
@@ -68,7 +67,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b6eb32df83ef32109a9f7429feaad381</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>発令日変更</sys_name>
         <sys_overrides/>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
@@ -76,7 +75,7 @@
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_script_b6eb32df83ef32109a9f7429feaad381</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-03-25 07:41:30</sys_updated_on>
+        <sys_updated_on>2026-04-21 01:16:40</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

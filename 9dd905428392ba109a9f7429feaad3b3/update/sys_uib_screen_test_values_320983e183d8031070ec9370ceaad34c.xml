@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent display_value="人事異動申請">3515d4d6837bf21070ec9370ceaad3be</macroponent>
+        <macroponent_config>{
+    "mcpTestValues": {
+        "table": "x_1882833_organi_0_jinji_idou",
+        "sysId": "8433d4c783d0cb1070ec9370ceaad344",
+        "query": "",
+        "extraParams": "",
+        "views": "",
+        "selectedTab": ""
+    },
+    "modalModelessSizing": {
+        "modelessHeight": "600",
+        "modelessWidth": "380",
+        "modalSize": "md"
+    },
+    "dataTestValues": {}
+}</macroponent_config>
+        <screen/>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2026-04-17 05:57:15</sys_created_on>
+        <sys_id>320983e183d8031070ec9370ceaad34c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_320983e183d8031070ec9370ceaad34c</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2026-04-21 08:43:29</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

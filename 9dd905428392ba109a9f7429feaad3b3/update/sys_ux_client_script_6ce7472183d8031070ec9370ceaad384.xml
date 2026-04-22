@@ -3,34 +3,40 @@
         <controller_preset/>
         <includes/>
         <macroponent display_value="人事異動申請">3515d4d6837bf21070ec9370ceaad3be</macroponent>
-        <name>test</name>
+        <name>select_3/items</name>
         <preset/>
         <required_translations>[]</required_translations>
         <script><![CDATA[/**
-* @param {params} params
-* @param {api} params.api
-* @param {any} params.event
-* @param {any} params.imports
-* @param {ApiHelpers} params.helpers
-*/
-function handler({api, event, helpers, imports}) {
-    var test = event.payload;
-    console.log(test);
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return [
+	{
+		"id": 1,
+		"label": "01",
+	},
+	{
+		"id": 16,
+		"label": "16",
+	}
+];
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
-        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
-        <sys_created_on>2026-04-06 06:10:34</sys_created_on>
-        <sys_id>0b22ee4283c8031070ec9370ceaad37d</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>test</sys_name>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2026-04-17 05:57:15</sys_created_on>
+        <sys_id>6ce7472183d8031070ec9370ceaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>select_3/items</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
-        <sys_update_name>sys_ux_client_script_0b22ee4283c8031070ec9370ceaad37d</sys_update_name>
-        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-04-21 06:26:46</sys_updated_on>
+        <sys_update_name>sys_ux_client_script_6ce7472183d8031070ec9370ceaad384</sys_update_name>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2026-04-17 05:57:15</sys_updated_on>
         <target>macroponent</target>
-        <type>default</type>
+        <type>transform</type>
     </sys_ux_client_script>
 </record_update>

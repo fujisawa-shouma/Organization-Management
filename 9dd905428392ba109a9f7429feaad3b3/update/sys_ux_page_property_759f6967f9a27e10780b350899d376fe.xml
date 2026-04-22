@@ -6,24 +6,24 @@
         <page display_value="-">029fa96745a27e10cd93ff52b2fe2315</page>
         <required_translations>[]</required_translations>
         <route/>
-        <suffix/>
+        <suffix>actionConfigId</suffix>
         <sys_class_name>sys_ux_page_property</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2026-01-26 04:44:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>global</sys_domain_path>
         <sys_id>759f6967f9a27e10780b350899d376fe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>actionConfigId</sys_name>
         <sys_package display_value="Organization Management" source="x_1882833_organi_0">9dd905428392ba109a9f7429feaad3b3</sys_package>
         <sys_policy/>
         <sys_scope display_value="Organization Management">9dd905428392ba109a9f7429feaad3b3</sys_scope>
         <sys_update_name>sys_ux_page_property_759f6967f9a27e10780b350899d376fe</sys_update_name>
         <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
-        <sys_updated_on>2026-01-26 04:44:24</sys_updated_on>
+        <sys_updated_on>2026-04-21 02:31:29</sys_updated_on>
         <type>string</type>
-        <unique_name>x_1882833_organi_0.029fa96745a27e10cd93ff52b2fe2315.root.actionConfigId</unique_name>
-        <value>df28e3db0f1210107d20409dc4767ee0</value>
+        <unique_name>x_1882833_organi_0.029fa96745a27e10cd93ff52b2fe2315.root.global.actionConfigId</unique_name>
+        <value>f8d328a553b67110bdf7ddeeff7b1295df28e3db0f1210107d20409dc4767ee0</value>
     </sys_ux_page_property>
     <sys_translated_text action="delete_multiple" query="documentkey=759f6967f9a27e10780b350899d376fe"/>
 </record_update>
